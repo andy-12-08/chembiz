@@ -1,0 +1,8 @@
+{
+  "run_id": "7e7b1fda-e891-42f5-898b-155a2afeec58",
+  "session_id": "f4a8435d-ba27-499a-a08c-0f7441f5caa3",
+  "status": "succeeded",
+  "query_snapshot": "Which alloy and heat-treatment conditions does NASA SP-8119 identify as susceptible to stress corrosion in its material-compatibility discussion?",
+  "final_answer": "Evidence-grounded answer:\n\n- NASA SP-8119 states: \"Materials Susceptible to stress corrosion should not be used.\" [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 lists 2014-T4 as an alloy/heat-treatment condition susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 lists 2024 in the standard heat-treated conditions T3, T4, and T351 as susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 lists PH15-7Mo in the conditions RH950 and TH1050 as susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 lists 17-7PH in the annealed condition and H900 condition as susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 lists 17-4PH in the conditions RH950 and TH1050 as susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 lists AM350 SCT850 and AM355 SCT850 as alloy/heat-treatment entries identified as susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]",
+  "error_message": null
+}

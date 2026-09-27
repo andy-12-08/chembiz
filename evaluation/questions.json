@@ -1,0 +1,79 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "version": "0.1.0",
+  "created": "2026-09-24",
+  "questions": [
+    {
+      "id": "MAT-001",
+      "question": "According to NBS Circular 592, which molybdenum-bearing stainless-steel types were reported as most resistant to sulfuric acid at low temperatures, and what limitations prevent treating that statement as a universal material recommendation?",
+      "answer_type": "source-bounded synthesis",
+      "required_source_ids": ["NIST-NICKEL-592"]
+    },
+    {
+      "id": "MAT-002",
+      "question": "What does NBS Circular 592 report about the corrosion behavior of stainless steels in sulfuric acid at approximately 150 degrees Fahrenheit across acid concentrations, and how should that affect a screening conclusion?",
+      "answer_type": "condition-aware extraction",
+      "required_source_ids": ["NIST-NICKEL-592"]
+    },
+    {
+      "id": "MAT-003",
+      "question": "What corrosion mechanism does NBS Circular 592 associate with hydrochloric acid and other halide-containing solutions attacking stainless steel?",
+      "answer_type": "mechanism extraction",
+      "required_source_ids": ["NIST-NICKEL-592"]
+    },
+    {
+      "id": "MAT-004",
+      "question": "How does NBS Circular 592 contrast Type 304 stainless steel's behavior in nitric acid with its behavior in sulfuric acid when discussing 2 N mixed acids?",
+      "answer_type": "comparison",
+      "required_source_ids": ["NIST-NICKEL-592"]
+    },
+    {
+      "id": "MAT-005",
+      "question": "Which categories of material-compatibility considerations does NASA SP-8119 say should be evaluated when selecting metal alloys for contact with a system fluid?",
+      "answer_type": "enumeration",
+      "required_source_ids": ["NASA-SP-8119"]
+    },
+    {
+      "id": "MAT-006",
+      "question": "What does NASA SP-8119 recommend consulting when selecting dissimilar metals for parts that touch, and what risk is this intended to address?",
+      "answer_type": "recommendation with rationale",
+      "required_source_ids": ["NASA-SP-8119"]
+    },
+    {
+      "id": "MAT-007",
+      "question": "Which alloy and heat-treatment conditions does NASA SP-8119 identify as susceptible to stress corrosion in its material-compatibility discussion?",
+      "answer_type": "exact extraction",
+      "required_source_ids": ["NASA-SP-8119"]
+    },
+    {
+      "id": "MAT-008",
+      "question": "What two temperature-related material-selection concerns does NASA SP-8119 identify for cryogenic disconnects?",
+      "answer_type": "enumeration",
+      "required_source_ids": ["NASA-SP-8119"]
+    },
+    {
+      "id": "MAT-009",
+      "question": "Which protective-clothing barrier materials does the archived NIOSH table list as providing an 8-hour rating for acetone, and what caveat should accompany use of that list?",
+      "answer_type": "condition-aware extraction",
+      "required_source_ids": ["NIOSH-CPC", "NIOSH-CPC-DISCLAIMER"]
+    },
+    {
+      "id": "MAT-010",
+      "question": "For potassium hydroxide solution below 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
+      "answer_type": "categorized extraction",
+      "required_source_ids": ["NIOSH-CPC", "NIOSH-CPC-DISCLAIMER"]
+    },
+    {
+      "id": "MAT-011",
+      "question": "For hydrogen peroxide solution from 30 to 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
+      "answer_type": "categorized extraction",
+      "required_source_ids": ["NIOSH-CPC", "NIOSH-CPC-DISCLAIMER"]
+    },
+    {
+      "id": "MAT-012",
+      "question": "For hydrogen chloride, which barriers does the archived NIOSH table place in its 8-hour and 4-hour groups, and what additional hazard language appears in the entry?",
+      "answer_type": "categorized extraction",
+      "required_source_ids": ["NIOSH-CPC", "NIOSH-CPC-DISCLAIMER"]
+    }
+  ]
+}

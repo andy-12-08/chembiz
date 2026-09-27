@@ -1,0 +1,142 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "dataset_version": "0.1.0",
+  "scoring_method": {
+    "evidence_point_weights": {
+      "met": 1.0,
+      "partial": 0.5,
+      "missed": 0.0
+    },
+    "strict_question_pass": "Every required evidence point is fully met and no prohibited claim is made.",
+    "citation_correctness_unit": "Material claim and its attached citation set.",
+    "citation_completeness_unit": "Material claim requiring support.",
+    "unsupported_claim_unit": "Material claim unsupported by its cited source or misstating that source."
+  },
+  "items": [
+    {
+      "question_id": "MAT-001",
+      "required_evidence_points": 3,
+      "retrieval_coverage_score": 3.0,
+      "answer_completeness_score": 3.0,
+      "strict_pass": true,
+      "assessment": "Correctly identifies Types 316 and 317 and preserves temperature, concentration, and service-condition limitations."
+    },
+    {
+      "question_id": "MAT-002",
+      "required_evidence_points": 2,
+      "retrieval_coverage_score": 2.0,
+      "answer_completeness_score": 1.5,
+      "strict_pass": false,
+      "assessment": "Captures the approximately 150 F conclusion and appropriate screening response, but omits the one-half-percent lower bound and explicitly flags that omission."
+    },
+    {
+      "question_id": "MAT-003",
+      "required_evidence_points": 2,
+      "retrieval_coverage_score": 2.0,
+      "answer_completeness_score": 2.0,
+      "strict_pass": true,
+      "assessment": "Correctly links halide attack on the passive film to pitting corrosion."
+    },
+    {
+      "question_id": "MAT-004",
+      "required_evidence_points": 2,
+      "retrieval_coverage_score": 2.0,
+      "answer_completeness_score": 2.0,
+      "strict_pass": true,
+      "assessment": "Correctly states the source-bounded contrast between nitric-acid immunity and sulfuric-acid susceptibility in the cited 2 N mixed-acid discussion."
+    },
+    {
+      "question_id": "MAT-005",
+      "required_evidence_points": 3,
+      "retrieval_coverage_score": 3.0,
+      "answer_completeness_score": 0.0,
+      "strict_pass": false,
+      "assessment": "The decisive NASA page was retrieved, but the answer substitutes unrelated considerations and omits all three requested categories: chemical reaction, propellant decomposition, and atmospheric/galvanic/stress corrosion."
+    },
+    {
+      "question_id": "MAT-006",
+      "required_evidence_points": 3,
+      "retrieval_coverage_score": 3.0,
+      "answer_completeness_score": 2.0,
+      "strict_pass": false,
+      "assessment": "Correctly gives the electrochemical-series recommendation and galvanic-corrosion rationale, but omits the source's direction to acceptable platings and finishes."
+    },
+    {
+      "question_id": "MAT-007",
+      "required_evidence_points": 4,
+      "retrieval_coverage_score": 4.0,
+      "answer_completeness_score": 0.75,
+      "strict_pass": false,
+      "assessment": "The correct NASA passage was retrieved, but OCR degradation was not resolved. Most exact alloy/heat-treatment combinations are omitted, and H900 is incorrectly associated with 17-4PH instead of 17-7PH."
+    },
+    {
+      "question_id": "MAT-008",
+      "required_evidence_points": 3,
+      "retrieval_coverage_score": 0.5,
+      "answer_completeness_score": 0.5,
+      "strict_pass": false,
+      "assessment": "Provides only a general thermal-expansion observation. It misses the explicit brittle-material prohibition, mechanism-specific shrinkage warning, and reduced loading on plastic sealing members."
+    },
+    {
+      "question_id": "MAT-009",
+      "required_evidence_points": 3,
+      "retrieval_coverage_score": 3.0,
+      "answer_completeness_score": 2.5,
+      "strict_pass": false,
+      "assessment": "The seven 8-hour barriers are correct and the answer provides useful limitations, but it does not clearly state the table's instruction to confirm suggested barriers with the vendor. It also adds two sources outside the frozen allowed-source set."
+    },
+    {
+      "question_id": "MAT-010",
+      "required_evidence_points": 4,
+      "retrieval_coverage_score": 4.0,
+      "answer_completeness_score": 3.0,
+      "strict_pass": false,
+      "assessment": "The concentration and both barrier groups are exact; vendor confirmation and use limitations are omitted."
+    },
+    {
+      "question_id": "MAT-011",
+      "required_evidence_points": 4,
+      "retrieval_coverage_score": 4.0,
+      "answer_completeness_score": 3.0,
+      "strict_pass": false,
+      "assessment": "The concentration and both barrier groups are exact; vendor confirmation and use limitations are omitted."
+    },
+    {
+      "question_id": "MAT-012",
+      "required_evidence_points": 4,
+      "retrieval_coverage_score": 4.0,
+      "answer_completeness_score": 3.0,
+      "strict_pass": false,
+      "assessment": "Both barrier groups and the additional hazard language are exact; vendor confirmation and use limitations are omitted."
+    }
+  ],
+  "aggregate": {
+    "questions": 12,
+    "successful_runs": 12,
+    "successful_run_rate": 1.0,
+    "exact_query_match_rate": 1.0,
+    "required_evidence_points": 37,
+    "retrieval_coverage_score": 34.5,
+    "evidence_coverage": 0.9324,
+    "answer_completeness_score": 23.25,
+    "answer_completeness": 0.6284,
+    "strict_question_passes": 3,
+    "strict_question_pass_rate": 0.25,
+    "required_source_retrieval_successes": 12,
+    "source_retrieval_success": 1.0,
+    "material_claims": 47,
+    "claims_with_citations": 47,
+    "citation_completeness": 1.0,
+    "correctly_supported_claims": 46,
+    "citation_correctness": 0.9787,
+    "unsupported_claims": 1,
+    "unsupported_claim_rate": 0.0213,
+    "unique_citations": 20,
+    "allowed_source_citations": 18,
+    "allowed_source_compliance": 0.9,
+    "high_confidence_outputs": 3,
+    "fully_complete_high_confidence_outputs": 1,
+    "high_confidence_full_completeness_rate": 0.3333
+  },
+  "review_status": "Codex-assisted manual review complete; independent materials-domain review pending"
+}

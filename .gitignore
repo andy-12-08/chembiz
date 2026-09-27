@@ -1,0 +1,19 @@
+.venv/
+.env
+data/
+__pycache__/
+
+# Setuptools / pip install -e .
+*.egg-info/
+dist/
+build/
+*.egg
+
+plan/
+
+# Locally downloaded evaluation sources; provenance and hashes are tracked in
+# evaluation/source_manifest.csv, but source files are not redistributed.
+evaluation/sources/*.pdf
+evaluation/sources/*.html
+evaluation/chemical_engineering_v0.1/sources/*.pdf
+evaluation/chemical_engineering_v0.1/sources/*.html

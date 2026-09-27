@@ -1,0 +1,26 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "dataset_version": "0.1.0",
+  "scope": "Focused regression of the five v0.1.6 failure cases",
+  "questions": [
+    {"question_id": "MAT-002", "status": "succeeded", "required_points": 2, "answer_score": 1.5, "strict_pass": false},
+    {"question_id": "MAT-009", "status": "succeeded", "required_points": 3, "answer_score": 3.0, "strict_pass": true},
+    {"question_id": "MAT-010", "status": "succeeded", "required_points": 4, "answer_score": 3.0, "strict_pass": false},
+    {"question_id": "MAT-011", "status": "succeeded", "required_points": 4, "answer_score": 3.0, "strict_pass": false},
+    {"question_id": "MAT-012", "status": "succeeded", "required_points": 4, "answer_score": 3.0, "strict_pass": false}
+  ],
+  "aggregate": {
+    "operational_success": {"numerator": 5, "denominator": 5, "percent": 100.0},
+    "answer_completeness": {"earned": 13.5, "possible": 17, "percent": 79.4},
+    "strict_question_passes": {"numerator": 1, "denominator": 5, "percent": 20.0},
+    "citation_completeness": {"supported_claims": 16, "total_claims": 16, "percent": 100.0},
+    "estimated_citation_correctness": {"correct": 16, "total_citations": 16, "percent": 100.0},
+    "estimated_unsupported_claim_rate": {"unsupported": 0, "total_claims": 16, "percent": 0.0}
+  },
+  "notes": [
+    "This focused run is not a replacement for the full frozen benchmark.",
+    "MAT-002 omitted the scan's illegible one-half-percent lower bound and explicitly disclosed the gap.",
+    "MAT-010 through MAT-012 omitted the expected vendor-confirmation and use-limitation qualification.",
+    "This run used the stopping-policy patch but occurred before web excerpts were added to the handoff evidence inventory."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "dataset_version": "0.1.0",
+  "run_started_from_client_at": "2026-09-27T03:16:49.398575+00:00",
+  "base_url": "http://localhost:8000",
+  "user_id": "chembiz-eval-v0.1.0",
+  "results": [
+    {
+      "question_id": "MAT-002",
+      "session_id": "d9dc4ee7-66c8-48a0-aa78-46ea380e3f8d",
+      "run_id": "fe826bf0-94c9-41a9-8ba1-b68431e6436a",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-009",
+      "session_id": "0e08e165-7cd9-40a0-9216-892272664bcb",
+      "run_id": "c6a10c37-d83c-4b7c-bf97-0de39713d9dc",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-010",
+      "session_id": "db873305-9230-412c-ae1d-2a44835809b8",
+      "run_id": "40871da1-b952-4796-8821-c0a690de5cdc",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-011",
+      "session_id": "09d1cc3a-aa95-4723-a22d-d280deb0578c",
+      "run_id": "d4dbc2b2-1055-4583-851f-cfc0e674adb3",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-012",
+      "session_id": "e66be20c-e208-44d0-9e77-74a6be6a7cac",
+      "run_id": "b54f0412-031e-445e-b291-287124d423c5",
+      "status": "succeeded"
+    }
+  ]
+}

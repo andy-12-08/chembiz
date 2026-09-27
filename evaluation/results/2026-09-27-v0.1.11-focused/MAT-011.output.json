@@ -1,0 +1,185 @@
+{
+  "output_id": "8f1adc72-3a74-483c-ac1e-bcf534b31686",
+  "session_id": "8ebc5acf-adaa-4a85-8edf-56188a9f64e3",
+  "run_id": "a822c73c-2f6e-4f13-b214-bed6c43a26c7",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "The evidence inventory includes an archived NIOSH topic page for hydrogen peroxide.",
+      "The evidence inventory includes the NIOSH IDLH page for hydrogen peroxide, which shows NIOSH REL = 1 ppm (1.4 mg/m3) TWA and an original IDLH value of 75 ppm.",
+      "The evidence inventory includes an OSHA chemical data entry for hydrogen peroxide (OSHA PEL listed as 1 ppm 8‑hour TWA).",
+      "The provided evidence items (NIOSH pages, OSHA entry, chemical summaries, and SDSs present in the inventory) do not contain a visible archived NIOSH table that assigns barrier materials for hydrogen peroxide 30–70% into 8‑hour and 4‑hour groups."
+    ],
+    "query": "For hydrogen peroxide solution from 30 to 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
+    "answer": "Evidence-grounded answer:\n\n- The evidence inventory includes an archived NIOSH topic page for hydrogen peroxide. [Hydrogen Peroxide | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/topics/hydrogen-peroxide/default.html]\n- The evidence inventory includes the NIOSH IDLH page for hydrogen peroxide, which shows NIOSH REL = 1 ppm (1.4 mg/m3) TWA and an original IDLH value of 75 ppm. [Hydrogen peroxide - IDLH | NIOSH | CDC: https://www.cdc.gov/niosh/idlh/772841.html]\n- The evidence inventory includes an OSHA chemical data entry for hydrogen peroxide (OSHA PEL listed as 1 ppm 8‑hour TWA). [HYDROGEN PEROXIDE | Occupational Safety and Health Administration: https://www.osha.gov/chemicaldata/630]\n- The provided evidence items (NIOSH pages, OSHA entry, chemical summaries, and SDSs present in the inventory) do not contain a visible archived NIOSH table that assigns barrier materials for hydrogen peroxide 30–70% into 8‑hour and 4‑hour groups. [Hydrogen Peroxide | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/topics/hydrogen-peroxide/default.html; Hydrogen peroxide - IDLH | NIOSH | CDC: https://www.cdc.gov/niosh/idlh/772841.html; HYDROGEN PEROXIDE | Occupational Safety and Health Administration: https://www.osha.gov/chemicaldata/630; [PDF] Chemical Summary for Hydrogen Peroxide - SSWM.info: https://sswm.info/sites/default/files/reference_attachments/OAK%20RIDGE%20NATIONAL%20LABORATORY%201995%20Chemical%20Summary%20of%20Hydrogen%20Peroxide.pdf; Hydrogen Peroxide: https://nj.gov/health/eoh/rtkweb/documents/fs/1015.pdf; Hydrogen Peroxide (30%: https://www.fishersci.com/store/msds?partNumber=BP2633500&productDescription=HYDROGEN+PEROXIDE+30%25%2C+500ML&vendorId=VN00033897&countryCode=US&language=en; Hydrogen Peroxide (20 to 40%): https://www.hopenn.com/sds/Hydrogen-Peroxide-20-40%25.pdf]",
+    "claims": [
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/topics/hydrogen-peroxide/default.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The evidence inventory includes an archived NIOSH topic page for hydrogen peroxide."
+      },
+      {
+        "urls": [
+          "https://www.cdc.gov/niosh/idlh/772841.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The evidence inventory includes the NIOSH IDLH page for hydrogen peroxide, which shows NIOSH REL = 1 ppm (1.4 mg/m3) TWA and an original IDLH value of 75 ppm."
+      },
+      {
+        "urls": [
+          "https://www.osha.gov/chemicaldata/630"
+        ],
+        "chunk_ids": [],
+        "statement": "The evidence inventory includes an OSHA chemical data entry for hydrogen peroxide (OSHA PEL listed as 1 ppm 8‑hour TWA)."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/topics/hydrogen-peroxide/default.html",
+          "https://www.cdc.gov/niosh/idlh/772841.html",
+          "https://www.osha.gov/chemicaldata/630",
+          "https://sswm.info/sites/default/files/reference_attachments/OAK%20RIDGE%20NATIONAL%20LABORATORY%201995%20Chemical%20Summary%20of%20Hydrogen%20Peroxide.pdf",
+          "https://nj.gov/health/eoh/rtkweb/documents/fs/1015.pdf",
+          "https://www.fishersci.com/store/msds?partNumber=BP2633500&productDescription=HYDROGEN+PEROXIDE+30%25%2C+500ML&vendorId=VN00033897&countryCode=US&language=en",
+          "https://www.hopenn.com/sds/Hydrogen-Peroxide-20-40%25.pdf"
+        ],
+        "chunk_ids": [],
+        "statement": "The provided evidence items (NIOSH pages, OSHA entry, chemical summaries, and SDSs present in the inventory) do not contain a visible archived NIOSH table that assigns barrier materials for hydrogen peroxide 30–70% into 8‑hour and 4‑hour groups."
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/topics/hydrogen-peroxide/default.html",
+        "type": "web",
+        "pages": [],
+        "title": "Hydrogen Peroxide | NIOSH | CDC",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      },
+      {
+        "url": "https://www.cdc.gov/niosh/idlh/772841.html",
+        "type": "web",
+        "pages": [],
+        "title": "Hydrogen peroxide - IDLH | NIOSH | CDC",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      },
+      {
+        "url": "https://www.osha.gov/chemicaldata/630",
+        "type": "web",
+        "pages": [],
+        "title": "HYDROGEN PEROXIDE | Occupational Safety and Health Administration",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      },
+      {
+        "url": "https://sswm.info/sites/default/files/reference_attachments/OAK%20RIDGE%20NATIONAL%20LABORATORY%201995%20Chemical%20Summary%20of%20Hydrogen%20Peroxide.pdf",
+        "type": "web",
+        "pages": [],
+        "title": "[PDF] Chemical Summary for Hydrogen Peroxide - SSWM.info",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      },
+      {
+        "url": "https://nj.gov/health/eoh/rtkweb/documents/fs/1015.pdf",
+        "type": "web",
+        "pages": [],
+        "title": "Hydrogen Peroxide",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      },
+      {
+        "url": "https://www.fishersci.com/store/msds?partNumber=BP2633500&productDescription=HYDROGEN+PEROXIDE+30%25%2C+500ML&vendorId=VN00033897&countryCode=US&language=en",
+        "type": "web",
+        "pages": [],
+        "title": "Hydrogen Peroxide (30%",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      },
+      {
+        "url": "https://www.hopenn.com/sds/Hydrogen-Peroxide-20-40%25.pdf",
+        "type": "web",
+        "pages": [],
+        "title": "Hydrogen Peroxide (20 to 40%)",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_EMXJJc7RREbKOcCn0iM9Ia5V",
+        "args": {
+          "query": "archived NIOSH table hydrogen peroxide 30-70% 8-hour group 4-hour group barrier selection table 'Hydrogen peroxide' 'archived NIOSH' '8-hour' '4-hour' 'table'",
+          "session_id": "8ebc5acf-adaa-4a85-8edf-56188a9f64e3"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_EMXJJc7RREbKOcCn0iM9Ia5V",
+        "content_preview": "[{\"chunk_id\": \"3b95bdad\", \"text\": \"l\\n\\nThree stages of operalion of a typical manually _)peraled disct)nncct\\n\\n.........\\n\\n(_\\n\\n\\\"\\n\\n_\\n\\nTypical slip disconnect\\n\\n(engaged)\\n\\n9\\n\\n.!_\\n\\n--\\n\\n0\\n\\n'\\n\\n°\\n\\n'\\n\\n'\\n\\n°\\n\\n'\\n\\n'\\n\\n°\\n\\n°\\n\\n'\\n\\n\\\"\\n\\n'\\n\\n°\\n\\n°\\n\\n°\\n\\n°\\n\\n°\\n\\n'\\n\\n'\\n\\nall_.\\n\\n_;'\\\"\\n\\n3\\n\\nTypical ball-and-cm_e discormect lout,aged)\\n\\n................\\n\\n9\\n\\n4\\n\\nTypical pressure-balanced slip disconnect\\n\\n(separated)\\n\\n..............\\n\\nIO\\n\\nIi\\n\\no\\n\\n:\\n\\n'\\n\\n5\\n\\nTypical partially-pressure-balanced\\n\\ncone seal disconnect\\n\\n(separated)\\n\\n10\\n\\n;.\\n\\n.\\n\\n.\\n\\n.\\n\\n°\\n\\n:\\n\\n6\\n\\nBreakaway disconnect with poppet valves actuated externally (engaged)\\n\\n.......\\n\\n13\\n\\n:=.,'!i\\n\\n7\\n\\nBreakaway disconnect with poppet valves actuated internally (engaged)\\n\\n.......\\n\\n13\\n\\nI)'' ,\\n\\n_\\n\\n8\\n\\nDisconnect with metal-to-metal seal on serrated flanges\\n\\n.............\\n\\n14\\n\\n:\\n\\n9\\n\\nFlexible-cone and poppet debris valves(coupling separated, valves closed)\\n\\n15\\n\\n._\\n\\n....\\n\\n_:\\n\\n10\\n\\nTwo-valve disconnect designed for minimum spillage\\n\\n..............\\n\\n17\\n\\n= 'i::\\n\\n11\\n\\nBasic types of flanged couplings\\n\\n.....................…"
+      },
+      {
+        "id": "call_fssRf00mw5t2fWev5N6YHgIo",
+        "args": {
+          "query": "NIOSH archived table barrier selection hydrogen peroxide 30% 70% '8-hour' '4-hour' 'barrier' 'NIOSH' 'archived' 'hydrogen peroxide 30%'}",
+          "session_id": "8ebc5acf-adaa-4a85-8edf-56188a9f64e3"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_fssRf00mw5t2fWev5N6YHgIo",
+        "content_preview": "[{\"chunk_id\": \"3b95bdad\", \"text\": \"l\\n\\nThree stages of operalion of a typical manually _)peraled disct)nncct\\n\\n.........\\n\\n(_\\n\\n\\\"\\n\\n_\\n\\nTypical slip disconnect\\n\\n(engaged)\\n\\n9\\n\\n.!_\\n\\n--\\n\\n0\\n\\n'\\n\\n°\\n\\n'\\n\\n'\\n\\n°\\n\\n'\\n\\n'\\n\\n°\\n\\n°\\n\\n'\\n\\n\\\"\\n\\n'\\n\\n°\\n\\n°\\n\\n°\\n\\n°\\n\\n°\\n\\n'\\n\\n'\\n\\nall_.\\n\\n_;'\\\"\\n\\n3\\n\\nTypical ball-and-cm_e discormect lout,aged)\\n\\n................\\n\\n9\\n\\n4\\n\\nTypical pressure-balanced slip disconnect\\n\\n(separated)\\n\\n..............\\n\\nIO\\n\\nIi\\n\\no\\n\\n:\\n\\n'\\n\\n5\\n\\nTypical partially-pressure-balanced\\n\\ncone seal disconnect\\n\\n(separated)\\n\\n10\\n\\n;.\\n\\n.\\n\\n.\\n\\n.\\n\\n°\\n\\n:\\n\\n6\\n\\nBreakaway disconnect with poppet valves actuated externally (engaged)\\n\\n.......\\n\\n13\\n\\n:=.,'!i\\n\\n7\\n\\nBreakaway disconnect with poppet valves actuated internally (engaged)\\n\\n.......\\n\\n13\\n\\nI)'' ,\\n\\n_\\n\\n8\\n\\nDisconnect with metal-to-metal seal on serrated flanges\\n\\n.............\\n\\n14\\n\\n:\\n\\n9\\n\\nFlexible-cone and poppet debris valves(coupling separated, valves closed)\\n\\n15\\n\\n._\\n\\n....\\n\\n_:\\n\\n10\\n\\nTwo-valve disconnect designed for minimum spillage\\n\\n..............\\n\\n17\\n\\n= 'i::\\n\\n11\\n\\nBasic types of flanged couplings\\n\\n.....................…"
+      },
+      {
+        "id": "call_JaNpVYFpv9Q9nvcLd2rWiYgt",
+        "args": {
+          "query": "archived NIOSH table hydrogen peroxide 30% 70% 8-hour 4-hour 'barrier' 'NIOSH' 'hydrogen peroxide' 'table' 'archived'",
+          "session_id": "8ebc5acf-adaa-4a85-8edf-56188a9f64e3"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_JaNpVYFpv9Q9nvcLd2rWiYgt",
+        "content_preview": "{\"results\": [{\"content\": \"![U.S. flag](/themes/contrib/ddp_dol_theme/build/img/us_flag_small.png)\\n\\nAn official website of the United States government.\\n\\nHere’s how you know\\n\\n![Dot gov](/themes/contrib/ddp_dol_theme/build/img/icon-dot-gov.svg)\\n\\n**The .gov means it’s official.**\\n  \\n Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.\\n\\n![Https](/themes/contrib/ddp_dol_theme/build/img/icon-https.svg)\\n\\n**The site is secure.**\\n  \\n The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.\\n\\n![United States Department of Labor](/themes/contrib/ddp_dol_theme/img/Agency_DOL_Logo_dark.svg)\\n\\n## [Occupational Safety and Health Administration](/ \\\"Occupational Safety and Health Administration\\\")\\n\\n### **HYDROGEN PEROXIDE†**\\n\\n|#### Chemical Identification\\n\\n\\n|  |\\n| **CAS #** | 7722-84-1 |\\n| **Formula** | H₂O₂ |\\n| **Synonyms** | high-strength hydrogen peroxide; hydrogen dioxide; hydrogen peroxide (aqueous); hydroperoxide; peroxide |\\n\\n#### Chemical Identification\\n\\nH₂O₂\\n\\nhigh-strength hydrog…"
+      },
+      {
+        "id": "call_IbSQVUJFMjHg8uO8fMcKQirw",
+        "args": {
+          "query": "\"hydrogen peroxide\" \"30%\" \"70%\" \"NIOSH\" \"barrier\" \"8-hour\" \"4-hour\" table barriers 8-hour group 4-hour group NIOSH archived \"hydrogen peroxide 30-70%\"",
+          "session_id": "8ebc5acf-adaa-4a85-8edf-56188a9f64e3"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_IbSQVUJFMjHg8uO8fMcKQirw",
+        "content_preview": "{\"results\": [{\"content\": \"Right to Know Hazardous Substance Fact Sheet Common Name: HYDROGEN PEROXIDE Synonyms: Hydrogen Dioxide Chemical Name: Hydrogen Peroxide Date: February 2008 Revision: May 2016 CAS Number: 7722-84-1 RTK Substance Number: 1015 DOT Number: UN 2015 Description and Use Hydrogen Peroxide is a colorless, odorless liquid. Because pure Hydrogen Peroxide is unstable and an explosion risk, it is usually in a water solution. It is a common oxidizing and bleaching agent and is used in deodorants, water and sewage treatment, and rocket fuels, as a disinfectant, and in making other chemicals. Reasons for Citation  Hydrogen Peroxide is on the Right to Know Hazardous Substance List because it is cited by OSHA, ACGIH, DOT, NIOSH, DEP, IARC, NFPA and EPA.  This chemical is on the Special Health Hazard Substance List. SEE GLOSSARY ON PAGE 5. FIRST AID Eye Contact  Immediately flush with large amounts of water for at least 30 minutes, lifting upper and lower lids. Remove contact lenses, if worn, while flushing. Seek medical attention immediately. Skin Contact  Quickly remove contaminated clothing. Immediately wash contaminated skin with large amounts of water. Seek medical …"
+      }
+    ],
+    "open_questions": [
+      "The specific archived NIOSH table that assigns barrier materials for hydrogen peroxide 30–70% to an '8‑hour' group or a '4‑hour' group is not present in the supplied evidence inventory. Please provide the exact source (URL, PDF, scanned table, or document chunk_id) or the table title so I can extract the barrier assignments verbatim from the authoritative archived NIOSH table.",
+      "If you have a screenshot, PDF page, or the NIOSH table filename (or the NIOSH document/publication ID) that contains the barrier groupings for H2O2 30–70%, please upload it or provide its exact URL."
+    ]
+  }
+}

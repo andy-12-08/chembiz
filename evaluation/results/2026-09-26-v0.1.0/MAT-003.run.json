@@ -1,0 +1,8 @@
+{
+  "run_id": "f9e640c3-7a29-4364-b9df-8f047e16bd99",
+  "session_id": "71587fe7-9254-4f08-8c34-1cc829bc4706",
+  "status": "succeeded",
+  "query_snapshot": "What corrosion mechanism does NBS Circular 592 associate with hydrochloric acid and other halide-containing solutions attacking stainless steel?",
+  "final_answer": "Evidence-grounded answer:\n\n- NBS Circular 592 states that hydrochloric acid and other halide-containing solutions attack the passive film on stainless steel. [nbscircular592.pdf, pp. 60-61, chunk e035b4b6; nbscircular592.pdf, pp. 59-60, chunk b0a15485]\n- NBS Circular 592 states that attack by hydrochloric acid and other halide-containing solutions produces corrosion of the pitting type on stainless steel. [nbscircular592.pdf, pp. 60-61, chunk e035b4b6; nbscircular592.pdf, pp. 59-60, chunk b0a15485]",
+  "error_message": null
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "dataset_version": "0.1.0",
+  "system_iteration": "v0.2.0-generalized-prompt",
+  "questions": [
+    {"question_id": "MAT-001", "status": "client_timeout", "required_points": 3, "answer_score": 0.0, "strict_pass": false},
+    {"question_id": "MAT-002", "status": "succeeded", "required_points": 2, "answer_score": 1.5, "strict_pass": false},
+    {"question_id": "MAT-003", "status": "succeeded", "required_points": 2, "answer_score": 2.0, "strict_pass": true},
+    {"question_id": "MAT-004", "status": "succeeded", "required_points": 2, "answer_score": 2.0, "strict_pass": true},
+    {"question_id": "MAT-005", "status": "succeeded", "required_points": 3, "answer_score": 3.0, "strict_pass": true},
+    {"question_id": "MAT-006", "status": "succeeded", "required_points": 3, "answer_score": 2.0, "strict_pass": false},
+    {"question_id": "MAT-007", "status": "failed", "required_points": 4, "answer_score": 0.0, "strict_pass": false},
+    {"question_id": "MAT-008", "status": "succeeded", "required_points": 3, "answer_score": 1.5, "strict_pass": false},
+    {"question_id": "MAT-009", "status": "succeeded", "required_points": 3, "answer_score": 3.0, "strict_pass": true},
+    {"question_id": "MAT-010", "status": "succeeded", "required_points": 4, "answer_score": 3.0, "strict_pass": false},
+    {"question_id": "MAT-011", "status": "succeeded", "required_points": 4, "answer_score": 3.0, "strict_pass": false},
+    {"question_id": "MAT-012", "status": "succeeded", "required_points": 4, "answer_score": 3.0, "strict_pass": false}
+  ],
+  "aggregate": {
+    "operational_success": {"numerator": 10, "denominator": 12, "percent": 83.3},
+    "answer_completeness_end_to_end": {"earned": 24.0, "possible": 37, "percent": 64.9},
+    "answer_completeness_successful_runs": {"earned": 24.0, "possible": 30, "percent": 80.0},
+    "strict_question_passes": {"numerator": 4, "denominator": 12, "percent": 33.3},
+    "citation_completeness": {"supported_claims": 30, "total_claims": 30, "percent": 100.0},
+    "estimated_citation_correctness": {"correct": 30, "total_claims": 30, "percent": 100.0},
+    "estimated_unsupported_claim_rate": {"unsupported": 0, "total_claims": 30, "percent": 0.0}
+  },
+  "notes": [
+    "Failed and client-timeout runs count as zero in end-to-end completeness.",
+    "MAT-002 did not guess the scan's unreadable lower concentration bound.",
+    "MAT-006 omitted acceptable platings and finishes.",
+    "MAT-008 captured brittleness and expansion mismatch but omitted the specific low-temperature plastic-seal loading consequence.",
+    "MAT-010 through MAT-012 returned the exact requested rows but did not repeat the table-wide vendor/use limitation.",
+    "Citation correctness is a manual assessment of the persisted claim-to-source mappings, not an independent expert review."
+  ]
+}

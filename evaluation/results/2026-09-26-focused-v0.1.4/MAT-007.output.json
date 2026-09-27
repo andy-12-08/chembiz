@@ -1,0 +1,182 @@
+{
+  "output_id": "89fb57cf-5d99-4622-b05e-55e4e19549bd",
+  "session_id": "3964e225-5aa3-4af3-96bf-482c908edbc1",
+  "run_id": "06169063-6efe-4dc5-b7bc-b27b6a0bde3c",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "NASA SP-8119 states: \"Materials susceptible to stress corrosion should not be used.\"",
+      "2014-T4 is listed as a material susceptible to stress corrosion.",
+      "2024-T3 is listed as a material susceptible to stress corrosion.",
+      "2024-T4 is listed as a material susceptible to stress corrosion.",
+      "2024-T351 is listed as a material susceptible to stress corrosion.",
+      "PH15-7Mo RH950 is listed as a material susceptible to stress corrosion.",
+      "PH15-7Mo TH1050 is listed as a material susceptible to stress corrosion.",
+      "17-7PH (annealed) is listed as a material susceptible to stress corrosion.",
+      "17-7PH H900 is listed as a material susceptible to stress corrosion.",
+      "AM350 SCT850 is listed as a material susceptible to stress corrosion.",
+      "AM355 SCT850 is listed as a material susceptible to stress corrosion.",
+      "17-4PH appears in the same list in the document, but the OCR'd heat-treatment codes in the source are shown as \"RH9SO, THIOSO\" (ambiguous in the scanned text)."
+    ],
+    "query": "Which alloy and heat-treatment conditions does NASA SP-8119 identify as susceptible to stress corrosion in its material-compatibility discussion?",
+    "answer": "Evidence-grounded answer:\n\n- NASA SP-8119 states: \"Materials susceptible to stress corrosion should not be used.\" [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- 2014-T4 is listed as a material susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- 2024-T3 is listed as a material susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- 2024-T4 is listed as a material susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- 2024-T351 is listed as a material susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- PH15-7Mo RH950 is listed as a material susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- PH15-7Mo TH1050 is listed as a material susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- 17-7PH (annealed) is listed as a material susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- 17-7PH H900 is listed as a material susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- AM350 SCT850 is listed as a material susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- AM355 SCT850 is listed as a material susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- 17-4PH appears in the same list in the document, but the OCR'd heat-treatment codes in the source are shown as \"RH9SO, THIOSO\" (ambiguous in the scanned text). [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "NASA SP-8119 states: \"Materials susceptible to stress corrosion should not be used.\""
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "2014-T4 is listed as a material susceptible to stress corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "2024-T3 is listed as a material susceptible to stress corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "2024-T4 is listed as a material susceptible to stress corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "2024-T351 is listed as a material susceptible to stress corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "PH15-7Mo RH950 is listed as a material susceptible to stress corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "PH15-7Mo TH1050 is listed as a material susceptible to stress corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "17-7PH (annealed) is listed as a material susceptible to stress corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "17-7PH H900 is listed as a material susceptible to stress corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "AM350 SCT850 is listed as a material susceptible to stress corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "AM355 SCT850 is listed as a material susceptible to stress corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "17-4PH appears in the same list in the document, but the OCR'd heat-treatment codes in the source are shown as \"RH9SO, THIOSO\" (ambiguous in the scanned text)."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          130,
+          131,
+          132
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "68fbe1ed"
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_KfBzgzw3KlEOAPGy65NDPnGY",
+        "args": {
+          "query": "NASA SP-8119 material compatibility stress corrosion susceptible alloy heat treatment 'SP-8119' 'stress corrosion' 'material-compatibility'",
+          "session_id": "3964e225-5aa3-4af3-96bf-482c908edbc1"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_KfBzgzw3KlEOAPGy65NDPnGY",
+        "content_preview": "[{\"chunk_id\": \"95868636\", \"text\": \"° 0 5 3 , 1\\n\\nt a\\n\\n6 1 3\\n\\ne p y t\\n\\nf o\\n\\ns e u l a v\\n\\ne r u t p u r\\n\\ns s e r t s\\n\\nd e v o r p m I »\\n\\n.\\n\\nm u l a t n a t\\n\\ns u l p m u i b m u l o c\\n\\ny l l a u s U b\\n\\n. s e s o p r u p\\n\\nn g i s e d\\n\\nr o f\\n\\nt o N\\n\\n> ■\\n\\n. t s a C\\n\\n'\\n\\n. n o r i\\n\\nf o\\n\\nt n e c r e p\\n\\n0 3 n a h t\\n\\ne r o m g n i n i a t n o C\\n\\nd\\n\\nB\\n\\nd n a\\n\\n, i\\n\\nT\\n\\nC\\n\\nf o\\n\\ns n o i t i d d a\\n\\n[page 63]\\n\\nfor specific services in which their satisfactory performance has been established. Ferrous super alloys have been described [581] as a useful class of engineering materials for highly stressed applications within a temperature range of 1,200° to 1,500° F, with strengths considerably above those of conventional stainless steels. The N-155 alloy has been called [518] somewhat of a work¬ horse in the range above 1,200° F. For additional information on N-155, see Freeman et al. [183] and Binder [263].\\n\\nApblett and Pellini [318] reported values for the thermal-expansion characteristics of some ferrous super alloys shown in table 31.\\n\\nTable 31. Thermal expansion of some ferrous super alloys [315]\\n\\nAverage coefficient, milliont…"
+      },
+      {
+        "id": "call_XwEL3Ru6CN5cg7HYKhbWuPz0",
+        "args": {
+          "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+          "chunk_id": "68fbe1ed",
+          "session_id": "3964e225-5aa3-4af3-96bf-482c908edbc1",
+          "page_number": 131,
+          "source_session_id": "7027af4d-b122-4e00-8d9d-ccbdfbf61771"
+        },
+        "kind": "call",
+        "name": "document_page_ocr_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_page_ocr_tool",
+        "tool_call_id": "call_XwEL3Ru6CN5cg7HYKhbWuPz0",
+        "content_preview": "{\"chunk_id\": \"68fbe1ed\", \"source_session_id\": \"7027af4d-b122-4e00-8d9d-ccbdfbf61771\", \"file_id\": \"93f0692d-0368-4136-99b2-d58e8d0b2d28\", \"source\": \"nasa-sp-8119.pdf\", \"page_number\": 131, \"page_count\": 161, \"native_text\": \"3.6.1.1.1\\nCompatibility\\nThe tttelal alh_.rstt,s'('ditt the .Ws/emshull he compatihh' with the system fhtM aud\\nre,_islatll !o all altlicll_al(,d forms\\no.f corrosiou.\\nThe\\nfollowing\\nmaterial-compatibility\\nconsiderations\\nshould\\nbe\\nevaluated\\nin\\nselecting\\nmaterials:\\n•\\nChemical\\nreaction\\nbetween\\nmaterials\\nand\\nsystem\\nfluid\\nno\\nreaction,\\nslow\\nreaction,\\nor impact ignition\\n•\\nPropellant decomposition\\n•\\nCorrosion\\n- atmospheric,\\ngalvanic, stress.\\nA list of suitable materials should be prepared\\non the basis of the above considerations.\\nData\\non\\nmaterial/fluid\\ncompatibility\\nare presented\\nin references\\n5(_ and 57. in a liquid-oxygen\\nsystem,\\ndo not use materials such as titanium\\nor organic lubricants\\nthat ignite on impact or\\nwhen\\nsubjected\\nto rubbing;\\nin any system,\\ndo\\nnot\\nuse materials\\nthat\\ncause propellant\\ndecomposition.\\nThe electrochemical\\nseries for metals should be consulted\\nwhen selecting materials\\nfor parts\\nthat\\ntouc…"
+      },
+      {
+        "id": "call_OG4PR2Ej0NPGJoYzl88FbK26",
+        "args": {
+          "query": "\"Materials susceptible to stress corrosion should not be used\" \"NASA SP-8119\" 2014-T4 2024-T3 15-7PH 17-7PH AM350 AM355",
+          "session_id": "3964e225-5aa3-4af3-96bf-482c908edbc1"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_OG4PR2Ej0NPGJoYzl88FbK26",
+        "content_preview": "{\"results\": [{\"content\": \"# ISO 8075:2025 Aerospace — Surface treatment of hardenable stainless steel parts. #### ISO 8075:2025. ## Abstract. This document specifies the requirements for technical procedures, quality inspection, etc. for the surface treatment of martensitic, precipitation hardening and maraging stainless steel parts (e.g.400 series, 17-7PH, 17-4PH, 15-5PH, AM350, AM355, PH15-7Mo, PH13-8Mo, Custom 450 and 455 or equivalent). It provides practical methods for removing contaminants and for obtaining suitable corrosion resistance for aerospace applications. This document applies to the removal of organic and inorganic contaminants, surface cleaning, surface finishing and surface passivation before non-destructive inspection of martensitic, precipitation hardening and maraging stainless steel parts. This document specifies the requirements for technical procedures, quality inspection, etc. for the surface treatment of martensitic, precipitation hardening and maraging stainless steel parts (e.g.400 series, 17-7PH, 17-4PH, 15-5PH, AM350, AM355, PH15-7Mo, PH13-8Mo, Custom 450 and 455 or equivalent). It provides practical methods for removing contaminants and for obtaining …"
+      }
+    ],
+    "open_questions": [
+      "The scanned/OCR text contains ambiguous tokens that prevent confident transcription of some heat-treatment codes. Please confirm the intended codes in the original: after \"2014-T4\" the PDF shows \"-To\" (OCR); is this intended to be \"-T6\" or another designation?",
+      "For 17-4PH the OCR shows \"RH9SO, THIOSO\"; please confirm whether these are actually \"RH950, TH1050\" or different codes in the original.",
+      "Please confirm the exact spelling/format of the AM350 and AM355 treatments shown as \"SCT850\" in the OCR (is that the intended code and correct spacing/capitalization?)."
+    ]
+  }
+}

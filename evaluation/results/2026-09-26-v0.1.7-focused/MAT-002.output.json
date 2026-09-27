@@ -1,0 +1,166 @@
+{
+  "output_id": "96fd74e7-6a74-426a-bee9-23d55faf384d",
+  "session_id": "d9dc4ee7-66c8-48a0-aa78-46ea380e3f8d",
+  "run_id": "fe826bf0-94c9-41a9-8ba1-b68431e6436a",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "NBS reports that molybdenum-bearing stainless steels (types 316 and 317) were the most resistant to sulfuric acid at low temperatures.",
+      "NBS states that 'at about 150° F all of the stainless steels corrode in practically all concentrations of acid ... to 95 percent.' (the printed lower-bound concentration in the phrase is not legible in the scanned source).",
+      "NBS records Roach & Hall's report that molybdenum-bearing stainless steels were useful at room temperature in sulfuric acid concentrations below about 15% and above about 85%.",
+      "NBS describes Hastelloy A (a high‑nickel alloy) as 'usefully resistant to sulfuric acid of all concentrations at temperatures up to about 160° F, and up to the boiling point for concentrations below 50 percent,' indicating higher‑alloy alternatives for elevated‑temperature sulfuric acid service.",
+      "Screening conclusion grounded in NBS: for sulfuric acid at about 150° F, treat common austenitic stainless steels as not suitable or 'suspect' across typical acid concentrations unless alloy‑ and condition‑specific test data indicate otherwise; consider higher‑alloy corrosion‑resistant materials (for example Hastelloys) or require detailed corrosion testing at the actual concentration, temperature, aeration and impurity conditions."
+    ],
+    "query": "What does NBS Circular 592 report about the corrosion behavior of stainless steels in sulfuric acid at approximately 150 degrees Fahrenheit across acid concentrations, and how should that affect a screening conclusion?",
+    "answer": "Evidence-grounded answer:\n\n- NBS reports that molybdenum-bearing stainless steels (types 316 and 317) were the most resistant to sulfuric acid at low temperatures. [nbscircular592.pdf, pp. 59-60, chunk b0a15485; nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- NBS states that 'at about 150° F all of the stainless steels corrode in practically all concentrations of acid ... to 95 percent.' (the printed lower-bound concentration in the phrase is not legible in the scanned source). [nbscircular592.pdf, pp. 59-60, chunk b0a15485; nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- NBS records Roach & Hall's report that molybdenum-bearing stainless steels were useful at room temperature in sulfuric acid concentrations below about 15% and above about 85%. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]\n- NBS describes Hastelloy A (a high‑nickel alloy) as 'usefully resistant to sulfuric acid of all concentrations at temperatures up to about 160° F, and up to the boiling point for concentrations below 50 percent,' indicating higher‑alloy alternatives for elevated‑temperature sulfuric acid service. [nbscircular592.pdf, pp. 79-80, chunk 6745f7b0]\n- Screening conclusion grounded in NBS: for sulfuric acid at about 150° F, treat common austenitic stainless steels as not suitable or 'suspect' across typical acid concentrations unless alloy‑ and condition‑specific test data indicate otherwise; consider higher‑alloy corrosion‑resistant materials (for example Hastelloys) or require detailed corrosion testing at the actual concentration, temperature, aeration and impurity conditions. [nbscircular592.pdf, pp. 59-60, chunk b0a15485; nbscircular592.pdf, pp. 79-80, chunk 6745f7b0]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "b0a15485",
+          "2b809bc1"
+        ],
+        "statement": "NBS reports that molybdenum-bearing stainless steels (types 316 and 317) were the most resistant to sulfuric acid at low temperatures."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "b0a15485",
+          "2b809bc1"
+        ],
+        "statement": "NBS states that 'at about 150° F all of the stainless steels corrode in practically all concentrations of acid ... to 95 percent.' (the printed lower-bound concentration in the phrase is not legible in the scanned source)."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "b0a15485"
+        ],
+        "statement": "NBS records Roach & Hall's report that molybdenum-bearing stainless steels were useful at room temperature in sulfuric acid concentrations below about 15% and above about 85%."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "6745f7b0"
+        ],
+        "statement": "NBS describes Hastelloy A (a high‑nickel alloy) as 'usefully resistant to sulfuric acid of all concentrations at temperatures up to about 160° F, and up to the boiling point for concentrations below 50 percent,' indicating higher‑alloy alternatives for elevated‑temperature sulfuric acid service."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "b0a15485",
+          "6745f7b0"
+        ],
+        "statement": "Screening conclusion grounded in NBS: for sulfuric acid at about 150° F, treat common austenitic stainless steels as not suitable or 'suspect' across typical acid concentrations unless alloy‑ and condition‑specific test data indicate otherwise; consider higher‑alloy corrosion‑resistant materials (for example Hastelloys) or require detailed corrosion testing at the actual concentration, temperature, aeration and impurity conditions."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          59,
+          60
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+        "chunk_id": "b0a15485"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          60
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+        "chunk_id": "2b809bc1"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          79,
+          80
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+        "chunk_id": "6745f7b0"
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_PKCLU6bEbXQRxUcIcIhyqlyb",
+        "args": {
+          "query": "NBS Circular 592 sulfuric acid 150 F stainless steel corrosion 150 degrees Fahrenheit concentrations",
+          "session_id": "d9dc4ee7-66c8-48a0-aa78-46ea380e3f8d"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_PKCLU6bEbXQRxUcIcIhyqlyb",
+        "content_preview": "[{\"chunk_id\": \"6745f7b0\", \"text\": \"-20 Cr-12 Co-6 W alloy was pro¬\\n\\nposed for cast valve-seat inserts [717],\\n\\nNickel-chromium-iron alloys will withstand short exposures up to 3,500° F when they are coated with a flame-sprayed mixture of nickel oxide and magnesium oxide [486].\\n\\n4.5. Hastelloy Alloys\\n\\nThe first of the high-nickel corrosion-resistant alloys known as Hastelloys were nickel-molyb¬ denum-iron alloys, but in subsequent alloys the composition was considerably changed. This dis¬ cussion will be confined to the corrosion-resistant alloys A, B, C, D, and F. Hastelloy R and Hastelloy X were designed for high-temperature mechanical properties, i. e., for super alloy service. Hastelloy A contains 56 Ni-22 Mo-22 Fe. It is usefully resistant to all concentrations of hydro¬ chloric acid at room temperature and to unaerated solutions at temperatures below about 160° F. It is usefully resistant to sulfuric acid of all concen¬ trations at temperatures up to about 160° F, and up to the boiling point for concentrations below 50 percent. It is resistant to acid chlorides, acid phosphates, organic acids and compounds, to at¬ mospheric oxidation, and to oxidizing and reducing flue …"
+      },
+      {
+        "id": "call_EPYxtnBDb4x2acDfrEY9Me7R",
+        "args": {
+          "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+          "chunk_id": "b0a15485",
+          "session_id": "d9dc4ee7-66c8-48a0-aa78-46ea380e3f8d",
+          "page_number": 60,
+          "source_session_id": "7027af4d-b122-4e00-8d9d-ccbdfbf61771"
+        },
+        "kind": "call",
+        "name": "document_page_ocr_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_page_ocr_tool",
+        "tool_call_id": "call_EPYxtnBDb4x2acDfrEY9Me7R",
+        "content_preview": "{\"chunk_id\": \"b0a15485\", \"source_session_id\": \"7027af4d-b122-4e00-8d9d-ccbdfbf61771\", \"file_id\": \"77d13352-009a-4c26-ac91-dc6c34ea6f40\", \"source\": \"nbscircular592.pdf\", \"page_number\": 60, \"page_count\": 96, \"native_text\": \"and coworkers [621] reported that stainless steels \\nwere resistant to fuming nitric acid, that the \\nresistance decreased with increasing temperature \\nup to 160° F, and the rate of erosive-corrosive \\nattack decreased with increased rate of flow, as \\nshown in table 29, probably because of removal of \\ndecomposition products from the metal surface. \\nIn sulfuric acid, Kiefer and Renshaw [231] reported \\nthat molybdenum-bearing types 316 and 317 were \\nthe most resistant at low temperatures, but at \\nabout 150° F all of the stainless steels corrode in \\npractically all concentrations of acid from ){ to \\n95 percent. However, Roach and Hall [726] \\nreported that molybdenum-bearing stainless steels \\nwere useful, at room temperature, in concentra¬ \\ntions of sulfuric acid below 15 percent and above \\n85 percent. The resistance to sulfuric acid is \\nimproved in some cases by additions of copper or \\ncerium [231, 629], In 2 N mixed acids, ranging \\nfrom 2 N HN03 to 2…"
+      },
+      {
+        "id": "call_eciruFpeSbRdIhfjNmPVi8Pi",
+        "args": {
+          "query": "\"NBS Circular 592\" \"sulfuric acid\" \"150° F\" stainless steels corrode practically all concentrations 95 percent Kiefer Renshaw Roach Hall 316 317",
+          "session_id": "d9dc4ee7-66c8-48a0-aa78-46ea380e3f8d"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_eciruFpeSbRdIhfjNmPVi8Pi",
+        "content_preview": "{\"results\": [{\"content\": \"about 150° F all of the stainless steels corrode in of chloride ions, even in extremely low concentra¬ practically all concentrations of acid from ){ to\", \"published_at\": null, \"query\": \"\\\"NBS Circular 592\\\" \\\"sulfuric acid\\\" \\\"150° F\\\" stainless steels corrode practically all concentrations 95 percent Kiefer Renshaw Roach Hall 316 317\", \"score\": 0.79484755, \"snippet\": \"about 150° F all of the stainless steels corrode in of chloride ions, even in extremely low concentra¬ practically all concentrations of acid from ){ to\", \"source_domain\": \"www.scribd.com\", \"title\": \"National Bureau of Standards Nº 592 | PDF\", \"url\": \"https://www.scribd.com/document/702455104/National-Bureau-of-Standards-n%C2%BA-592\"}, {\"content\": \"CORROSION RESISTANCE OF THE AUSTENITIC CHROMIUM-NICKEL STAINLESS STEELS IN CHEMICAL ENVIRONMENTS THE INTERNATIONAL NICKEL COMPANY, INC. One New York Plaza, New York, N.Y. 10004 Copyright @ 1963 by THE INTERNATIONAL NICKEL COMPANY, INC. AIS1 and ACI Standard Composition Ranges for Wrought and Cast Chromium-Nickel Stainless Steels American Iron and Steel Institute Classification of Chromium-Nickel Stainless Steels r Composition, y0 AISI Type 201 20…"
+      },
+      {
+        "id": "call_vFjjsBhK3XsunaLdv6VkYh8j",
+        "args": {
+          "query": "\"at about 150 F all of the stainless steels corrode in practically all concentrations\"",
+          "session_id": "d9dc4ee7-66c8-48a0-aa78-46ea380e3f8d"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_vFjjsBhK3XsunaLdv6VkYh8j",
+        "content_preview": "{\"results\": [{\"content\": \"All stainless steels resist general corrosion by all concentrations of sodium hydroxide (NaOH) up to approximately 65 °C (150 °F).\", \"published_at\": null, \"query\": \"\\\"at about 150 F all of the stainless steels corrode in practically all concentrations\\\"\", \"score\": 0.8742601, \"snippet\": \"All stainless steels resist general corrosion by all concentrations of sodium hydroxide (NaOH) up to approximately 65 °C (150 °F).\", \"source_domain\": \"dl.asminternational.org\", \"title\": \"Corrosion of Wrought Stainless Steels - ASM Digital Library\", \"url\": \"https://dl.asminternational.org/handbooks/edited-volume/49/chapter/595531/Corrosion-of-Wrought-Stainless-Steels\"}, {\"content\": \"CORROSION RESISTANCE OF THE AUSTENITIC CHROMIUM-NICKEL STAINLESS STEELS IN CHEMICAL ENVIRONMENTS THE INTERNATIONAL NICKEL COMPANY, INC. One New York Plaza, New York, N.Y. 10004 Copyright @ 1963 by THE INTERNATIONAL NICKEL COMPANY, INC. AIS1 and ACI Standard Composition Ranges for Wrought and Cast Chromium-Nickel Stainless Steels American Iron and Steel Institute Classification of Chromium-Nickel Stainless Steels r Composition, y0 AISI Type 201 202 301 302 302B 303 303Se 304 304L 305 308 309 309s …"
+      }
+    ],
+    "open_questions": [
+      "The printed lower‑bound concentration in the NBS phrase '... corrode in practically all concentrations of acid from } to 95 percent' is unreadable in the scanned source (OCR/glyph shows '}' where the lower number should be). The exact lower concentration reported by NBS is unresolved from the provided evidence (chunk_id b0a15485, p.60).",
+      "NBS Circular 592 states the qualitative outcome at ≈150° F but does not provide quantitative corrosion rates (penetration rates) across sulfuric acid concentrations at 150° F in the cited passages — those specific numerical rates for 150° F / given concentrations are not present in the provided chunks.",
+      "Effect of aeration/oxidizing impurities at ≈150° F on the corrosion behavior of the listed stainless steels across concentrations (quantitative influence) is not specified in the cited passages and remains an evidence gap for screening-level numerical thresholds."
+    ]
+  }
+}

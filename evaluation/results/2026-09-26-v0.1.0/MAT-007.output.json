@@ -1,0 +1,150 @@
+{
+  "output_id": "adf15265-9b1c-4647-89b5-49755b6e37c8",
+  "session_id": "231f557e-6369-404b-802c-6dae905a1009",
+  "run_id": "e70165c7-a78a-4be4-ab40-a33d0a225796",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "NASA SP-8119 identifies aluminum alloy 2024 in the T3 temper (2024‑T3) as susceptible to stress‑corrosion.",
+      "NASA SP-8119 identifies precipitation‑hardening stainless steel 17‑7PH in the annealed condition as susceptible to stress‑corrosion.",
+      "NASA SP-8119 identifies precipitation‑hardening stainless steel 17‑4PH in H‑tempers (example given as H900 and other H tempers) as susceptible to stress‑corrosion."
+    ],
+    "query": "Which alloy and heat-treatment conditions does NASA SP-8119 identify as susceptible to stress corrosion in its material-compatibility discussion?",
+    "answer": "Evidence-grounded answer:\n\n- NASA SP-8119 identifies aluminum alloy 2024 in the T3 temper (2024‑T3) as susceptible to stress‑corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 identifies precipitation‑hardening stainless steel 17‑7PH in the annealed condition as susceptible to stress‑corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 identifies precipitation‑hardening stainless steel 17‑4PH in H‑tempers (example given as H900 and other H tempers) as susceptible to stress‑corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "NASA SP-8119 identifies aluminum alloy 2024 in the T3 temper (2024‑T3) as susceptible to stress‑corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "NASA SP-8119 identifies precipitation‑hardening stainless steel 17‑7PH in the annealed condition as susceptible to stress‑corrosion."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "NASA SP-8119 identifies precipitation‑hardening stainless steel 17‑4PH in H‑tempers (example given as H900 and other H tempers) as susceptible to stress‑corrosion."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          130,
+          131,
+          132
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "68fbe1ed"
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_I2AKMTyjXM3plcuKTDFx5eWF",
+        "args": {
+          "query": "NASA SP-8119 material-compatibility discussion stress corrosion susceptible alloy heat-treatment conditions 'stress corrosion' 'material compatibility' 'SP-8119'",
+          "session_id": "231f557e-6369-404b-802c-6dae905a1009"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_I2AKMTyjXM3plcuKTDFx5eWF",
+        "content_preview": "[{\"chunk_id\": \"e035b4b6\", \"text\": \"investigated in recent years. In the initial phases of an investigation of the mechanism of stress-corrosion cracking of type 304 steel, sponsored by the Pressure Vessels Research Committee of the Welding Research Council, Logan and Sherman [694] adopted a solution containing 3.5 percent of sodium chloride and 1 percent of sodium or ammonium nitrite, with a £>H of 7.0 and operated at the boiling point, as the test solution to produce reproducible failures in a reasonable time.\\n\\n3.5. Ferrous Super Alloys, Wrought and Cast\\n\\nIn the 1930’s, according to Ivriv…"
+      },
+      {
+        "id": "call_wTyhdNcu7r5DbaUAQgrhCfq6",
+        "args": {
+          "query": "site:nasa-sp-8119.pdf stress corrosion susceptible \"2024-T3\" \"17-7PH\" \"susceptible to stress corrosion\"",
+          "session_id": "231f557e-6369-404b-802c-6dae905a1009"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_wTyhdNcu7r5DbaUAQgrhCfq6",
+        "content_preview": "[{\"chunk_id\": \"e035b4b6\", \"text\": \"investigated in recent years. In the initial phases of an investigation of the mechanism of stress-corrosion cracking of type 304 steel, sponsored by the Pressure Vessels Research Committee of the Welding Research Council, Logan and Sherman [694] adopted a solution containing 3.5 percent of sodium chloride and 1 percent of sodium or ammonium nitrite, with a £>H of 7.0 and operated at the boiling point, as the test solution to produce reproducible failures in a reasonable time.\\n\\n3.5. Ferrous Super Alloys, Wrought and Cast\\n\\nIn the 1930’s, according to Ivriv…"
+      },
+      {
+        "id": "call_7IG6TGHY01OhpcpLroawkjCI",
+        "args": {
+          "query": "\"susceptible to stress\" \"stress corrosion\" \"susceptible to stress corrosion\" \"NASA SP-8119\" \"material-compatibility\"",
+          "session_id": "231f557e-6369-404b-802c-6dae905a1009"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_7IG6TGHY01OhpcpLroawkjCI",
+        "content_preview": "[{\"chunk_id\": \"2b809bc1\", \"text\": \"30 f by nitric acid as a function of temperature [335].\\n\\n53\\n\\n[page 60]\\n\\nand coworkers [621] reported that stainless steels were resistant to fuming nitric acid, that the resistance decreased with increasing temperature up to 160° F, and the rate of erosive-corrosive attack decreased with increased rate of flow, as shown in table 29, probably because of removal of decomposition products from the metal surface. In sulfuric acid, Kiefer and Renshaw [231] reported that molybdenum-bearing types 316 and 317 were the most resistant at low temperatures, but at …"
+      },
+      {
+        "id": "call_jynPKADIbadsdyABoqfnt4ip",
+        "args": {
+          "query": "\"2024-T3\" \"SP-8119\" \"susceptible\" \"stress corrosion\" \"2024\" \"17-7PH\"",
+          "session_id": "231f557e-6369-404b-802c-6dae905a1009"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_jynPKADIbadsdyABoqfnt4ip",
+        "content_preview": "[{\"chunk_id\": \"054499e3\", \"text\": \"plastic flow (or deformation)\\n\\nimmediate yielding of material caused by a compressive or tensile load that\\n\\ni_ greater than that necessary I. yield tile material\\n\\n.::i _' ? ' .....\\n\\npoppet valve\\n\\nvalve constructed against a seat in the houshlg; seat can result itt essentially orifice llt+w\\n\\ntn close off flow by translating a hall. cone. or disk translatitm of tl_ )oppet away from the\\n\\n....;+ ,'i! ,,,:\\n\\n'\\n\\npteNight\\n\\nbet't_revehicle lit'toll+\\n\\noc+urrilig\\n\\n_. i\\n\\nPV\\n\\nproduct of bearing pressure P times rubbillg or sliding veh_ctty V\\n\\…"
+      },
+      {
+        "id": "call_R7GhigN0xQLSF27xmJEW3Ghp",
+        "args": {
+          "query": "\"susceptible to stress corrosion include the 2024\" \"2024-T3\" \"17-7PH\" \"SP-8119\" \"material-compatibility\" \"3.6.1.1.1\"",
+          "session_id": "231f557e-6369-404b-802c-6dae905a1009"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_R7GhigN0xQLSF27xmJEW3Ghp",
+        "content_preview": "[{\"chunk_id\": \"e035b4b6\", \"text\": \"investigated in recent years. In the initial phases of an investigation of the mechanism of stress-corrosion cracking of type 304 steel, sponsored by the Pressure Vessels Research Committee of the Welding Research Council, Logan and Sherman [694] adopted a solution containing 3.5 percent of sodium chloride and 1 percent of sodium or ammonium nitrite, with a £>H of 7.0 and operated at the boiling point, as the test solution to produce reproducible failures in a reasonable time.\\n\\n3.5. Ferrous Super Alloys, Wrought and Cast\\n\\nIn the 1930’s, according to Ivriv…"
+      },
+      {
+        "id": "call_jxX8IQXZr6955fyTie73pJia",
+        "args": {
+          "query": "NASA SP-8119 material compatibility stress corrosion 2024-T3 17-7PH \"SP-8119\" \"material compatibility\" PDF",
+          "session_id": "231f557e-6369-404b-802c-6dae905a1009"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_jxX8IQXZr6955fyTie73pJia",
+        "content_preview": "{\"results\": [{\"content\": \"Problems with fixed joints include leaks, corrosion due to improper cleaning and purging, resistance to corrosion, resistance to thermal-stress cracking.\", \"published_at\": null, \"query\": \"NASA SP-8119 material compatibility stress corrosion 2024-T3 17-7PH \\\"SP-8119\\\" \\\"material compatibility\\\" PDF\", \"score\": 0.6202772, \"snippet\": \"Problems with fixed joints include leaks, corrosion due to improper cleaning and purging, resistance to corrosion, resistance to thermal-stress cracking.\", \"source_domain\": \"www.ibb.ch\", \"title\": \"NASA SP-8119\", \"url\": \"https://www.ibb.ch/pu…"
+      }
+    ],
+    "open_questions": [
+      "The source pages show OCR/formatting errors in the extracted text; several temper codes in the same sentence are garbled. The exact list and any additional tempers/alloys present on those lines (beyond the clearly readable 2024‑T3, 17‑7PH annealed, and 17‑4PH H‑tempers) cannot be fully confirmed from the provided OCRed chunk (chunk_id 68fbe1ed)."
+    ]
+  }
+}

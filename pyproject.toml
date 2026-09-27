@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chembiz"
+version = "0.1.0"
+description = "An evidence-grounded AI tool for accelerating chemical and materials research"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.13.0",
+    "docling>=2.84.0",
+    "fastapi>=0.135.3",
+    "numpy>=2.4.4",
+    "openai>=1.40.0",
+    "orjson>=3.11.8",
+    "pillow>=12.2.0",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "pytesseract>=0.3.13",
+    "python-multipart>=0.0.22",
+    "qdrant-client>=1.17.1",
+    "sentence-transformers>=5.3.0",
+    "tiktoken>=0.8.0",
+    "temporalio>=1.24.0",
+    "torch>=2.11.0",
+    "torchvision>=0.22.0",
+    "transformers>=5.5.0",
+    "uvicorn>=0.43.0",
+    "sqlalchemy[asyncio]>=2.0.49",
+    "psycopg[binary]>=3.3.3",
+    "alembic>=1.18.4",
+    "python-dotenv>=1.2.2",
+    "langchain-core>=1.3.0",
+    "tavily-python>=0.7.23",
+    "langgraph>=1.1.9",
+    "langgraph-checkpoint-postgres>=3.0.5",
+    "langchain-openai>=1.2.0",
+    "pymupdf>=1.27.2.3",
+    "unstructured[all-docs]>=0.22.26",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+# Resolve torch/torchvision from the CUDA 12.6 wheel index so they match nvidia-smi
+# (CUDA Version up to 12.6). Without this, PyPI often selects +cu130 builds, which
+# fail on drivers that only support up to CUDA 12.6.
+# Ref: https://pytorch.org/get-started/locally/
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["backend*", "api*", "database*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

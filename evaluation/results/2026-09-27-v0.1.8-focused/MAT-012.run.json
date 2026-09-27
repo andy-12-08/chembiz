@@ -1,0 +1,8 @@
+{
+  "run_id": "8cdb2dc0-ce65-4516-bd0f-972c915aa189",
+  "session_id": "a58acaa6-fb11-40c5-b1d4-87e415233ad0",
+  "status": "succeeded",
+  "query_snapshot": "For hydrogen chloride, which barriers does the archived NIOSH table place in its 8-hour and 4-hour groups, and what additional hazard language appears in the entry?",
+  "final_answer": "Evidence-grounded answer:\n\n- The archived NIOSH Recommendations for Chemical Protective Clothing database organizes recommended protective clothing by columns labelled for 8-hour and 4-hour barrier groupings. [NIOSH Recommendations for Chemical Protective ...: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- The hydrogen chloride entry (NIOSH/CAMEO excerpt) includes the instruction: \"PREVENT SKIN CONTACT (SOLUTION)\". [HYDROGEN CHLORIDE, ANHYDROUS | CAMEO Chemicals | NOAA: https://cameochemicals.noaa.gov/chemical/8731; CDC - NIOSH Pocket Guide to Chemical Hazards -\r\nHydrogen chloride: https://www.cdc.gov/niosh/npg/npgd0332.html]\n- The hydrogen chloride entry includes a FROSTBITE warning for compressed gases: compressed gases may create low temperatures on rapid expansion and appropriate protective clothing should be worn. [HYDROGEN CHLORIDE, ANHYDROUS | CAMEO Chemicals | NOAA: https://cameochemicals.noaa.gov/chemical/8731; CDC - NIOSH Pocket Guide to Chemical Hazards -\r\nHydrogen chloride: https://www.cdc.gov/niosh/npg/npgd0332.html]\n- The hydrogen chloride entry advises that when wet or significantly contaminated (solution), work clothing should be removed and replaced. [HYDROGEN CHLORIDE, ANHYDROUS | CAMEO Chemicals | NOAA: https://cameochemicals.noaa.gov/chemical/8731]",
+  "error_message": null
+}

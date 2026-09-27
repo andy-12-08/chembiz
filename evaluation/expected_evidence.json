@@ -1,0 +1,128 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "version": "0.1.0",
+  "key_status": "curated draft; domain-expert review pending",
+  "items": [
+    {
+      "question_id": "MAT-001",
+      "required_evidence": [
+        "Types 316 and 317 are identified as the most resistant molybdenum-bearing stainless steels at low temperatures.",
+        "The answer must retain the temperature and environment qualification and must not convert comparative resistance into a universal suitability claim.",
+        "The source also reports materially different behavior with changes in temperature and sulfuric-acid concentration."
+      ],
+      "locator_hint": "NIST-NICKEL-592; section discussing stainless steels in sulfuric acid",
+      "must_not_claim": ["Type 316 or 317 is safe for every sulfuric-acid concentration and temperature."]
+    },
+    {
+      "question_id": "MAT-002",
+      "required_evidence": [
+        "At about 150 degrees Fahrenheit, the cited report says all of the stainless steels corrode in practically all sulfuric-acid concentrations from one-half to 95 percent.",
+        "A screening conclusion should therefore reject an unqualified stainless-steel recommendation at that temperature and require condition-specific data."
+      ],
+      "locator_hint": "NIST-NICKEL-592; sulfuric-acid discussion",
+      "must_not_claim": ["Every stainless steel has the same measured corrosion rate under all stated conditions."]
+    },
+    {
+      "question_id": "MAT-003",
+      "required_evidence": [
+        "Hydrochloric acid and some halide-ion solutions attack the passive film on stainless steel.",
+        "The associated localized mechanism is pitting corrosion."
+      ],
+      "locator_hint": "NIST-NICKEL-592; stainless-steel corrosion discussion",
+      "must_not_claim": ["All halide solutions always cause identical pitting severity."]
+    },
+    {
+      "question_id": "MAT-004",
+      "required_evidence": [
+        "For the cited 2 N mixed-acid discussion, Type 304 behavior reflects immunity to nitric acid and susceptibility to sulfuric acid.",
+        "The comparison must remain limited to the conditions and terminology reported by the source."
+      ],
+      "locator_hint": "NIST-NICKEL-592; mixed nitric/sulfuric acid discussion",
+      "must_not_claim": ["Type 304 is immune to nitric acid under every possible concentration, temperature, and service condition."]
+    },
+    {
+      "question_id": "MAT-005",
+      "required_evidence": [
+        "Chemical reaction between the material and system fluid, including no reaction, slow reaction, or impact ignition.",
+        "Propellant decomposition.",
+        "Atmospheric, galvanic, and stress corrosion."
+      ],
+      "locator_hint": "NASA-SP-8119, PDF page 130 (printed page 121), section 3.6.1.1.1 Compatibility",
+      "must_not_claim": ["These are the only factors needed for every materials-selection decision."]
+    },
+    {
+      "question_id": "MAT-006",
+      "required_evidence": [
+        "Consult the electrochemical series for metals when selecting materials for parts that touch each other.",
+        "The surrounding compatibility discussion identifies galvanic corrosion as the relevant risk.",
+        "The source also points to information on acceptable platings and finishes."
+      ],
+      "locator_hint": "NASA-SP-8119, PDF page 130 (printed page 121), section 3.6.1.1.1 Compatibility",
+      "must_not_claim": ["Consulting the electrochemical series alone proves compatibility in service."]
+    },
+    {
+      "question_id": "MAT-007",
+      "required_evidence": [
+        "2014-T4 and 2014-T6.",
+        "2024-T3, 2024-T4, and 2024-T351.",
+        "PH15-7Mo RH950 and TH1050; 17-7PH annealed and H900; 17-4PH RH950 and TH1050.",
+        "AM350 SCT850 and AM355 SCT850."
+      ],
+      "locator_hint": "NASA-SP-8119, PDF page 130 (printed page 121), section 3.6.1.1.1 Compatibility",
+      "must_not_claim": ["Every temper or condition of each named alloy is prohibited."]
+    },
+    {
+      "question_id": "MAT-008",
+      "required_evidence": [
+        "Do not use materials that are brittle at cryogenic temperature.",
+        "Consider different material shrinkage rates in sealing, latching, and releasing mechanisms.",
+        "The source notes that loading on plastic sealing members may decrease at low temperature because of thermal-expansion differences."
+      ],
+      "locator_hint": "NASA-SP-8119, PDF pages 130-131 (printed page 121)",
+      "must_not_claim": ["All plastics are categorically unsuitable for cryogenic systems."]
+    },
+    {
+      "question_id": "MAT-009",
+      "required_evidence": [
+        "For acetone, the 8-hour group lists Butyl, PE/EVAL, Barricade, CPF3, Responder, Trellchem, and Tychem.",
+        "Suggested barriers should be confirmed with the vendor and checked for additional information and use limitations.",
+        "The answer should characterize the table as protective-clothing screening information rather than a universal glove or process-material recommendation."
+      ],
+      "locator_hint": "NIOSH-CPC, Table A, acetone (CAS 67-64-1), plus table notes and NIOSH disclaimer",
+      "must_not_claim": ["The listed barriers are automatically suitable for every acetone task, product thickness, and exposure condition."]
+    },
+    {
+      "question_id": "MAT-010",
+      "required_evidence": [
+        "The entry is limited to potassium hydroxide solution below 70 percent.",
+        "The 8-hour group lists Butyl, Natural, Nitrile, PVC, and Viton.",
+        "The 4-hour group lists Teflon and PE/EVAL.",
+        "Vendor confirmation and use limitations should be retained."
+      ],
+      "locator_hint": "NIOSH-CPC, Table P, potassium hydroxide (CAS 1310-58-3), plus table notes",
+      "must_not_claim": ["The recommendation applies at or above 70 percent concentration."]
+    },
+    {
+      "question_id": "MAT-011",
+      "required_evidence": [
+        "The entry applies to hydrogen peroxide solution from 30 to 70 percent.",
+        "The 8-hour group lists Butyl, Natural, Nitrile, PE, Viton, CPF3, Responder, and Tychem.",
+        "The 4-hour group lists PVC and PE/EVAL.",
+        "Vendor confirmation and use limitations should be retained."
+      ],
+      "locator_hint": "NIOSH-CPC, Table H, hydrogen peroxide (CAS 7722-84-1), plus table notes",
+      "must_not_claim": ["The recommendation applies outside the stated concentration interval."]
+    },
+    {
+      "question_id": "MAT-012",
+      "required_evidence": [
+        "For hydrogen chloride, the 8-hour group lists Butyl, Teflon, Saranex, Barricade, Responder, Trellchem, and Tychem.",
+        "The 4-hour group lists Neoprene and PVC.",
+        "The entry says to prevent skin contact with solution and prevent possible skin freezing from direct liquid contact.",
+        "Vendor confirmation and use limitations should be retained."
+      ],
+      "locator_hint": "NIOSH-CPC, Table H, hydrogen chloride (CAS 7647-01-0), plus table notes",
+      "must_not_claim": ["The table establishes suitability for every hydrogen-chloride concentration or exposure scenario."]
+    }
+  ]
+}

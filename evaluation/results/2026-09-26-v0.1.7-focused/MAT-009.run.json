@@ -1,0 +1,8 @@
+{
+  "run_id": "c6a10c37-d83c-4b7c-bf97-0de39713d9dc",
+  "session_id": "0e08e165-7cd9-40a0-9216-892272664bcb",
+  "status": "succeeded",
+  "query_snapshot": "Which protective-clothing barrier materials does the archived NIOSH table list as providing an 8-hour rating for acetone, and what caveat should accompany use of that list?",
+  "final_answer": "Evidence-grounded answer:\n\n- The archived NIOSH table lists these protective-clothing barrier materials as providing an 8-hour rating for acetone (CAS 67-64-1): Butyl; PE/EVAL; Barricade; CPF3; Responder; Trellchem; Tychem. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- Caveat: the Recommendations for Chemical Protective Clothing database is a contractor's product procured by NIOSH and \"the recommendations contained in this database do not necessarily reflect NIOSH policy\" — therefore the table is guidance only and users should verify compatibility and current, application‑specific data with manufacturers and up-to-date test results before selecting PPE. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]",
+  "error_message": null
+}

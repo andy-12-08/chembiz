@@ -1,0 +1,8 @@
+{
+  "run_id": "cbc6ba33-c7f1-42a8-93ab-3ed424bee7e7",
+  "session_id": "59a94b8a-3a8b-4a0d-8676-73edf2629da5",
+  "status": "succeeded",
+  "query_snapshot": "For potassium hydroxide solution below 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
+  "final_answer": "Evidence-grounded answer:\n\n- For potassium hydroxide (solution <70%), the NIOSH table lists Butyl, Natural, Nitrile, PVC, and Viton in the 8-hour barrier group. [NIOSH Recommendations for Chemical Protective ...: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- For potassium hydroxide (solution <70%), the NIOSH table lists Teflon and PE/EVAL in the 4-hour barrier group. [NIOSH Recommendations for Chemical Protective ...: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]",
+  "error_message": null
+}

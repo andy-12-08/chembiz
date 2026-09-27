@@ -1,0 +1,155 @@
+{
+  "output_id": "b3e69def-f566-473f-aba0-eec7507bbc3f",
+  "session_id": "e66be20c-e208-44d0-9e77-74a6be6a7cac",
+  "run_id": "b54f0412-031e-445e-b291-287124d423c5",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "Archived NIOSH CPC table lists these 8-hour barrier materials for hydrogen chloride: Butyl; Teflon; Saranex; Barricade; Responder; Trellchem; Tychem.",
+      "Archived NIOSH CPC table lists these 4-hour barrier materials for hydrogen chloride: Neoprene; PVC.",
+      "Additional hazard language in the hydrogen chloride entry: \"Prevent skin contact (solution)/ Frostbite\".",
+      "Additional note in the entry: \"Prevent possible skin freezing from direct liquid contact.\""
+    ],
+    "query": "For hydrogen chloride, which barriers does the archived NIOSH table place in its 8-hour and 4-hour groups, and what additional hazard language appears in the entry?",
+    "answer": "Evidence-grounded answer:\n\n- Archived NIOSH CPC table lists these 8-hour barrier materials for hydrogen chloride: Butyl; Teflon; Saranex; Barricade; Responder; Trellchem; Tychem. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- Archived NIOSH CPC table lists these 4-hour barrier materials for hydrogen chloride: Neoprene; PVC. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- Additional hazard language in the hydrogen chloride entry: \"Prevent skin contact (solution)/ Frostbite\". [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- Additional note in the entry: \"Prevent possible skin freezing from direct liquid contact.\" [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]",
+    "claims": [
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "Archived NIOSH CPC table lists these 8-hour barrier materials for hydrogen chloride: Butyl; Teflon; Saranex; Barricade; Responder; Trellchem; Tychem."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "Archived NIOSH CPC table lists these 4-hour barrier materials for hydrogen chloride: Neoprene; PVC."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "Additional hazard language in the hydrogen chloride entry: \"Prevent skin contact (solution)/ Frostbite\"."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "Additional note in the entry: \"Prevent possible skin freezing from direct liquid contact.\""
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html",
+        "type": "web",
+        "pages": [],
+        "title": "NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_T0rclfS1pBu2MfPYG7pl9bmN",
+        "args": {
+          "query": "hydrogen chloride archived NIOSH table \"8-hour\" \"4-hour\" barriers entry additional hazard language archived NIOSH table hydrogen chloride barriers 8-hour 4-hour",
+          "session_id": "e66be20c-e208-44d0-9e77-74a6be6a7cac"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_T0rclfS1pBu2MfPYG7pl9bmN",
+        "content_preview": "[{\"chunk_id\": \"94683533\", \"text\": \"and to sodium hydroxide solutions but are attacked by fused sodium hydroxide at 750° F; they are superior to other copper-base alloys in resisting ammonia and its compounds but the presence of hydrogen sulfide in ammoniaeal atmos¬ pheres is detrimental, particularly to the 70:30 alloy; data were presented on their resistance to halogens and halogen compounds other than brines. Ordinarily the cupro-nickels have good resistance\\n\\nto chlorinated solvents, and the 90:10 alloy is better than the 70:30 in resistance to miscella¬ neous organic compositions; the resistance to pulp and paper stock suspensions is superior to that of phosphor bronze; in miscellaneous uses in petro¬ leum refineries their performance is generally good at ordinary and moderate temperatures, but the presence of hydrogen sulfide at elevated tempera¬ tures results in severe attack.\\n\\nThe compositions and some mechanical proper¬ ties of the cupro-nickels, as indicated in ASTM Specification B 111-55 for copper and copper-alloy seamless condenser tubes [513], are listed in table 37. Similar composition and property require¬ ments for the 70:30 and 90:10 alloys are included in ASTM …"
+      },
+      {
+        "id": "call_Yq7aZnky0BSMfXo3mdIQXtyM",
+        "args": {
+          "query": "NIOSH archived table hydrogen chloride barriers 8-hour 4-hour \"archived NIOSH table\" \"hydrogen chloride\" barriers 8-hour 4-hour",
+          "session_id": "e66be20c-e208-44d0-9e77-74a6be6a7cac"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_Yq7aZnky0BSMfXo3mdIQXtyM",
+        "content_preview": "[{\"chunk_id\": \"4bd5208c\", \"text\": \", including nicket [513],\\n\\nTable 5. Etching reagents for nickel and its alloys [513, 608]\\n\\nReagent\\n\\nComposition 1\\n\\nRemarks\\n\\nFlat solution___\\n\\n/HNO3_50 ml (Glacial acetic acid___50 ml\\n\\nMake up fresh daily. Etch by 5 to 20 sec immersion at room temperature. Forniekel, monel, and nickei- copper alloys. For alloys with less than 25% Ni, dilute with acetone.\\n\\nElectrolytic-contrast___\\n\\n(HNO3_10 ml •{Glacial acetic acid_5 ml )H20_85 ml\\n\\n20 to 60 see at 1.5 v. For grain size, grain contrast\\n\\netching.\\n\\nElectrol ytic-sulfuric___\\n\\n/H2SO4_5 ml \\\\h2o_95 ml\\n\\njs to 15 sec at 3 to 4.5 v. For nickel and Inconel.\\n\\nAqua regia_____\\n\\n(HNO3_5 ml {HC1_ 25 ml ffi20_30 ml\\n\\nEtch by immersion, 30 sec to 2 min. For Inconel.\\n\\nN itric-hvdrofluoric_\\n\\n/HNO3_ 20 ml (HF (48%)_15 drops\\n\\nJ Immerse warm specimen for 15 to 45 see. For Inconel.\\n\\nNitric acid___\\n\\nJHNO3_30 ml IH2O__ 70 ml\\n\\nJlmmersion macro-etch. For nickel silver.\\n\\nPotassium cyanide___\\n\\nKCN__5 g H2O_95 ml H2O2_Few drops\\n\\nImmersion etch. For low-zinc nickel silver.\\n\\nAmmonium hydroxide-hydrogen peroxide_\\n\\n/NH4OH_85 ml IH2O2_15 ml\\n\\n[immersion etch. For high-zinc nicke…"
+      },
+      {
+        "id": "call_yq9DXJGYEPztilX2ooTC4UEz",
+        "args": {
+          "query": "archived NIOSH table hydrogen chloride 8-hour 4-hour barriers 'hydrogen chloride' NIOSH barrier 8-hour 4-hour 'NIOSH table' archived",
+          "session_id": "e66be20c-e208-44d0-9e77-74a6be6a7cac"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_yq9DXJGYEPztilX2ooTC4UEz",
+        "content_preview": "{\"results\": [{\"content\": \"![U.S. flag](/themes/contrib/ddp_dol_theme/build/img/us_flag_small.png)\\n\\nAn official website of the United States government.\\n\\nHere’s how you know\\n\\n![Dot gov](/themes/contrib/ddp_dol_theme/build/img/icon-dot-gov.svg)\\n\\n**The .gov means it’s official.**\\n  \\n Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.\\n\\n![Https](/themes/contrib/ddp_dol_theme/build/img/icon-https.svg)\\n\\n**The site is secure.**\\n  \\n The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.\\n\\n![United States Department of Labor](/themes/contrib/ddp_dol_theme/img/Agency_DOL_Logo_dark.svg)\\n\\n## [Occupational Safety and Health Administration](/ \\\"Occupational Safety and Health Administration\\\")\\n\\n### **HYDROGEN CHLORIDE†**\\n\\n|#### Chemical Identification\\n\\n\\n|  |\\n| **CAS #** | 7647-01-0 |\\n| **Formula** | HCl |\\n| **Synonyms** | anhydrous hydrogen chloride; aqueous hydrogen chloride; hydrochloric acid; muriatic acid |\\n\\n#### Chemical Identification\\n\\nHCl\\n\\nanhydrous hydrogen chloride; aqueous …"
+      },
+      {
+        "id": "call_3TlvRwtTGt1QkBZcRKLFyo2l",
+        "args": {
+          "query": "\"NIOSH\" \"8-hour\" \"4-hour\" barrier table hydrogen chloride archived \"barrier\" \"8-hour group\" \"4-hour group\"",
+          "session_id": "e66be20c-e208-44d0-9e77-74a6be6a7cac"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_3TlvRwtTGt1QkBZcRKLFyo2l",
+        "content_preview": "{\"results\": [{\"content\": \"## **CRITERIA FOR A RECOMMENDED STANDARD**\\n\\n  \\n\\n**Occupational Noise Exposure**\\n\\n***Revised Criteria 1998***\\n\\n## **U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES**\\n\\nPublic Health Service   \\n Centers for Disease Control and Prevention   \\n National Institute for Occupational Safety and Health   \\n Cincinnati, Ohio   \\n\\n**June 1998**\\n\\n### **DISCLAIMER**\\n\\nMention of the name of any company or product does not constitute endorsement by the National Institute for Occupational Safety and Health.\\n\\nCopies of this and other NIOSH documents are available from\\n\\nPublications Dissemination   \\n Education and Information Division   \\n National Institute for Occupational Safety and Health   \\n 4676 Columbia Parkway   \\n Cincinnati, OH 45226-1998\\n\\nFax number: (513) 533-8573   \\n Telephone number: 1-800-35-NIOSH (1-800-356-4674)   \\n E-mail: pubstaft@cdc.gov\\n\\nTo receive other information about occupational safety and health problems, call [1-800-35-NIOSH](http://www.cdc.gov/niosh/inquiry.html) (1-800-356-4674), or visit the NIOSH Homepage on the World Wide Web at [http://www.cdc.gov/niosh](http://www.cdc.gov/niosh/)\\n\\n**DHHS (NIOSH) Publication No. 9…"
+      },
+      {
+        "id": "call_3SW8V8MmqNaiXE4dEwPw1jXS",
+        "args": {
+          "query": "\"chemical protective clothing\" NIOSH table 8-hour 4-hour barrier '8-hour' '4-hour' archived 'hydrogen chloride' 'barrier' 'permeation' NIOSH archived table barriers",
+          "session_id": "e66be20c-e208-44d0-9e77-74a6be6a7cac"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_3SW8V8MmqNaiXE4dEwPw1jXS",
+        "content_preview": "{\"results\": [{\"content\": \"[Skip directly to site content](#content) [Skip directly to search](#headerSearch)\\n\\n[Español](/spanish/) |  [Other Languages](https://wwwn.cdc.gov/pubs/other-languages/)\\n\\n[The National Institute for Occupational Safety and Health (NIOSH)](/niosh/index.htm)\\n\\n# Recommendations for Chemical Protective Clothing: A Companion to the NIOSH Pocket Guide to Chemical Hazards\\n\\nRelated Pages\\n\\n### A-Z\\n\\n[A](#tabs-1-1)[B](#tabs-1-2)[C](#tabs-1-3)[D](#tabs-1-4)[E](#tabs-1-5)[F](#tabs-1-6)[G](#tabs-1-7)[H](#tabs-1-8)[I](#tabs-1-9)[K](#tabs-1-10)[L](#tabs-1-11)[M](#tabs-1-12)[N](#tabs-1-13)[O](#tabs-1-14)[P](#tabs-1-15)[Q](#tabs-1-16)[R](#tabs-1-17)[S](#tabs-1-18)[T](#tabs-1-19)[U](#tabs-1-20)[V](#tabs-1-21)[W](#tabs-1-22)[X](#tabs-1-23)[Y](#tabs-1-24)[Z](#tabs-1-25)\\n\\nTABLE A\\n\\n| Chemical | CAS No. | Recommendation for skin protection† | Recommended protective clothing barriers\\\\* |\\n| --- | --- | --- | --- |\\n| Acetaldehyde | 75-07-0 | Prevent skin contact | 8 hr: Butyl, Responder, Tychem 4 hr: Teflon, PE/EVAL |\\n| Acetic acid | 64-19-7 | Prevent skin contact | 8 hr: Butyl, Teflon, Viton, PE/EVAL, Responder, Tychem 4 hr: Neoprene, Barricade |\\n| Acetic anhyd…"
+      },
+      {
+        "id": "call_DXmVJ5n0MsVZ6z8aCtQq7Ing",
+        "args": {
+          "query": "site:archive.cdc.gov \"Hydrogen chloride\" \"8 hr\" \"4 hr\" \"Butyl\" \"Neoprene\" \"Saranex\" \"Tre\"",
+          "session_id": "e66be20c-e208-44d0-9e77-74a6be6a7cac"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_DXmVJ5n0MsVZ6z8aCtQq7Ing",
+        "content_preview": "{\"results\": [{\"content\": \"[Skip directly to site content](#content) [Skip directly to search](#headerSearch)\\n\\n[Español](/spanish/) |  [Other Languages](https://wwwn.cdc.gov/pubs/other-languages/)\\n\\n[The National Institute for Occupational Safety and Health (NIOSH)](/niosh/index.htm)\\n\\n# Recommendations for Chemical Protective Clothing: A Companion to the NIOSH Pocket Guide to Chemical Hazards\\n\\nRelated Pages\\n\\n### A-Z\\n\\n[A](#tabs-1-1)[B](#tabs-1-2)[C](#tabs-1-3)[D](#tabs-1-4)[E](#tabs-1-5)[F](#tabs-1-6)[G](#tabs-1-7)[H](#tabs-1-8)[I](#tabs-1-9)[K](#tabs-1-10)[L](#tabs-1-11)[M](#tabs-1-12)[N](#tabs-1-13)[O](#tabs-1-14)[P](#tabs-1-15)[Q](#tabs-1-16)[R](#tabs-1-17)[S](#tabs-1-18)[T](#tabs-1-19)[U](#tabs-1-20)[V](#tabs-1-21)[W](#tabs-1-22)[X](#tabs-1-23)[Y](#tabs-1-24)[Z](#tabs-1-25)\\n\\nTABLE A\\n\\n| Chemical | CAS No. | Recommendation for skin protection† | Recommended protective clothing barriers\\\\* |\\n| --- | --- | --- | --- |\\n| Acetaldehyde | 75-07-0 | Prevent skin contact | 8 hr: Butyl, Responder, Tychem 4 hr: Teflon, PE/EVAL |\\n| Acetic acid | 64-19-7 | Prevent skin contact | 8 hr: Butyl, Teflon, Viton, PE/EVAL, Responder, Tychem 4 hr: Neoprene, Barricade |\\n| Acetic anhyd…"
+      }
+    ],
+    "open_questions": [
+      "The archived CPC table entry does not state concentration, temperature, or whether the barrier recommendations apply specifically to anhydrous HCl gas versus aqueous solutions (hydrochloric acid); that detail is not present in the cited table.",
+      "The table does not provide manufacturer-specific permeation/breakthrough times or testing temperatures for the listed materials for hydrogen chloride in this entry."
+    ]
+  }
+}

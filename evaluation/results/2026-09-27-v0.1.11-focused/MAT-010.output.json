@@ -1,0 +1,148 @@
+{
+  "output_id": "723dae3e-bd34-4701-8fa0-a260e100dee2",
+  "session_id": "4d5250ec-656a-47bd-9bb9-71ac0ce96d26",
+  "run_id": "8ae4a744-4327-490a-ba3b-700ddf12630f",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "The archived NIOSH table places Butyl in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%.",
+      "The archived NIOSH table places Nitrile in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%.",
+      "The archived NIOSH table places Neoprene in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%.",
+      "The archived NIOSH table places Polyvinyl chloride (PVC) in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%.",
+      "The archived NIOSH table places Viton in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%.",
+      "The archived NIOSH table lists Barrier® as a >8-hour (8-hour) breakthrough glove/barrier for potassium hydroxide solution below 70%.",
+      "The archived NIOSH table lists Tychem® BR, Responder®, and TK as protective clothing materials with >8-hour breakthrough for potassium hydroxide solution below 70%."
+    ],
+    "query": "For potassium hydroxide solution below 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
+    "answer": "Evidence-grounded answer:\n\n- The archived NIOSH table places Butyl in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%. [1988 OSHA PEL Project - Potassium Hydroxide | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html]\n- The archived NIOSH table places Nitrile in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%. [1988 OSHA PEL Project - Potassium Hydroxide | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html]\n- The archived NIOSH table places Neoprene in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%. [1988 OSHA PEL Project - Potassium Hydroxide | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html]\n- The archived NIOSH table places Polyvinyl chloride (PVC) in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%. [1988 OSHA PEL Project - Potassium Hydroxide | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html]\n- The archived NIOSH table places Viton in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%. [1988 OSHA PEL Project - Potassium Hydroxide | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html]\n- The archived NIOSH table lists Barrier® as a >8-hour (8-hour) breakthrough glove/barrier for potassium hydroxide solution below 70%. [1988 OSHA PEL Project - Potassium Hydroxide | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html]\n- The archived NIOSH table lists Tychem® BR, Responder®, and TK as protective clothing materials with >8-hour breakthrough for potassium hydroxide solution below 70%. [1988 OSHA PEL Project - Potassium Hydroxide | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html]",
+    "claims": [
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH table places Butyl in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH table places Nitrile in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH table places Neoprene in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH table places Polyvinyl chloride (PVC) in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH table places Viton in the >8-hour (8-hour) barrier group for potassium hydroxide solution below 70%."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH table lists Barrier® as a >8-hour (8-hour) breakthrough glove/barrier for potassium hydroxide solution below 70%."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH table lists Tychem® BR, Responder®, and TK as protective clothing materials with >8-hour breakthrough for potassium hydroxide solution below 70%."
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/pel88/1310-58.html",
+        "type": "web",
+        "pages": [],
+        "title": "1988 OSHA PEL Project - Potassium Hydroxide | NIOSH | CDC",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_ufUyyKwGZMCCo62SR0FStCcC",
+        "args": {
+          "query": "potassium hydroxide solution below 70 percent 8-hour 4-hour NIOSH archived table",
+          "session_id": "4d5250ec-656a-47bd-9bb9-71ac0ce96d26"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_ufUyyKwGZMCCo62SR0FStCcC",
+        "content_preview": "[{\"chunk_id\": \"4bd5208c\", \"text\": \", including nicket [513],\\n\\nTable 5. Etching reagents for nickel and its alloys [513, 608]\\n\\nReagent\\n\\nComposition 1\\n\\nRemarks\\n\\nFlat solution___\\n\\n/HNO3_50 ml (Glacial acetic acid___50 ml\\n\\nMake up fresh daily. Etch by 5 to 20 sec immersion at room temperature. Forniekel, monel, and nickei- copper alloys. For alloys with less than 25% Ni, dilute with acetone.\\n\\nElectrolytic-contrast___\\n\\n(HNO3_10 ml •{Glacial acetic acid_5 ml )H20_85 ml\\n\\n20 to 60 see at 1.5 v. For grain size, grain contrast\\n\\netching.\\n\\nElectrol ytic-sulfuric___\\n\\n/H2SO4_5 ml \\\\h2o_95 ml\\n\\njs to 15 sec at 3 to 4.5 v. For nickel and Inconel.\\n\\nAqua regia_____\\n\\n(HNO3_5 ml {HC1_ 25 ml ffi20_30 ml\\n\\nEtch by immersion, 30 sec to 2 min. For Inconel.\\n\\nN itric-hvdrofluoric_\\n\\n/HNO3_ 20 ml (HF (48%)_15 drops\\n\\nJ Immerse warm specimen for 15 to 45 see. For Inconel.\\n\\nNitric acid___\\n\\nJHNO3_30 ml IH2O__ 70 ml\\n\\nJlmmersion macro-etch. For nickel silver.\\n\\nPotassium cyanide___\\n\\nKCN__5 g H2O_95 ml H2O2_Few drops\\n\\nImmersion etch. For low-zinc nickel silver.\\n\\nAmmonium hydroxide-hydrogen peroxide_\\n\\n/NH4OH_85 ml IH2O2_15 ml\\n\\n[immersion etch. For high-zinc nicke…"
+      },
+      {
+        "id": "call_aejsuue9DC2BziHAs1uWoRg0",
+        "args": {
+          "query": "archived NIOSH table potassium hydroxide solution below 70 percent 8-hour 4-hour barrier 8-hour group 4-hour group site:cdc.gov NIOSH \"potassium hydroxide\" \"archived\" table 8-hour 4-hour",
+          "session_id": "4d5250ec-656a-47bd-9bb9-71ac0ce96d26"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_aejsuue9DC2BziHAs1uWoRg0",
+        "content_preview": "{\"results\": [{\"content\": \"![](/TemplatePackage/4.0/assets/imgs/uswds/us_flag_small.png)\\n![](/TemplatePackage/4.0/assets/imgs/uswds/icon-dot-gov.svg)\\n\\n**Official websites use .gov**\\n\\nA .gov website belongs to an official government organization in the United States.\\n\\n![](/TemplatePackage/4.0/assets/imgs/uswds/icon-https.svg)\\n\\n**Secure .gov websites use HTTPS**\\n\\nA lock (  ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.\\n\\n![CDC Logo](/TemplatePackage/4.0/assets/imgs/logo/logo-notext.svg)\\n![CDC Logo](/TemplatePackage/4.0/assets/imgs/logo/logo-notext.svg)\\n![NIOSH logo and tagline](/niosh/images/si-no-left-vp4.png?_=94662)\\n\\n# POTASSIUM HYDROXIDE\\n\\n*OSHA comments from the January 19, 1989 Final Rule on Air Contaminants Project extracted from 54FR2332 et. seq. This rule was remanded by the U.S. Circuit Court of Appeals and the limits are not currently in force.*\\n\\n**CAS:** 1310-58-3; **Chemical Formula:** KOH\\n\\nOSHA had no former limit for potassium hydroxide. A ceiling limit of 2 mg/m3 was proposed by the Agency based on the ACGIH recommendation, and NIOSH (Ex. 8-47, Table N1) concurred with…"
+      },
+      {
+        "id": "call_K1qySBQZGJ1heDH8VkuX1rJw",
+        "args": {
+          "query": "NIOSH archived table barrier materials 8-hour 4-hour groups potassium hydroxide solution below 70% \"8-hour\" \"4-hour\" \"barrier\"",
+          "session_id": "4d5250ec-656a-47bd-9bb9-71ac0ce96d26"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_K1qySBQZGJ1heDH8VkuX1rJw",
+        "content_preview": "{\"results\": [{\"content\": \"Right to Know Hazardous Substance Fact Sheet Common Name: POTASSIUM HYDROXIDE Synonyms: Caustic Potash; Lye; Potassium Hydrate Chemical Name: Potassium Hydroxide (KOH) Date: May 2001 Revision: January 2010 CAS Number: 1310-58-3 RTK Substance Number: 1571 DOT Number: UN 1813 Description and Use Potassium Hydroxide is an odorless, white or slightly yellow, flakey or lumpy solid which is often in a water solution. It is used in making soap, as an electrolyte in alkaline batteries and in electroplating, lithography, and paint and varnish removers. Liquid drain cleaners contain 25 to 36% of Potassium Hydroxide. Reasons for Citation f Potassium Hydroxide is on the Right to Know Hazardous Substance List because it is cited by ACGIH, DOT, NIOSH, NFPA and EPA. f This chemical is on the Special Health Hazard Substance List. SEE GLOSSARY ON PAGE 5. FIRST AID Eye Contact f Quickly brush off excess chemical from the face. Immediately flush with large amounts of water for at least 30 minutes, lifting upper and lower lids. Remove contact lenses, if worn, while flushing. Seek medical attention immediately. Skin Contact f Quickly remove contaminated clothing. Immediately b…"
+      },
+      {
+        "id": "call_0p17dMk5H3JqlPapZlpVCOFD",
+        "args": {
+          "query": "\"potassium hydroxide\" \"4-hour\" \"8-hour\" barrier NIOSH \"chemical protective clothing\" table \"potassium hydroxide\"",
+          "session_id": "4d5250ec-656a-47bd-9bb9-71ac0ce96d26"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_0p17dMk5H3JqlPapZlpVCOFD",
+        "content_preview": "{\"results\": [{\"content\": \"Right to Know Hazardous Substance Fact Sheet Common Name: POTASSIUM HYDROXIDE Synonyms: Caustic Potash; Lye; Potassium Hydrate Chemical Name: Potassium Hydroxide (KOH) Date: May 2001 Revision: January 2010 CAS Number: 1310-58-3 RTK Substance Number: 1571 DOT Number: UN 1813 Description and Use Potassium Hydroxide is an odorless, white or slightly yellow, flakey or lumpy solid which is often in a water solution. It is used in making soap, as an electrolyte in alkaline batteries and in electroplating, lithography, and paint and varnish removers. Liquid drain cleaners contain 25 to 36% of Potassium Hydroxide. Reasons for Citation f Potassium Hydroxide is on the Right to Know Hazardous Substance List because it is cited by ACGIH, DOT, NIOSH, NFPA and EPA. f This chemical is on the Special Health Hazard Substance List. SEE GLOSSARY ON PAGE 5. FIRST AID Eye Contact f Quickly brush off excess chemical from the face. Immediately flush with large amounts of water for at least 30 minutes, lifting upper and lower lids. Remove contact lenses, if worn, while flushing. Seek medical attention immediately. Skin Contact f Quickly remove contaminated clothing. Immediately b…"
+      }
+    ],
+    "open_questions": [
+      "The provided archived NIOSH page excerpt supports which materials are in the >8-hour group but does not provide an explicit list of materials placed in a 4-hour group for potassium hydroxide solution below 70%—where does the archived NIOSH table list the 4-hour group materials (specific page/section) or are they absent from the archived record supplied?"
+    ]
+  }
+}

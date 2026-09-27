@@ -1,0 +1,21 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "dataset_version": "0.1.0",
+  "run_started_from_client_at": "2026-09-27T01:33:14.257796+00:00",
+  "base_url": "http://localhost:8000",
+  "user_id": "chembiz-eval-v0.1.0",
+  "results": [
+    {
+      "question_id": "MAT-007",
+      "session_id": "3964e225-5aa3-4af3-96bf-482c908edbc1",
+      "run_id": "06169063-6efe-4dc5-b7bc-b27b6a0bde3c",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-008",
+      "session_id": "7b5e1cb0-8d56-4698-802a-1f943e8a46d2",
+      "run_id": "2e51189a-6088-41b6-9305-924a7a9839d0",
+      "status": "succeeded"
+    }
+  ]
+}

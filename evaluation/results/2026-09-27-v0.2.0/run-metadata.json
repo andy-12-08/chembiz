@@ -1,0 +1,21 @@
+{
+  "evaluated_at": "2026-09-27",
+  "system_iteration": "v0.2.0-generalized-prompt",
+  "dataset": "chembiz-materials-eval v0.1.0",
+  "model": "gpt-5-mini",
+  "corpus_user_id": "chembiz-eval-v0.1.0",
+  "corpus": [
+    "nbscircular592.pdf",
+    "nasa-sp-8119.pdf",
+    "niosh-cpc-az.html",
+    "niosh-cpc-disclaimer.html"
+  ],
+  "configuration_notes": [
+    "Core prompt generalized for chemical-engineering evidence synthesis.",
+    "Hybrid dense and lexical document retrieval enabled.",
+    "Official archived NIOSH HTML sources were frozen, checksummed, and indexed locally.",
+    "Per-run client polling limit was 420 seconds.",
+    "This batch predates the hard non-blocking status-deadline and recoverable OCR-error patches made after failure analysis."
+  ],
+  "validation_scope": "Internal curated regression; domain-expert review pending"
+}

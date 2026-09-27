@@ -1,0 +1,77 @@
+{
+  "output_id": "7d88c531-dd69-48a0-9be8-2d8f97f56851",
+  "session_id": "292b5126-9802-496b-ab8a-d4a53f755328",
+  "run_id": "033797c5-a43c-4907-88fe-d34a1e9af189",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "For hydrogen chloride the NIOSH archived table lists these 8-hour recommended protective clothing barriers: Butyl, Teflon, Saranex, Barricade, Responder, Trellchem, Tychem.",
+      "For hydrogen chloride the NIOSH archived table lists these 4-hour recommended protective clothing barriers: Neoprene, PVC.",
+      "The hydrogen chloride entry includes the hazard language: \"Prevent skin contact (solution)/Frostbite.\"",
+      "The hydrogen chloride entry includes the note: \"Prevent possible skin freezing from direct liquid contact.\""
+    ],
+    "query": "For hydrogen chloride, which barriers does the archived NIOSH table place in its 8-hour and 4-hour groups, and what additional hazard language appears in the entry?",
+    "answer": "Evidence-grounded answer:\n\n- For hydrogen chloride the NIOSH archived table lists these 8-hour recommended protective clothing barriers: Butyl, Teflon, Saranex, Barricade, Responder, Trellchem, Tychem. [niosh-cpc-az.html, chunk 2323dcf8]\n- For hydrogen chloride the NIOSH archived table lists these 4-hour recommended protective clothing barriers: Neoprene, PVC. [niosh-cpc-az.html, chunk 2323dcf8]\n- The hydrogen chloride entry includes the hazard language: \"Prevent skin contact (solution)/Frostbite.\" [niosh-cpc-az.html, chunk 2323dcf8]\n- The hydrogen chloride entry includes the note: \"Prevent possible skin freezing from direct liquid contact.\" [niosh-cpc-az.html, chunk 2323dcf8]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2323dcf8"
+        ],
+        "statement": "For hydrogen chloride the NIOSH archived table lists these 8-hour recommended protective clothing barriers: Butyl, Teflon, Saranex, Barricade, Responder, Trellchem, Tychem."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2323dcf8"
+        ],
+        "statement": "For hydrogen chloride the NIOSH archived table lists these 4-hour recommended protective clothing barriers: Neoprene, PVC."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2323dcf8"
+        ],
+        "statement": "The hydrogen chloride entry includes the hazard language: \"Prevent skin contact (solution)/Frostbite.\""
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2323dcf8"
+        ],
+        "statement": "The hydrogen chloride entry includes the note: \"Prevent possible skin freezing from direct liquid contact.\""
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-az.html",
+        "source": "niosh-cpc-az.html",
+        "file_id": "bbd329c5-8b3e-4291-a1f4-2d4671beeb4a",
+        "chunk_id": "2323dcf8"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_BnkjKEWf2NWaQ2E2ytXfftFe",
+        "args": {
+          "query": "hydrogen chloride NIOSH table 8-hour 4-hour barriers archived NIOSH table \"hydrogen chloride\" \"8-hour\" \"4-hour\" barrier",
+          "session_id": "292b5126-9802-496b-ab8a-d4a53f755328"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_BnkjKEWf2NWaQ2E2ytXfftFe",
+        "content_preview": "[{\"chunk_id\": \"25257761\", \"text\": \", as Cu) 7440-50-8 Prevent skin contact Contact the manufacturer for recommendations Copper fume (as Cu) 1317-38-0 (CuO) N.R. Determine based on working conditions Cotton dust (raw) N.R. Determine based on working conditions Crag® herbicide 136-78-7 Prevent skin contact Contact the manufacturer for recommendations o-Cresol 95-48-7 Prevent skin contact Contact the manufacturer for recommendations m-Cresol 108-39-4 Prevent skin contact 4 hr: Neoprene, Teflon p-Cresol 106-44-5 Prevent skin contact 4 hr: PE/EVAL Crotonaldehyde 4170-30-3 Prevent skin contact 8 hr: Butyl, Responder 4 hr: Teflon Crufomate 299-86-5 Prevent skin contact Contact the manufacturer for recommendations Cumene 98-82-8 Prevent skin contact 8 hr: Tychem 4 hr: Teflon Cyanamide 420-04-2 Prevent skin contact Contact the manufacturer for recommendations Cyanogen 460-19-5 Frostbite Prevent possible skin freezing from direct liquid contact Cyanogen chloride 506-77-4 Prevent skin contact (liquid) 4 hr: Teflon Cyclohexane 110-82-7 Prevent skin contact 8 hr: Nitrile, Viton, PE/EVAL, Barricade, Responder 4 hr: PVA, Teflon Cyclohexanethiol 1569-69-3 Prevent skin contact Contact the manufactu…"
+      }
+    ],
+    "open_questions": []
+  }
+}

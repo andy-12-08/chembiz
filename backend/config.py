@@ -1,0 +1,60 @@
+"""Backend configuration: typed defaults grouped by section."""
+
+from __future__ import annotations
+
+from pydantic import BaseModel, Field
+
+SESSION_UPLOADS_SUBDIR = "uploads"
+SESSION_GENERATED_SUBDIR = "generated"
+
+MAX_CONCURRENT_INGEST_FILES = 4
+
+INGEST_CHUNK_TOKENS = 1200
+INGEST_CHUNK_OVERLAP_TOKENS = 200
+INGEST_SCHEMA_VERSION = 2
+UNSTRUCTURED_PARTITION_STRATEGY = "auto"
+
+QDRANT_SCROLL_BATCH = 512
+QDRANT_TIMEOUT_SECONDS = 120.0
+QDRANT_UPSERT_BATCH_SIZE = 128
+
+WEB_SEARCH_MAX_RESULTS = 5
+WEB_SEARCH_DOMAIN_FILTER_MODE = "off"
+WEB_SEARCH_DOMAINS: list[str] = []
+WEB_SEARCH_CONTENT_MAX_CHARS = 4000
+WEB_SEARCH_TIMEOUT_SECONDS = 20
+TAVILY_SEARCH_DEPTH = "basic"
+
+DEFAULT_RETRIEVAL_TOP_K = 20
+
+RETRIEVAL_TOP_K_MAX = 50
+DEFAULT_RETRIEVAL_SCORE_THRESHOLD: float | None = None
+RETRIEVAL_LEXICAL_CANDIDATE_LIMIT = 1000
+RETRIEVAL_LEXICAL_RESERVED_SLOTS = 5
+
+HANDOFF_EVIDENCE_MAX_DOCUMENT_CHUNKS = 30
+HANDOFF_EVIDENCE_EXCERPT_CHARS = 3000
+HANDOFF_WEB_EVIDENCE_EXCERPT_CHARS = 12000
+HANDOFF_TRANSCRIPT_MAX_CHARS = 60000
+HANDOFF_TOOL_TRACE_PREVIEW_CHARS = 1200
+
+DEEPSEARCH_RECURSION_LIMIT = 10
+DEEPSEARCH_AGENT_TIMEOUT_SECONDS = 360
+DEEPSEARCH_HANDOFF_TIMEOUT_SECONDS = 120
+
+
+class EmbeddingConfig(BaseModel):
+    """OpenAI embedding API defaults (see EmbedDocument)."""
+
+    model: str = Field(
+        default="text-embedding-3-large",
+        description="Embedding model id passed to the OpenAI API",
+    )
+    batch_size: int = Field(
+        default=64,
+        ge=1,
+        description="Maximum chunk texts per embeddings API request",
+    )
+
+
+embedding = EmbeddingConfig()

@@ -1,0 +1,67 @@
+{
+  "dataset": "chembiz-chemical-engineering-eval",
+  "version": "0.1-draft",
+  "key_status": "draft; exact locators recorded; independent expert review pending",
+  "questions": [
+    {
+      "id": "CE-THERMO-001",
+      "domain": "thermodynamics",
+      "question": "Using the DOE handbook, distinguish open, closed, and isolated thermodynamic systems by what can cross the system boundary, and explain why the control-volume approach is commonly used for process equipment.",
+      "required_source_ids": ["DOE-THERMO-V1"]
+    },
+    {
+      "id": "CE-THERMO-002",
+      "domain": "thermodynamics",
+      "question": "What energy terms must be considered when applying the first law to a steady-flow control volume, and which terms may be neglected only after stating appropriate engineering assumptions?",
+      "required_source_ids": ["DOE-THERMO-V1"]
+    },
+    {
+      "id": "CE-EQUIL-001",
+      "domain": "reaction_equilibrium",
+      "question": "How does the DOE chemistry handbook describe an equilibrium system's response to an imposed stress, and why must reaction rate be addressed with kinetics evidence such as the condition-bounded records described by NIST rather than inferred from Le Chatelier's principle alone?",
+      "required_source_ids": ["DOE-CHEM-V1", "NIST-KINETICS"]
+    },
+    {
+      "id": "CE-KINETICS-001",
+      "domain": "chemical_kinetics",
+      "question": "Which metadata fields in a NIST Chemical Kinetics Database rate record are needed to judge whether a reported rate expression applies to a proposed reactor condition, and why should the expression not be extrapolated without qualification?",
+      "required_source_ids": ["NIST-KINETICS"]
+    },
+    {
+      "id": "CE-HEAT-001",
+      "domain": "heat_transfer",
+      "question": "Distinguish conduction, convection, and radiation as heat-transfer modes and identify the principal physical quantities needed to evaluate each mode without presenting the result as a complete equipment design.",
+      "required_source_ids": ["DOE-HEAT-V2"]
+    },
+    {
+      "id": "CE-FLOW-001",
+      "domain": "fluid_flow",
+      "question": "How does the DOE handbook distinguish laminar from turbulent internal flow, and what role and limitations does Reynolds number have in making that classification?",
+      "required_source_ids": ["DOE-FLOW-V3"]
+    },
+    {
+      "id": "CE-FLOW-002",
+      "domain": "fluid_flow",
+      "question": "What factors does the DOE handbook identify as affecting frictional head loss in a piping system, and why is a qualitative list insufficient for a final pressure-drop calculation?",
+      "required_source_ids": ["DOE-FLOW-V3"]
+    },
+    {
+      "id": "CE-SEP-001",
+      "domain": "separations",
+      "question": "In the DOE chemistry handbook's gaseous-diffusion discussion, how are permeability, pressure difference, and separation performance related, and which stated assumptions or equipment factors limit generalization?",
+      "required_source_ids": ["DOE-CHEM-V1"]
+    },
+    {
+      "id": "CE-WATER-001",
+      "domain": "water_treatment",
+      "question": "How does the DOE handbook describe ion exchange as a water-treatment method, including resin function, regeneration, and the conditions that determine whether the method is appropriate?",
+      "required_source_ids": ["DOE-CHEM-V2"]
+    },
+    {
+      "id": "CE-SAFETY-001",
+      "domain": "chemical_safety",
+      "question": "What source-specific information should be retained when using the DOE chemical-hazards discussion to screen a chemical handling task, and why is that information insufficient by itself for a final operating procedure?",
+      "required_source_ids": ["DOE-CHEM-V2"]
+    }
+  ]
+}

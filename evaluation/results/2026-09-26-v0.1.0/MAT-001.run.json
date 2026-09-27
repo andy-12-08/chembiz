@@ -1,0 +1,8 @@
+{
+  "run_id": "1c362b9e-8bbc-4b4c-8171-1a71c71e2fe1",
+  "session_id": "58835dbb-ff8b-408c-8581-9663bdca3548",
+  "status": "succeeded",
+  "query_snapshot": "According to NBS Circular 592, which molybdenum-bearing stainless-steel types were reported as most resistant to sulfuric acid at low temperatures, and what limitations prevent treating that statement as a universal material recommendation?",
+  "final_answer": "Evidence-grounded answer:\n\n- NBS Circular 592 reports that molybdenum-bearing austenitic stainless steels Types 316 and 317 were most resistant to sulfuric acid at low temperatures. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]\n- The Circular states that resistance of stainless steels to sulfuric acid decreases with increasing temperature and that by about 150°F stainless steels corrode in many concentrations. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]\n- The Circular (citing Roach & Hall) reports Mo-bearing stainless steels were useful at room temperature only for certain sulfuric acid concentration ranges (e.g., below ~15% and above ~85% as noted in the Circular). [nbscircular592.pdf, pp. 59-60, chunk b0a15485]\n- The Circular warns that corrosion performance may vary with corrodent concentration, impurities (including oxygen), temperature, alloy composition and prior history, surface condition, contact with dissimilar metals, and other service factors. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]\n- The Circular notes that additions of molybdenum reduce but do not eliminate susceptibility to localized attack (for example, pitting) and that specific environments (e.g., halide-containing solutions) can change alloy behavior. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]",
+  "error_message": null
+}

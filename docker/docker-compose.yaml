@@ -1,0 +1,117 @@
+services:
+  temporal:
+    image: temporalio/auto-setup:1.27.2
+    environment:
+      - DB=${TEMPORAL_DB}
+      - DB_PORT=${TEMPORAL_DB_PORT}
+      - POSTGRES_USER=${TEMPORAL_DB_USER}
+      - POSTGRES_PWD=${TEMPORAL_DB_PASSWORD}
+      - POSTGRES_SEEDS=${TEMPORAL_DB_HOST}
+    ports:
+      - "${TEMPORAL_PORT}:7233"
+    depends_on:
+      - temporal-postgresql
+    restart: unless-stopped
+
+  temporal-ui:
+    image: temporalio/ui:2.37.2
+    environment:
+      - TEMPORAL_ADDRESS=${TEMPORAL_SERVER_ADDRESS}
+      - TEMPORAL_CORS_ORIGINS=${TEMPORAL_UI_CORS_ORIGINS}
+    ports:
+      - "${TEMPORAL_UI_PORT}:8080"
+    depends_on:
+      - temporal
+    restart: unless-stopped
+
+  temporal-postgresql:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=${TEMPORAL_DB_USER}
+      - POSTGRES_PASSWORD=${TEMPORAL_DB_PASSWORD}
+      - POSTGRES_DB=${TEMPORAL_DB_NAME}
+    volumes:
+      - temporal_postgresql_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  app-postgres:
+    image: postgres:16-alpine
+    command: ["postgres", "-p", "5433"]
+    env_file: .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "${POSTGRES_PORT}:5433"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB -p 5433"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.5
+    ports:
+      - "${QDRANT_PORT}:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    restart: unless-stopped
+
+  api:
+    build:
+      context: ..
+      dockerfile: docker/dockerfile
+    env_file: .env
+    ports:
+      - "8000:8000"
+    environment:
+      PYTHONUNBUFFERED: "1"
+      RUN_MIGRATIONS: "1"
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@app-postgres:5433/${POSTGRES_DB}
+    volumes:
+      - ../data:/app/data
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)\""]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    depends_on:
+      app-postgres:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+      temporal:
+        condition: service_started
+    restart: unless-stopped
+
+  temporal-worker:
+    build:
+      context: ..
+      dockerfile: docker/dockerfile
+    command: ["python", "-m", "backend.temporal.worker"]
+    env_file: .env
+    environment:
+      PYTHONUNBUFFERED: "1"
+      RUN_MIGRATIONS: "0"
+      TEMPORAL_SERVER_ADDRESS: ${TEMPORAL_SERVER_ADDRESS}
+      TEMPORAL_NAMESPACE: ${TEMPORAL_NAMESPACE}
+      TEMPORAL_TASK_QUEUE: ${TEMPORAL_TASK_QUEUE}
+    volumes:
+      - ../data:/app/data
+    cpus: 2.0
+    mem_limit: 4g
+    depends_on:
+      api:
+        condition: service_healthy
+      app-postgres:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+      temporal:
+        condition: service_started
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  qdrant_data:
+  temporal_postgresql_data:

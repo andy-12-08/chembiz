@@ -1,0 +1,8 @@
+{
+  "run_id": "f4007a29-0d34-42f3-a571-056a3cc230d1",
+  "session_id": "557caa87-d8fd-4e65-afc4-14a12819a0db",
+  "status": "succeeded",
+  "query_snapshot": "How does NBS Circular 592 contrast Type 304 stainless steel's behavior in nitric acid with its behavior in sulfuric acid when discussing 2 N mixed acids?",
+  "final_answer": "Evidence-grounded answer:\n\n- NBS Circular 592 (pp. 59–60) states that Type 304 stainless steel is particularly effective in resisting nitric acid. [nbscircular592.pdf, pp. 59-60, chunk b0a15485; nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- NBS Circular 592 (pp. 59–60) states that in 2 N mixed acids (ranging from 2 N HNO3 to 2 N H2SO4) Type 304’s behavior reflects its immunity to nitric acid and its susceptibility to sulfuric acid. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]\n- NBS Circular 592 (p. 60) reports that stainless steels were reported resistant to fuming nitric acid but that resistance decreased with increasing temperature up to about 160°F. [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- NBS Circular 592 (pp. 59–60) describes embrittlement and intergranular oxidation/corrosion of some stainless steels at high temperatures due to precipitation of chromium carbides at grain boundaries. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]",
+  "error_message": null
+}

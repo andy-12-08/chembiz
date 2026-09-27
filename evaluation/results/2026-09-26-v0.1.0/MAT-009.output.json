@@ -1,0 +1,237 @@
+{
+  "output_id": "525a1341-283e-47d1-80b9-54b319c56cf3",
+  "session_id": "53410f51-1ad3-471b-9e11-86e4bab67360",
+  "run_id": "28a24e77-d097-46f9-87ca-b8a68ecaee38",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "The archived NIOSH TABLE A lists Butyl as providing an 8-hour rating for acetone.",
+      "The archived NIOSH TABLE A lists PE/EVAL as providing an 8-hour rating for acetone.",
+      "The archived NIOSH TABLE A lists Barricade as providing an 8-hour rating for acetone.",
+      "The archived NIOSH TABLE A lists CPF3 as providing an 8-hour rating for acetone.",
+      "The archived NIOSH TABLE A lists Responder as providing an 8-hour rating for acetone.",
+      "The archived NIOSH TABLE A lists Trellchem as providing an 8-hour rating for acetone.",
+      "The archived NIOSH TABLE A lists Tychem as providing an 8-hour rating for acetone.",
+      "The archived NIOSH recommendations table is a contractor product and its contents 'do not necessarily reflect NIOSH policy' (i.e., the table is guidance, not an absolute NIOSH specification).",
+      "Permeation and protective performance depend strongly on conditions such as temperature, chemical concentration, mixtures, contact duration, and barrier thickness.",
+      "No material protects against all chemicals or prolonged exposure (i.e., chemicals will eventually permeate protective clothing under some conditions)."
+    ],
+    "query": "Which protective-clothing barrier materials does the archived NIOSH table list as providing an 8-hour rating for acetone, and what caveat should accompany use of that list?",
+    "answer": "Evidence-grounded answer:\n\n- The archived NIOSH TABLE A lists Butyl as providing an 8-hour rating for acetone. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- The archived NIOSH TABLE A lists PE/EVAL as providing an 8-hour rating for acetone. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- The archived NIOSH TABLE A lists Barricade as providing an 8-hour rating for acetone. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- The archived NIOSH TABLE A lists CPF3 as providing an 8-hour rating for acetone. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- The archived NIOSH TABLE A lists Responder as providing an 8-hour rating for acetone. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- The archived NIOSH TABLE A lists Trellchem as providing an 8-hour rating for acetone. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- The archived NIOSH TABLE A lists Tychem as providing an 8-hour rating for acetone. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- The archived NIOSH recommendations table is a contractor product and its contents 'do not necessarily reflect NIOSH policy' (i.e., the table is guidance, not an absolute NIOSH specification). [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- Permeation and protective performance depend strongly on conditions such as temperature, chemical concentration, mixtures, contact duration, and barrier thickness. [OSHA Technical Manual (OTM) - Section VIII: Chapter 1 | Occupational Safety and Health Administration: http://www.osha.gov/otm/section-8-ppe/chapter-1; Protective Clothing and Ensembles | NIOSH: https://restoredcdc.org/www.cdc.gov/niosh/topics/protclothing/default.html]\n- No material protects against all chemicals or prolonged exposure (i.e., chemicals will eventually permeate protective clothing under some conditions). [OSHA Technical Manual (OTM) - Section VIII: Chapter 1 | Occupational Safety and Health Administration: http://www.osha.gov/otm/section-8-ppe/chapter-1]",
+    "claims": [
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH TABLE A lists Butyl as providing an 8-hour rating for acetone."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH TABLE A lists PE/EVAL as providing an 8-hour rating for acetone."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH TABLE A lists Barricade as providing an 8-hour rating for acetone."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH TABLE A lists CPF3 as providing an 8-hour rating for acetone."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH TABLE A lists Responder as providing an 8-hour rating for acetone."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH TABLE A lists Trellchem as providing an 8-hour rating for acetone."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH TABLE A lists Tychem as providing an 8-hour rating for acetone."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH recommendations table is a contractor product and its contents 'do not necessarily reflect NIOSH policy' (i.e., the table is guidance, not an absolute NIOSH specification)."
+      },
+      {
+        "urls": [
+          "http://www.osha.gov/otm/section-8-ppe/chapter-1",
+          "https://restoredcdc.org/www.cdc.gov/niosh/topics/protclothing/default.html"
+        ],
+        "chunk_ids": [],
+        "statement": "Permeation and protective performance depend strongly on conditions such as temperature, chemical concentration, mixtures, contact duration, and barrier thickness."
+      },
+      {
+        "urls": [
+          "http://www.osha.gov/otm/section-8-ppe/chapter-1"
+        ],
+        "chunk_ids": [],
+        "statement": "No material protects against all chemicals or prolonged exposure (i.e., chemicals will eventually permeate protective clothing under some conditions)."
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html",
+        "type": "web",
+        "pages": [],
+        "title": "NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      },
+      {
+        "url": "http://www.osha.gov/otm/section-8-ppe/chapter-1",
+        "type": "web",
+        "pages": [],
+        "title": "OSHA Technical Manual (OTM) - Section VIII: Chapter 1 | Occupational Safety and Health Administration",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      },
+      {
+        "url": "https://restoredcdc.org/www.cdc.gov/niosh/topics/protclothing/default.html",
+        "type": "web",
+        "pages": [],
+        "title": "Protective Clothing and Ensembles | NIOSH",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_YssPyFJoNrWvaniFgImr1BFy",
+        "args": {
+          "query": "archived NIOSH table 8-hour rating acetone protective-clothing barrier materials 'archived NIOSH table' 'acetone' '8-hour'",
+          "session_id": "53410f51-1ad3-471b-9e11-86e4bab67360"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_YssPyFJoNrWvaniFgImr1BFy",
+        "content_preview": "[{\"chunk_id\": \"61976bca\", \"text\": \"International\\n\\nNickel Co.\\n\\nfi_r nickel-ba._e\\n\\nalloys\\n\\n(AMS\\n\\nX-750\\n\\n55t)7A and 55q8.\\n\\nresp.)\\n\\nInvar\\n\\nInternational\\n\\nNickel\\n\\n('o. designatitm for a nickel\\n\\nalloy\\n\\n_vith vei.v I_\\n\\ncoefficient\\n\\nof\\n\\nthermal expansion\\n\\nJP-4\\n\\nmilitary jet MIL-J-5 I(,I\\n\\nfllel consisting\\n\\nof gast_line and light petiolettiu\\n\\ntlistill;itc pc1\\n\\nKeI-F\\n\\ntrademark\\n\\nof\\n\\n3 M ('orp.\\n\\n1\\\"ol a high-m_dccular-_cight\\n\\np_,l._iucm ,,I\\n\\nchlorot rifluoroet[lylene\\n\\nK-Monel\\n\\ntrade\\n\\ndesigllation\\n\\no[\\n\\nhlteli_atiotlal\\n\\nNickel\\n\\n('t,.\\n\\nf…"
+      },
+      {
+        "id": "call_s1e45nNUcajyMomoIOO9xlUW",
+        "args": {
+          "query": "archived NIOSH table 8-hour rating acetone protective clothing '8-hour' acetone 'NIOSH' 'archived table' 'protective clothing'",
+          "session_id": "53410f51-1ad3-471b-9e11-86e4bab67360"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_s1e45nNUcajyMomoIOO9xlUW",
+        "content_preview": "{\"results\": [{\"content\": \"![U.S. flag](/themes/contrib/ddp_dol_theme/build/img/us_flag_small.png)\\n\\nAn official website of the United States government.\\n\\nHere’s how you know\\n\\n![Dot gov](/themes/contrib/ddp_dol_theme/build/img/icon-dot-gov.svg)\\n\\n**The .gov means it’s official.**\\n  \\n Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.\\n\\n![Https](/themes/contrib/ddp_dol_theme/build/img/icon-https.svg)\\n\\n**The site is secure.**\\n  \\n The **https://** ensures that you are connecting to the official we…"
+      },
+      {
+        "id": "call_BUQGniRfNiQGFYlrE2O9xwL4",
+        "args": {
+          "query": "\"8-hour\" acetone protective clothing table NIOSH archived \"8 hour\" \"acetone\" protective clothing materials table NIOSH archived table '8-hour rating'",
+          "session_id": "53410f51-1ad3-471b-9e11-86e4bab67360"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_BUQGniRfNiQGFYlrE2O9xwL4",
+        "content_preview": "{\"results\": [{\"content\": \"|  |  |\\n| --- | --- |\\n| Chemical OS+H Database Logo | **Recommendations for Chemical Protective Clothing**  **A Companion to the *NIOSH Pocket Guide to Chemical Hazards***  **TABLE A** |\\n\\n|  |  |  |  |\\n| --- | --- | --- | --- |\\n|  | **CAS No.** | **Recommendation for skin protection** | **Recommended protective clothing barriers\\\\*** |\\n| --- |\\n|  |  | Prevent skin contact | 8 hr: Butyl, Responder, Tychem  4 hr: Teflon, PE/EVAL |\\n| Acetic acid |  | Prevent skin contact | 8 hr: Butyl, Teflon, Viton, PE/EVAL, Responder, Tychem  4 hr: Neoprene, Barricade |\\n| Ace…"
+      },
+      {
+        "id": "call_oUp1oshqeaCjAlja7R9VkM2U",
+        "args": {
+          "query": "\"Recommendations for Chemical Protective Clothing\" acetone note 'table a' 'caveat' 'consult manufacturer' 'archive.cdc.gov/www_cdc_gov/niosh/ncpc' 'recommendations' 'note'",
+          "session_id": "53410f51-1ad3-471b-9e11-86e4bab67360"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_oUp1oshqeaCjAlja7R9VkM2U",
+        "content_preview": "{\"results\": [{\"content\": \"[Skip directly to site content](#content) [Skip directly to search](#headerSearch)\\n\\n[Español](/spanish/) |  [Other Languages](https://wwwn.cdc.gov/pubs/other-languages/)\\n\\n[The National Institute for Occupational Safety and Health (NIOSH)](/niosh/index.htm)\\n\\n# Recommendations for Chemical Protective Clothing: A Companion to the NIOSH Pocket Guide to Chemical Hazards\\n\\nRelated Pages\\n\\n### A-Z\\n\\n[A](#tabs-1-1)[B](#tabs-1-2)[C](#tabs-1-3)[D](#tabs-1-4)[E](#tabs-1-5)[F](#tabs-1-6)[G](#tabs-1-7)[H](#tabs-1-8)[I](#tabs-1-9)[K](#tabs-1-10)[L](#tabs-1-11)[M](#tabs-1-1…"
+      },
+      {
+        "id": "call_oLkhyUIS3odvHK7ZLNhacl5c",
+        "args": {
+          "query": "\"Recommendations for Chemical Protective Clothing\" footnote \"*\" \"†\" \"Recommended protective clothing barriers\" footnote '†' ' * ' 'note' 'recommendations for chemical protective clothing' archive.cdc.gov ncpc footnote 'compatibility' 'manufacturer'",
+          "session_id": "53410f51-1ad3-471b-9e11-86e4bab67360"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_oLkhyUIS3odvHK7ZLNhacl5c",
+        "content_preview": "{\"results\": [{\"content\": \"[Skip directly to site content](#content) [Skip directly to search](#headerSearch)\\n\\n[Español](/spanish/) |  [Other Languages](https://wwwn.cdc.gov/pubs/other-languages/)\\n\\n[The National Institute for Occupational Safety and Health (NIOSH)](/niosh/index.htm)\\n\\n# Recommendations for Chemical Protective Clothing: A Companion to the NIOSH Pocket Guide to Chemical Hazards\\n\\nRelated Pages\\n\\n### A-Z\\n\\n[A](#tabs-1-1)[B](#tabs-1-2)[C](#tabs-1-3)[D](#tabs-1-4)[E](#tabs-1-5)[F](#tabs-1-6)[G](#tabs-1-7)[H](#tabs-1-8)[I](#tabs-1-9)[K](#tabs-1-10)[L](#tabs-1-11)[M](#tabs-1-1…"
+      },
+      {
+        "id": "call_2LKLsTmBU8aI6CUOrvkTGBbT",
+        "args": {
+          "query": "\"Recommended protective clothing barriers*\" \"†\" \"This table\" \"guidance only\" \"NIOSH Recommendations for Chemical Protective Clothing\" 'table a' 'note'",
+          "session_id": "53410f51-1ad3-471b-9e11-86e4bab67360"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_2LKLsTmBU8aI6CUOrvkTGBbT",
+        "content_preview": "{\"results\": [{\"content\": \"[Skip directly to search](default.html#searchTarget) [Skip directly to A to Z list](default.html#azTab) [Skip directly to navigation](default.html#nav-container) [Skip directly to page options](default.html#share-bar) [Skip directly to site content](default.html#contentArea)\\n\\n[![Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People](../../TemplatePackage/3.0/images/masthead_subpage.svg) ![Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People](../../TemplatePackage/3.0/images/ma…"
+      },
+      {
+        "id": "call_XaJ22xQw6EXUGATz3830tTo8",
+        "args": {
+          "query": "\"All chemicals will eventually permeate\" \"Recommendations for Chemical Protective Clothing\" NIOSH archive",
+          "session_id": "53410f51-1ad3-471b-9e11-86e4bab67360"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_XaJ22xQw6EXUGATz3830tTo8",
+        "content_preview": "{\"results\": [{\"content\": \"|  |  |\\n| --- | --- |\\n| Chemical OS+H Database Logo | **Recommendations for Chemical Protective Clothing**  **A Companion to the *NIOSH Pocket Guide to Chemical Hazards***  **TABLE A** |\\n\\n|  |  |  |  |\\n| --- | --- | --- | --- |\\n|  | **CAS No.** | **Recommendation for skin protection** | **Recommended protective clothing barriers\\\\*** |\\n| --- |\\n|  |  | Prevent skin contact | 8 hr: Butyl, Responder, Tychem  4 hr: Teflon, PE/EVAL |\\n| Acetic acid |  | Prevent skin contact | 8 hr: Butyl, Teflon, Viton, PE/EVAL, Responder, Tychem  4 hr: Neoprene, Barricade |\\n| Ace…"
+      }
+    ],
+    "open_questions": [
+      "The evidence inventory supplies only web URLs for the archived NIOSH table; there is no document chunk_id (document snapshot chunk) included in the inventory showing the TABLE A row for acetone—can a primary archived page snapshot or document chunk_id be provided to corroborate the exact table text?",
+      "The available inventory shows general guidance that users must confirm suitability, but an explicit source in the inventory that mandates the specific method by which users must verify suitability for their exact scenario (e.g., 'obtain manufacturer permeation test data' or a required test protocol) is not present—can a source be provided that specifies the required verification steps?"
+    ]
+  }
+}

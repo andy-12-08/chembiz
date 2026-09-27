@@ -1,0 +1,8 @@
+{
+  "run_id": "36d07f59-a27d-434c-8eb3-66c289826b91",
+  "session_id": "f22b2886-6285-4f59-8e3d-1839d1551b3d",
+  "status": "succeeded",
+  "query_snapshot": "Which categories of material-compatibility considerations does NASA SP-8119 say should be evaluated when selecting metal alloys for contact with a system fluid?",
+  "final_answer": "Evidence-grounded answer:\n\n- NASA SP-8119 discusses contamination as a material-compatibility consideration for seals/materials contacting system fluids. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 discusses lubrication as a material-compatibility or functional consideration for components contacting fluids. [nasa-sp-8119.pdf, pp. 85-88, chunk 91eb9fc5]\n- NASA SP-8119 identifies thermal expansion and the need to use materials with similar coefficients of expansion (to avoid bolting/clearance problems) as a selection consideration. [nasa-sp-8119.pdf, pp. 85-88, chunk 91eb9fc5]\n- NASA SP-8119 includes a material/fluids identification table that lists many specific fluids and propellants (e.g., hydrazine, hydrogen peroxide, JP-4) relevant to material-selection decisions. [nasa-sp-8119.pdf, pp. 144-145, chunk fe7cd63c]\n- NASA SP-8119 uses the designation 'CRES' (corrosion-resistant steel) in its material-identification entries, indicating corrosion-related material considerations. [nasa-sp-8119.pdf, pp. 144-145, chunk fe7cd63c]\n- NASA SP-8119 notes that some fluids are 'not compatible' with certain materials, indicating the document addresses general fluid-material compatibility issues. [nasa-sp-8119.pdf, pp. 55-58, chunk 6b3b19e0]",
+  "error_message": null
+}

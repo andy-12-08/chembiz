@@ -1,0 +1,61 @@
+{
+  "output_id": "bbad03ae-7fb0-4500-bc36-1bf330942a14",
+  "session_id": "be3846db-c0a1-4222-b124-1e988ee27e32",
+  "run_id": "5fa55301-e596-4060-b186-84836b6e7687",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "The archived NIOSH table entry for Potassium hydroxide (solution <70% only) lists Butyl, Natural, Nitrile, PVC, and Viton as recommended 8-hour protective clothing barriers.",
+      "The archived NIOSH table entry for Potassium hydroxide (solution <70% only) lists Teflon and PE/EVAL as recommended 4-hour protective clothing barriers."
+    ],
+    "query": "For potassium hydroxide solution below 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
+    "answer": "Evidence-grounded answer:\n\n- The archived NIOSH table entry for Potassium hydroxide (solution <70% only) lists Butyl, Natural, Nitrile, PVC, and Viton as recommended 8-hour protective clothing barriers. [niosh-cpc-az.html, chunk 6840f775]\n- The archived NIOSH table entry for Potassium hydroxide (solution <70% only) lists Teflon and PE/EVAL as recommended 4-hour protective clothing barriers. [niosh-cpc-az.html, chunk 6840f775]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "6840f775"
+        ],
+        "statement": "The archived NIOSH table entry for Potassium hydroxide (solution <70% only) lists Butyl, Natural, Nitrile, PVC, and Viton as recommended 8-hour protective clothing barriers."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "6840f775"
+        ],
+        "statement": "The archived NIOSH table entry for Potassium hydroxide (solution <70% only) lists Teflon and PE/EVAL as recommended 4-hour protective clothing barriers."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-az.html",
+        "source": "niosh-cpc-az.html",
+        "file_id": "bbd329c5-8b3e-4291-a1f4-2d4671beeb4a",
+        "chunk_id": "6840f775"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_OPvAPtVamG7J8REFEujt8Ln6",
+        "args": {
+          "query": "archived NIOSH table potassium hydroxide solution below 70 percent 8-hour 4-hour barriers",
+          "session_id": "be3846db-c0a1-4222-b124-1e988ee27e32"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_OPvAPtVamG7J8REFEujt8Ln6",
+        "content_preview": "[{\"chunk_id\": \"6840f775\", \"text\": \"26-13-8 Prevent skin contact Contact the manufacturer for recommendations Phosphorus pentasulfide 1314-80-3 Prevent skin contact* [*Note: Flame retardant equipment should be provided] Contact the manufacturer for recommendations Phosphorus trichloride 7719-12-2 Prevent skin contact 8 hr: Barricade, Trellchem 4 hr: Teflon Phthalic anhydride 85-44-9 Prevent skin contact 4 hr: PE/EVAL m-Phthalodinitrile 626-17-5 Prevent skin contact Contact the manufacturer for recommendations Picloram 1918-02-1 Prevent skin contact Contact the manufacturer for recommendations Picric acid 88-89-1 Prevent skin contact Contact the manufacturer for recommendations Pindone 83-26-1 N.R. Determine based on working conditions Piperazine dihydrochloride 142-64-3 Prevent skin contact Contact the manufacturer for recommendations Plaster of Paris 26499-65-0 N.R. Determine based on working conditions Platinum 7440-06-4 N.R. Determine based on working conditions Platinum (soluble salts, as Pt) Prevent skin contact Contact the manufacturer for recommendations for specific compounds Portland cement 65997-15-1 Prevent skin contact Any barrier that will prevent contamination from the…"
+      }
+    ],
+    "open_questions": []
+  }
+}

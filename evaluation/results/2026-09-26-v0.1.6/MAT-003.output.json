@@ -1,0 +1,74 @@
+{
+  "output_id": "22ddfd6c-fa88-4050-b163-dba61a1ee33c",
+  "session_id": "c07b5577-1a53-4202-853e-1ad310b931d5",
+  "run_id": "5c38acd8-91d9-4e39-b5db-51a8240e0b3d",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "Hydrochloric acid and some solutions containing halide ions attack the passive film on stainless steel.",
+      "Such attack \"produce[s] corrosion of the pitting type.\"",
+      "Additions of molybdenum reduce the susceptibility to pitting corrosion."
+    ],
+    "query": "What corrosion mechanism does NBS Circular 592 associate with hydrochloric acid and other halide-containing solutions attacking stainless steel?",
+    "answer": "Evidence-grounded answer:\n\n- Hydrochloric acid and some solutions containing halide ions attack the passive film on stainless steel. [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- Such attack \"produce[s] corrosion of the pitting type.\" [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- Additions of molybdenum reduce the susceptibility to pitting corrosion. [nbscircular592.pdf, p. 60, chunk 2b809bc1]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2b809bc1"
+        ],
+        "statement": "Hydrochloric acid and some solutions containing halide ions attack the passive film on stainless steel."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2b809bc1"
+        ],
+        "statement": "Such attack \"produce[s] corrosion of the pitting type.\""
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2b809bc1"
+        ],
+        "statement": "Additions of molybdenum reduce the susceptibility to pitting corrosion."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          60
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+        "chunk_id": "2b809bc1"
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_gbBygqk13W4JRXNjFs6xdBim",
+        "args": {
+          "query": "NBS Circular 592 hydrochloric acid halide-containing solutions attacking stainless steel corrosion mechanism NBS Circular 592 'Circular 592' 'stainless steel' 'hydrochloric acid' 'halide'",
+          "session_id": "c07b5577-1a53-4202-853e-1ad310b931d5"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_gbBygqk13W4JRXNjFs6xdBim",
+        "content_preview": "[{\"chunk_id\": \"6745f7b0\", \"text\": \"-20 Cr-12 Co-6 W alloy was pro¬\\n\\nposed for cast valve-seat inserts [717],\\n\\nNickel-chromium-iron alloys will withstand short exposures up to 3,500° F when they are coated with a flame-sprayed mixture of nickel oxide and magnesium oxide [486].\\n\\n4.5. Hastelloy Alloys\\n\\nThe first of the high-nickel corrosion-resistant alloys known as Hastelloys were nickel-molyb¬ denum-iron alloys, but in subsequent alloys the composition was considerably changed. This dis¬ cussion will be confined to the corrosion-resistant alloys A, B, C, D, and F. Hastelloy R and Hastelloy X were designed for high-temperature mechanical properties, i. e., for super alloy service. Hastelloy A contains 56 Ni-22 Mo-22 Fe. It is usefully resistant to all concentrations of hydro¬ chloric acid at room temperature and to unaerated solutions at temperatures below about 160° F. It is usefully resistant to sulfuric acid of all concen¬ trations at temperatures up to about 160° F, and up to the boiling point for concentrations below 50 percent. It is resistant to acid chlorides, acid phosphates, organic acids and compounds, to at¬ mospheric oxidation, and to oxidizing and reducing flue …"
+      }
+    ],
+    "open_questions": [
+      "Circular 592 (in the provided evidence) does not give detailed mechanistic steps (electrochemical sequence) by which halide ions break down the passive film on stainless steel.",
+      "Circular 592 (in the provided evidence) does not specify concentration, temperature, or exposure-duration thresholds for onset of pitting by hydrochloric acid or halide-containing solutions on stainless steels."
+    ]
+  }
+}

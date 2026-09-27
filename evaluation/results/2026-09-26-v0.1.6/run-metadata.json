@@ -1,0 +1,24 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "dataset_version": "0.1.0",
+  "run_date_local": "2026-09-26",
+  "evaluation_user_id": "chembiz-eval-v0.1.0",
+  "execution_method": "Automated local-API runner against Docker Compose",
+  "chat_model": "gpt-5-mini",
+  "chat_reasoning_effort": "medium",
+  "embedding_model": "text-embedding-3-large",
+  "retrieval": "hybrid dense retrieval with five reserved lexical results",
+  "retrieval_top_k": 20,
+  "agent_recursion_limit": 16,
+  "agent_timeout_seconds": 600,
+  "handoff_timeout_seconds": 180,
+  "software_commit": "eefe926dffa0a695ec0b05013c2fdad1a04f057b",
+  "working_tree_clean": false,
+  "key_status": "curated draft; independent domain-expert review pending",
+  "notes": [
+    "The batch was run after focused development on MAT-005, MAT-007, and MAT-008.",
+    "MAT-002, MAT-009, MAT-010, and MAT-011 failed under the bounded execution policy.",
+    "Failed runs have no structured output and were scored as zero for end-to-end completeness.",
+    "The commit hash identifies the base commit; the exact evaluated code includes uncommitted working-tree changes."
+  ]
+}

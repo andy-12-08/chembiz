@@ -1,0 +1,134 @@
+{
+  "output_id": "4c0456ca-d7a8-4e71-afbc-6260902ebaf4",
+  "session_id": "164cf023-8421-4ea7-84f3-51a5b30794e4",
+  "run_id": "16a1e5b6-c9a7-47ae-9f3a-a3fb2d1a5206",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "NBS Circular 592 reports that molybdenum-bearing stainless steels types 316 and 317 \"were the most resistant at low temperatures.\"",
+      "The Circular states that at about 150° F all of the stainless steels \"corrode in practically all concentrations of acid from [corrupted lower-bound character] to 95 percent.\"",
+      "Roach and Hall reported that molybdenum-bearing stainless steels were useful, at room temperature, in concentrations of sulfuric acid below 15 percent and above 85 percent.",
+      "The Circular notes that resistance to sulfuric acid can be improved in some cases by additions of copper or cerium.",
+      "The Circular explains that halide ions and aeration/flow can attack the passive film and produce pitting; additions of molybdenum reduce susceptibility to pitting but do not remove other dependencies.",
+      "The Circular identifies additional factors that limit generalization of the \"most resistant\" statement, including temperature, acid concentration, impurities/aeration, presence of halides, mechanical and residual stresses (stress‑corrosion cracking), welding/fabrication history (residual flux, carbide or sigma‑phase precipitation), and other metallurgical or service conditions."
+    ],
+    "query": "According to NBS Circular 592, which molybdenum-bearing stainless-steel types were reported as most resistant to sulfuric acid at low temperatures, and what limitations prevent treating that statement as a universal material recommendation?",
+    "answer": "Evidence-grounded answer:\n\n- NBS Circular 592 reports that molybdenum-bearing stainless steels types 316 and 317 \"were the most resistant at low temperatures.\" [nbscircular592.pdf, pp. 59-60, chunk b0a15485; nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- The Circular states that at about 150° F all of the stainless steels \"corrode in practically all concentrations of acid from [corrupted lower-bound character] to 95 percent.\" [nbscircular592.pdf, pp. 59-60, chunk b0a15485; nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- Roach and Hall reported that molybdenum-bearing stainless steels were useful, at room temperature, in concentrations of sulfuric acid below 15 percent and above 85 percent. [nbscircular592.pdf, pp. 59-60, chunk b0a15485; nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- The Circular notes that resistance to sulfuric acid can be improved in some cases by additions of copper or cerium. [nbscircular592.pdf, pp. 59-60, chunk b0a15485; nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- The Circular explains that halide ions and aeration/flow can attack the passive film and produce pitting; additions of molybdenum reduce susceptibility to pitting but do not remove other dependencies. [nbscircular592.pdf, pp. 59-60, chunk b0a15485; nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- The Circular identifies additional factors that limit generalization of the \"most resistant\" statement, including temperature, acid concentration, impurities/aeration, presence of halides, mechanical and residual stresses (stress‑corrosion cracking), welding/fabrication history (residual flux, carbide or sigma‑phase precipitation), and other metallurgical or service conditions. [nbscircular592.pdf, pp. 59-60, chunk b0a15485; nbscircular592.pdf, p. 60, chunk 2b809bc1]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "b0a15485",
+          "2b809bc1"
+        ],
+        "statement": "NBS Circular 592 reports that molybdenum-bearing stainless steels types 316 and 317 \"were the most resistant at low temperatures.\""
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "b0a15485",
+          "2b809bc1"
+        ],
+        "statement": "The Circular states that at about 150° F all of the stainless steels \"corrode in practically all concentrations of acid from [corrupted lower-bound character] to 95 percent.\""
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "b0a15485",
+          "2b809bc1"
+        ],
+        "statement": "Roach and Hall reported that molybdenum-bearing stainless steels were useful, at room temperature, in concentrations of sulfuric acid below 15 percent and above 85 percent."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "b0a15485",
+          "2b809bc1"
+        ],
+        "statement": "The Circular notes that resistance to sulfuric acid can be improved in some cases by additions of copper or cerium."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "b0a15485",
+          "2b809bc1"
+        ],
+        "statement": "The Circular explains that halide ions and aeration/flow can attack the passive film and produce pitting; additions of molybdenum reduce susceptibility to pitting but do not remove other dependencies."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "b0a15485",
+          "2b809bc1"
+        ],
+        "statement": "The Circular identifies additional factors that limit generalization of the \"most resistant\" statement, including temperature, acid concentration, impurities/aeration, presence of halides, mechanical and residual stresses (stress‑corrosion cracking), welding/fabrication history (residual flux, carbide or sigma‑phase precipitation), and other metallurgical or service conditions."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          59,
+          60
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+        "chunk_id": "b0a15485"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          60
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+        "chunk_id": "2b809bc1"
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_8VXIkNsjYhBELi9ON2FcxbyD",
+        "args": {
+          "query": "NBS Circular 592 molybdenum-bearing stainless steel sulfuric acid low temperatures most resistant 'Circular 592' 'NBS' 'molybdenum' 'sulfuric acid'",
+          "session_id": "164cf023-8421-4ea7-84f3-51a5b30794e4"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_8VXIkNsjYhBELi9ON2FcxbyD",
+        "content_preview": "[{\"chunk_id\": \"b0a15485\", \"text\": \"itic stainless steel at high temperatures, it was observed that some of the stainless steels became embrittled and subject to intergranular oxidation and corrosion. The trou¬ ble was traced to the precipitation of chromium carbides at the grain boundaries, thereby reducing the chromium content and the oxidation- or cor¬ rosion-resistance of the adjacent matrix. The problem was attacked in two ways, first, by re¬ duction in the amount of carbon available to form carbides, i. e., by the development of low-carbon steels such as 304L and 316L of table 24 and; second, by the addition to 0.08-carbon steels of elements such as columbium or titanium (types 321 and 347 of table 24) that formed their own stable carbides and thereby prevented the forma¬ tion of chromium carbides. Both lines of attack were successful in greatly reducing the tendency to carbide precipitation at the grain boundaries [636, 726]. However, the carbide precipitation problem still exists for unstabilized, normal carbon stainless steels that are subject to prolonged heat¬ ing in the temperature range 800° to 1,550° F, in the steam power and chemical industries as well as in aircraft …"
+      },
+      {
+        "id": "call_cHrlX7RTNfwp5ecmyU3eTqVa",
+        "args": {
+          "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+          "chunk_id": "b0a15485",
+          "session_id": "164cf023-8421-4ea7-84f3-51a5b30794e4",
+          "page_number": 60,
+          "source_session_id": "7027af4d-b122-4e00-8d9d-ccbdfbf61771"
+        },
+        "kind": "call",
+        "name": "document_page_ocr_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_page_ocr_tool",
+        "tool_call_id": "call_cHrlX7RTNfwp5ecmyU3eTqVa",
+        "content_preview": "{\"chunk_id\": \"b0a15485\", \"source_session_id\": \"7027af4d-b122-4e00-8d9d-ccbdfbf61771\", \"file_id\": \"77d13352-009a-4c26-ac91-dc6c34ea6f40\", \"source\": \"nbscircular592.pdf\", \"page_number\": 60, \"page_count\": 96, \"native_text\": \"and coworkers [621] reported that stainless steels \\nwere resistant to fuming nitric acid, that the \\nresistance decreased with increasing temperature \\nup to 160° F, and the rate of erosive-corrosive \\nattack decreased with increased rate of flow, as \\nshown in table 29, probably because of removal of \\ndecomposition products from the metal surface. \\nIn sulfuric acid, Kiefer and Renshaw [231] reported \\nthat molybdenum-bearing types 316 and 317 were \\nthe most resistant at low temperatures, but at \\nabout 150° F all of the stainless steels corrode in \\npractically all concentrations of acid from ){ to \\n95 percent. However, Roach and Hall [726] \\nreported that molybdenum-bearing stainless steels \\nwere useful, at room temperature, in concentra¬ \\ntions of sulfuric acid below 15 percent and above \\n85 percent. The resistance to sulfuric acid is \\nimproved in some cases by additions of copper or \\ncerium [231, 629], In 2 N mixed acids, ranging \\nfrom 2 N HN03 to 2…"
+      }
+    ],
+    "open_questions": [
+      "The printed lower bound of the concentration range quoted in the sentence \"at about 150° F all of the stainless steels corrode in practically all concentrations of acid from } to 95 percent\" is unreadable/corrupted in the provided PDF/OCR (chunk_id: b0a15485; 2b809bc1). The exact lower bound as printed in the Circular could not be verified from the supplied evidence.",
+      "The Circular cites underlying studies (Kiefer and Renshaw; Roach and Hall) for the summarized statements. Specific test conditions, sample conditions, and quantitative data in those original reports are not included in the cited excerpt here; application to a given service condition would require consulting the original references for detailed test conditions (these original‑study details are not present in the provided chunks)."
+    ]
+  }
+}

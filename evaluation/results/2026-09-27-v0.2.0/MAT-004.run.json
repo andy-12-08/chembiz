@@ -1,0 +1,8 @@
+{
+  "run_id": "c4ca0c32-9293-4e74-ab8a-904dabca623a",
+  "session_id": "1134dc90-1408-484c-9f8c-5f1a32555993",
+  "status": "succeeded",
+  "query_snapshot": "How does NBS Circular 592 contrast Type 304 stainless steel's behavior in nitric acid with its behavior in sulfuric acid when discussing 2 N mixed acids?",
+  "final_answer": "Evidence-grounded answer:\n\n- In 2 N mixed acids (ranging from 2 N HNO3 to 2 N H2SO4), Type 304 stainless steel is immune to nitric acid. [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- In 2 N mixed acids (ranging from 2 N HNO3 to 2 N H2SO4), Type 304 stainless steel is susceptible to sulfuric acid. [nbscircular592.pdf, p. 60, chunk 2b809bc1]",
+  "error_message": null
+}

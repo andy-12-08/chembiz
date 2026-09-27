@@ -1,0 +1,8 @@
+{
+  "run_id": "0b1c6952-e0e8-452c-ae86-0349d61f546d",
+  "session_id": "e345f9c4-cc1a-446f-b328-b6414af147c6",
+  "status": "succeeded",
+  "query_snapshot": "What two temperature-related material-selection concerns does NASA SP-8119 identify for cryogenic disconnects?",
+  "final_answer": "Evidence-grounded answer:\n\n- Elastomeric O-rings or molded-in-place elastomeric seals are specified for limited-temperature-range systems (approximately -80 °F to +500 °F), indicating limited low-temperature suitability for elastomeric seals in cryogenic applications. [nasa-sp-8119.pdf, pp. 14-15, chunk 7630d48f]\n- NASA SP-8119 discusses coefficient-of-thermal-expansion issues and cites low-expansion alloys (e.g., Invar) and alloy designations, indicating thermal-expansion/thermal-shrinkage is a material-selection concern. [nasa-sp-8119.pdf, pp. 145-148, chunk 61976bca]",
+  "error_message": null
+}

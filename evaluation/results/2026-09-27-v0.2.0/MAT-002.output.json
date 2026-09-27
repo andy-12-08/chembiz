@@ -1,0 +1,129 @@
+{
+  "output_id": "682f6fe1-be3a-4b9a-9617-f2199eca2f62",
+  "session_id": "bce7889f-f1ce-4df4-bcff-5df742dd9fc0",
+  "run_id": "014c0302-a6bc-4bc4-8461-e0a07ca30684",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "Kiefer and Renshaw reported that molybdenum-bearing types 316 and 317 were the most resistant to sulfuric acid at low temperatures.",
+      "NBS Circular 592 states that at about 150°F all of the stainless steels corrode in practically all concentrations of sulfuric acid from [UNREADABLE lower bound] to 95 percent.",
+      "Roach and Hall reported that molybdenum-bearing stainless steels were useful at room temperature in sulfuric acid concentrations below 15 percent and above 85 percent.",
+      "The Circular reports that resistance to sulfuric acid is improved in some cases by additions of copper or cerium.",
+      "NBS Circular 592 describes Hastelloy A as usefully resistant to sulfuric acid of all concentrations at temperatures up to about 160°F (presented as an example of a higher-resistance alloy).",
+      "Inference — For screening, do not conclude that stainless steel is acceptable for sulfuric-acid service at ≈150°F across concentrations; require alloy-, temperature-, and concentration-specific corrosion-rate data or select a more resistant alloy."
+    ],
+    "query": "What does NBS Circular 592 report about the corrosion behavior of stainless steels in sulfuric acid at approximately 150 degrees Fahrenheit across acid concentrations, and how should that affect a screening conclusion?",
+    "answer": "Evidence-grounded answer:\n\n- Kiefer and Renshaw reported that molybdenum-bearing types 316 and 317 were the most resistant to sulfuric acid at low temperatures. [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- NBS Circular 592 states that at about 150°F all of the stainless steels corrode in practically all concentrations of sulfuric acid from [UNREADABLE lower bound] to 95 percent. [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- Roach and Hall reported that molybdenum-bearing stainless steels were useful at room temperature in sulfuric acid concentrations below 15 percent and above 85 percent. [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- The Circular reports that resistance to sulfuric acid is improved in some cases by additions of copper or cerium. [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- NBS Circular 592 describes Hastelloy A as usefully resistant to sulfuric acid of all concentrations at temperatures up to about 160°F (presented as an example of a higher-resistance alloy). [nbscircular592.pdf, pp. 79-80, chunk 6745f7b0]\n- Inference — For screening, do not conclude that stainless steel is acceptable for sulfuric-acid service at ≈150°F across concentrations; require alloy-, temperature-, and concentration-specific corrosion-rate data or select a more resistant alloy. [nbscircular592.pdf, p. 60, chunk 2b809bc1; nbscircular592.pdf, pp. 79-80, chunk 6745f7b0]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2b809bc1"
+        ],
+        "statement": "Kiefer and Renshaw reported that molybdenum-bearing types 316 and 317 were the most resistant to sulfuric acid at low temperatures."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2b809bc1"
+        ],
+        "statement": "NBS Circular 592 states that at about 150°F all of the stainless steels corrode in practically all concentrations of sulfuric acid from [UNREADABLE lower bound] to 95 percent."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2b809bc1"
+        ],
+        "statement": "Roach and Hall reported that molybdenum-bearing stainless steels were useful at room temperature in sulfuric acid concentrations below 15 percent and above 85 percent."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2b809bc1"
+        ],
+        "statement": "The Circular reports that resistance to sulfuric acid is improved in some cases by additions of copper or cerium."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "6745f7b0"
+        ],
+        "statement": "NBS Circular 592 describes Hastelloy A as usefully resistant to sulfuric acid of all concentrations at temperatures up to about 160°F (presented as an example of a higher-resistance alloy)."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2b809bc1",
+          "6745f7b0"
+        ],
+        "statement": "Inference — For screening, do not conclude that stainless steel is acceptable for sulfuric-acid service at ≈150°F across concentrations; require alloy-, temperature-, and concentration-specific corrosion-rate data or select a more resistant alloy."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          60
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+        "chunk_id": "2b809bc1"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          79,
+          80
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+        "chunk_id": "6745f7b0"
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_wudoPD8o3TRcYitAjiFBmaB0",
+        "args": {
+          "query": "NBS Circular 592 stainless steels sulfuric acid 150 F corrosion behavior across acid concentrations",
+          "session_id": "bce7889f-f1ce-4df4-bcff-5df742dd9fc0"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_wudoPD8o3TRcYitAjiFBmaB0",
+        "content_preview": "[{\"chunk_id\": \"2b809bc1\", \"text\": \"30 f by nitric acid as a function of temperature [335].\\n\\n53\\n\\n[page 60]\\n\\nand coworkers [621] reported that stainless steels were resistant to fuming nitric acid, that the resistance decreased with increasing temperature up to 160° F, and the rate of erosive-corrosive attack decreased with increased rate of flow, as shown in table 29, probably because of removal of decomposition products from the metal surface. In sulfuric acid, Kiefer and Renshaw [231] reported that molybdenum-bearing types 316 and 317 were the most resistant at low temperatures, but at about 150° F all of the stainless steels corrode in practically all concentrations of acid from ){ to 95 percent. However, Roach and Hall [726] reported that molybdenum-bearing stainless steels were useful, at room temperature, in concentra¬ tions of sulfuric acid below 15 percent and above 85 percent. The resistance to sulfuric acid is improved in some cases by additions of copper or cerium [231, 629], In 2 N mixed acids, ranging from 2 N HN03 to 2 N H2SO4, the behavior of type 304 reflects its immunity to nitric acid and susceptibility to sulfuric acid [692], Hydro¬ chloric acid and some sol…"
+      },
+      {
+        "id": "call_PJVj4DwOQdgy5E8CZZ88EWXY",
+        "args": {
+          "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+          "chunk_id": "2b809bc1",
+          "session_id": "bce7889f-f1ce-4df4-bcff-5df742dd9fc0",
+          "page_number": 60,
+          "source_session_id": "7027af4d-b122-4e00-8d9d-ccbdfbf61771"
+        },
+        "kind": "call",
+        "name": "document_page_ocr_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_page_ocr_tool",
+        "tool_call_id": "call_PJVj4DwOQdgy5E8CZZ88EWXY",
+        "content_preview": "{\"chunk_id\": \"2b809bc1\", \"source_session_id\": \"7027af4d-b122-4e00-8d9d-ccbdfbf61771\", \"file_id\": \"77d13352-009a-4c26-ac91-dc6c34ea6f40\", \"source\": \"nbscircular592.pdf\", \"page_number\": 60, \"page_count\": 96, \"native_text\": \"and coworkers [621] reported that stainless steels \\nwere resistant to fuming nitric acid, that the \\nresistance decreased with increasing temperature \\nup to 160° F, and the rate of erosive-corrosive \\nattack decreased with increased rate of flow, as \\nshown in table 29, probably because of removal of \\ndecomposition products from the metal surface. \\nIn sulfuric acid, Kiefer and Renshaw [231] reported \\nthat molybdenum-bearing types 316 and 317 were \\nthe most resistant at low temperatures, but at \\nabout 150° F all of the stainless steels corrode in \\npractically all concentrations of acid from ){ to \\n95 percent. However, Roach and Hall [726] \\nreported that molybdenum-bearing stainless steels \\nwere useful, at room temperature, in concentra¬ \\ntions of sulfuric acid below 15 percent and above \\n85 percent. The resistance to sulfuric acid is \\nimproved in some cases by additions of copper or \\ncerium [231, 629], In 2 N mixed acids, ranging \\nfrom 2 N HN03 to 2…"
+      }
+    ],
+    "open_questions": [
+      "The scanned NBS Circular 592 line reads \"...corrode in practically all concentrations of acid from } to 95 percent\" — the lower concentration bound token is unreadable in the provided scan (chunk_id=2b809bc1). The exact lower bound reported by the Circular is unresolved.",
+      "Quantitative corrosion-rate data for specific stainless-steel grades (e.g., 316/317) at ≈150°F across specific sulfuric acid concentrations are not provided in the cited excerpt; those specific rates and concentration thresholds remain unresolved in the available evidence (chunk_id=2b809bc1)."
+    ]
+  }
+}

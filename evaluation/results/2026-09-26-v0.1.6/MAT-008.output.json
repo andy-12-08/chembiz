@@ -1,0 +1,133 @@
+{
+  "output_id": "741fcef3-d3cc-452e-abfe-471dc0f46724",
+  "session_id": "aedde347-2fb4-452f-b260-38f7056bddcf",
+  "run_id": "3b67b933-fef4-42bc-9dca-725e43654181",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "NASA SP-8119 states that some seal materials (for example, Teflon/plastic seals) are very brittle at cryogenic/low temperatures and can fracture, causing seal failure and related problems.",
+      "NASA SP-8119 warns that materials with widely different coefficients of thermal expansion (differential thermal contraction/shrinkage) can produce large bolting problems, improper clearances or fits, unloaded seals, and misalignment; the report recommends using materials with similar coefficients of expansion or locating the material with greatest shrinkage appropriately."
+    ],
+    "query": "What two temperature-related material-selection concerns does NASA SP-8119 identify for cryogenic disconnects?",
+    "answer": "Evidence-grounded answer:\n\n- NASA SP-8119 states that some seal materials (for example, Teflon/plastic seals) are very brittle at cryogenic/low temperatures and can fracture, causing seal failure and related problems. [nasa-sp-8119.pdf, pp. 65-66, chunk af0b8a8f; nasa-sp-8119.pdf, pp. 101-102, chunk 95e11df8; nasa-sp-8119.pdf, pp. 132-133, chunk fb39e662]\n- NASA SP-8119 warns that materials with widely different coefficients of thermal expansion (differential thermal contraction/shrinkage) can produce large bolting problems, improper clearances or fits, unloaded seals, and misalignment; the report recommends using materials with similar coefficients of expansion or locating the material with greatest shrinkage appropriately. [nasa-sp-8119.pdf, pp. 85-88, chunk 91eb9fc5; nbscircular592.pdf, pp. 63-64, chunk 80d16705]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "af0b8a8f",
+          "95e11df8",
+          "fb39e662"
+        ],
+        "statement": "NASA SP-8119 states that some seal materials (for example, Teflon/plastic seals) are very brittle at cryogenic/low temperatures and can fracture, causing seal failure and related problems."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "91eb9fc5",
+          "80d16705"
+        ],
+        "statement": "NASA SP-8119 warns that materials with widely different coefficients of thermal expansion (differential thermal contraction/shrinkage) can produce large bolting problems, improper clearances or fits, unloaded seals, and misalignment; the report recommends using materials with similar coefficients of expansion or locating the material with greatest shrinkage appropriately."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          65,
+          66
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "af0b8a8f"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          101,
+          102
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "95e11df8"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          132,
+          133
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "fb39e662"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          85,
+          88
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "91eb9fc5"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          63,
+          64
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "77d13352-009a-4c26-ac91-dc6c34ea6f40",
+        "chunk_id": "80d16705"
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_4rjYwlZuGyUr5IDdA1dk5wGK",
+        "args": {
+          "query": "NASA SP-8119 cryogenic disconnects material selection temperature concerns SP-8119 'cryogenic disconnect' 'material' temperature",
+          "session_id": "aedde347-2fb4-452f-b260-38f7056bddcf"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_4rjYwlZuGyUr5IDdA1dk5wGK",
+        "content_preview": "[{\"chunk_id\": \"234da293\", \"text\": \"spillage,\\n\\nleakge,\\n\\npossible\\n\\ningestion\\n\\nof\\n\\nseparation\\n\\nthrees, and pressure drop. The factors that\\n\\nand the configuration\\n\\ndetails of valve seats, poppet\\n\\nguides,\\n\\nand are treated in detail\\n\\nExcept requirements may mechanically exposure and does not produce and resultant pressure\\n\\nlbr those applications\\n\\nthat considered low pressure and at ambient\\n\\nrequire the valve to be pressure operated,\\n\\nthe operating the valves are and held open during the opening force is applied axially at a low travel rate loads on the poppet guide: a low cracking transverse and the valves are not\\n\\ni:\\n\\nbe\\n\\nto be relatively mild. For\\n\\nexample,\\n\\nat to flow and high pressure:\\n\\nopened\\n\\ntemperature\\n\\n\\\"\\n\\nsignificant low seat unit\\n\\nload is not\\n\\na requirement:\\n\\nI!\\n\\nI\\n\\nI\\n\\n[page 22]\\n\\n00000001-TSB09\\n\\n/ ,,2\\n\\n:\\n\\nsubjected to rapid closing by sudden flow reversals while in tile open position. Disconnect to valve design: applications, however, do impose severe conditions\\n\\nin two areas with respect\\n\\n:\\n\\n(I) Widely\\n\\nvarying Pressure-operated chatter.\\n\\nIlowrates may valves\\n\\nbe are exposed\\n\\napplied\\n\\nlbr\\n\\nl…"
+      },
+      {
+        "id": "call_gjG7GENClCYfrZiilSU00C8T",
+        "args": {
+          "query": "NASA SP-8119 'cryogenic' 'material selection' 'coefficient of thermal expansion' 'brittle at cryogenic' 'shrinkage' 'materials selection cryogenic disconnects'}",
+          "session_id": "aedde347-2fb4-452f-b260-38f7056bddcf"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_gjG7GENClCYfrZiilSU00C8T",
+        "content_preview": "[{\"chunk_id\": \"68fbe1ed\", \"text\": \";\\n\\nor a control\\n\\nspecification should be utilized to control\\n\\nthe product.\\n\\nt;\\n\\n-,_i\\n\\n3.5.4.6 CONTAMINATION\\n\\n__\\\" :\\n\\nThe seal shall be capable oJ'performing in the operating JluM attd shaft not generate SVslem.\\n\\nsatisfactorily with spec(fied cootamination\\n\\ncontamination\\n\\ndetrimental\\n\\nto the\\n\\no,\\n\\n_\\\"\\n\\nTo absorb contamination,\\n\\nuse a soft seal material with contact bearing area for the seal as\\n\\n=i!, _: _:\\n\\nlarge exceptionally filtration.\\n\\nas possible. Use the maximum possible\\n\\nFor dirty fluids, use an auxiliary seal for protection of the primary seal. or specify\\n\\nhardness\\n\\non the\\n\\nsliding element.\\n\\n3.6 GENERAL CONSIDERATIONS FOR DESIGN\\n\\n.\\n\\n:\\n\\n3.6.1 MaterialSelection\\n\\n.,',.\\n\\n3.6.1.1 METALS\\n\\n:,\\n\\n:\\n\\n12n\\n\\ni\\n\\n'\\n\\nt\\n\\n4\\n\\n[page 131]\\n\\n'\\n\\n3.6.1.1.1 Compatibility\\n\\nThe tttelal alh_.rstt,s'('ditt the .Ws/emshull he compatihh' with the system fhtM aud re,_islatll !o all altlicll_al(,d forms o.f corrosiou.\\n\\nThe materials:\\n\\nfollowing material-compatibility\\n\\nconsiderations\\n\\nshould\\n\\nbe\\n\\nevaluated\\n\\nin selecting\\n\\nChemical\\n\\nreaction reaction, or impact\\n\\nbetween materials i…"
+      }
+    ],
+    "open_questions": [
+      "Does NASA SP-8119 specify quantitative temperature thresholds or a prioritized list of specific materials to avoid or preferred alternatives for cryogenic embrittlement (the cited passages describe brittleness but do not give explicit numeric cryogenic temperature limits or a definitive material list).",
+      "Does NASA SP-8119 provide quantitative coefficient-of-thermal-expansion values or prescriptive pairing tables for materials in cryogenic disconnects beyond the general recommendation to use similar coefficients (the cited passages discuss consequences and general guidance but do not include complete pairing tables in the excerpted chunks)."
+    ]
+  }
+}

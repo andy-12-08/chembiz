@@ -1,0 +1,145 @@
+{
+  "output_id": "3fb05195-277c-4881-b060-9dbea0798345",
+  "session_id": "a58acaa6-fb11-40c5-b1d4-87e415233ad0",
+  "run_id": "8cdb2dc0-ce65-4516-bd0f-972c915aa189",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "The archived NIOSH Recommendations for Chemical Protective Clothing database organizes recommended protective clothing by columns labelled for 8-hour and 4-hour barrier groupings.",
+      "The hydrogen chloride entry (NIOSH/CAMEO excerpt) includes the instruction: \"PREVENT SKIN CONTACT (SOLUTION)\".",
+      "The hydrogen chloride entry includes a FROSTBITE warning for compressed gases: compressed gases may create low temperatures on rapid expansion and appropriate protective clothing should be worn.",
+      "The hydrogen chloride entry advises that when wet or significantly contaminated (solution), work clothing should be removed and replaced."
+    ],
+    "query": "For hydrogen chloride, which barriers does the archived NIOSH table place in its 8-hour and 4-hour groups, and what additional hazard language appears in the entry?",
+    "answer": "Evidence-grounded answer:\n\n- The archived NIOSH Recommendations for Chemical Protective Clothing database organizes recommended protective clothing by columns labelled for 8-hour and 4-hour barrier groupings. [NIOSH Recommendations for Chemical Protective ...: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- The hydrogen chloride entry (NIOSH/CAMEO excerpt) includes the instruction: \"PREVENT SKIN CONTACT (SOLUTION)\". [HYDROGEN CHLORIDE, ANHYDROUS | CAMEO Chemicals | NOAA: https://cameochemicals.noaa.gov/chemical/8731; CDC - NIOSH Pocket Guide to Chemical Hazards -\r\nHydrogen chloride: https://www.cdc.gov/niosh/npg/npgd0332.html]\n- The hydrogen chloride entry includes a FROSTBITE warning for compressed gases: compressed gases may create low temperatures on rapid expansion and appropriate protective clothing should be worn. [HYDROGEN CHLORIDE, ANHYDROUS | CAMEO Chemicals | NOAA: https://cameochemicals.noaa.gov/chemical/8731; CDC - NIOSH Pocket Guide to Chemical Hazards -\r\nHydrogen chloride: https://www.cdc.gov/niosh/npg/npgd0332.html]\n- The hydrogen chloride entry advises that when wet or significantly contaminated (solution), work clothing should be removed and replaced. [HYDROGEN CHLORIDE, ANHYDROUS | CAMEO Chemicals | NOAA: https://cameochemicals.noaa.gov/chemical/8731]",
+    "claims": [
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The archived NIOSH Recommendations for Chemical Protective Clothing database organizes recommended protective clothing by columns labelled for 8-hour and 4-hour barrier groupings."
+      },
+      {
+        "urls": [
+          "https://cameochemicals.noaa.gov/chemical/8731",
+          "https://www.cdc.gov/niosh/npg/npgd0332.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The hydrogen chloride entry (NIOSH/CAMEO excerpt) includes the instruction: \"PREVENT SKIN CONTACT (SOLUTION)\"."
+      },
+      {
+        "urls": [
+          "https://cameochemicals.noaa.gov/chemical/8731",
+          "https://www.cdc.gov/niosh/npg/npgd0332.html"
+        ],
+        "chunk_ids": [],
+        "statement": "The hydrogen chloride entry includes a FROSTBITE warning for compressed gases: compressed gases may create low temperatures on rapid expansion and appropriate protective clothing should be worn."
+      },
+      {
+        "urls": [
+          "https://cameochemicals.noaa.gov/chemical/8731"
+        ],
+        "chunk_ids": [],
+        "statement": "The hydrogen chloride entry advises that when wet or significantly contaminated (solution), work clothing should be removed and replaced."
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html",
+        "type": "web",
+        "pages": [],
+        "title": "NIOSH Recommendations for Chemical Protective ...",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      },
+      {
+        "url": "https://cameochemicals.noaa.gov/chemical/8731",
+        "type": "web",
+        "pages": [],
+        "title": "HYDROGEN CHLORIDE, ANHYDROUS | CAMEO Chemicals | NOAA",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      },
+      {
+        "url": "https://www.cdc.gov/niosh/npg/npgd0332.html",
+        "type": "web",
+        "pages": [],
+        "title": "CDC - NIOSH Pocket Guide to Chemical Hazards -\r\nHydrogen chloride",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_kbjQDWWnHePHYFSQw8ByaMfT",
+        "args": {
+          "query": "archived NIOSH table hydrogen chloride 8-hour 4-hour 'barrier' 'hydrogen chloride' NIOSH archived table entry",
+          "session_id": "a58acaa6-fb11-40c5-b1d4-87e415233ad0"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_kbjQDWWnHePHYFSQw8ByaMfT",
+        "content_preview": "[{\"chunk_id\": \"4bd5208c\", \"text\": \", including nicket [513],\\n\\nTable 5. Etching reagents for nickel and its alloys [513, 608]\\n\\nReagent\\n\\nComposition 1\\n\\nRemarks\\n\\nFlat solution___\\n\\n/HNO3_50 ml (Glacial acetic acid___50 ml\\n\\nMake up fresh daily. Etch by 5 to 20 sec immersion at room temperature. Forniekel, monel, and nickei- copper alloys. For alloys with less than 25% Ni, dilute with acetone.\\n\\nElectrolytic-contrast___\\n\\n(HNO3_10 ml •{Glacial acetic acid_5 ml )H20_85 ml\\n\\n20 to 60 see at 1.5 v. For grain size, grain contrast\\n\\netching.\\n\\nElectrol ytic-sulfuric___\\n\\n/H2SO4_5 ml \\\\h2o_95 ml\\n\\njs to 15 sec at 3 to 4.5 v. For nickel and Inconel.\\n\\nAqua regia_____\\n\\n(HNO3_5 ml {HC1_ 25 ml ffi20_30 ml\\n\\nEtch by immersion, 30 sec to 2 min. For Inconel.\\n\\nN itric-hvdrofluoric_\\n\\n/HNO3_ 20 ml (HF (48%)_15 drops\\n\\nJ Immerse warm specimen for 15 to 45 see. For Inconel.\\n\\nNitric acid___\\n\\nJHNO3_30 ml IH2O__ 70 ml\\n\\nJlmmersion macro-etch. For nickel silver.\\n\\nPotassium cyanide___\\n\\nKCN__5 g H2O_95 ml H2O2_Few drops\\n\\nImmersion etch. For low-zinc nickel silver.\\n\\nAmmonium hydroxide-hydrogen peroxide_\\n\\n/NH4OH_85 ml IH2O2_15 ml\\n\\n[immersion etch. For high-zinc nicke…"
+      },
+      {
+        "id": "call_XEFSS8paalIruzUhPa3E7CfO",
+        "args": {
+          "query": "NIOSH archived table hydrogen chloride 8-hour 4-hour barriers 'hydrogen chloride' 'NIOSH' '8-hour' '4-hour' 'barrier' 'archived' 'table'",
+          "session_id": "a58acaa6-fb11-40c5-b1d4-87e415233ad0"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_XEFSS8paalIruzUhPa3E7CfO",
+        "content_preview": "[{\"chunk_id\": \"c14c7d39\", \"text\": \"a barrier could be used to reduce the t,:111perattlrc the seal material. Barriers should be considered\\n\\nthe seal to a level\\n\\nthat would no_ mmeal\\n\\nabove 1000°1: on hot-gas applications thermal II1 systelUS with abrasive stress. 2\\\"7to prevent erosion of the seal and coupling surfaces,\\n\\nto permit a slow. even temperatttre change to reduce in figure of\\n\\nparticles,\\n\\nuse a barrier\\n\\nthe type\\n\\nshown\\n\\n3.5.2.6 LEAKAGE_.ONTROL\\n\\nLeakage control fluids withi/t\\n\\nll/'ol'_.s'io//,s• shall the syste/n and proride\\n\\n//lai/tlai//\\n\\nl_o.siti1'c' high rcliuhilit'\\\"\\n\\n.S'¢lla/'alit_/i tl.l'\\n\\ni/IcOml_atil;h'\\n\\nagainst exter/;al\\n\\nh'uks rd\\n\\n('¢Hllbtl._'ti<lll\\n\\n,f_l._'t'._'.\\n\\nIncompatible sealed with separate seals and separate vents. A reeomnlended figure 28.\\n\\nfluids in close proximity\\n\\nat a coupling within the propulsion system should be is shown in\\n\\nconfiguration\\n\\nis recomluended It leak,; of thrust-chamber\\n\\nthat proven\\n\\nconfigurations\\n\\nbe utilized\\n\\nto prevent\\n\\nexternal c,_:lfiguration.\\n\\n\\\"blow-torch\\\"\\n\\ngases. Figure\\n\\n29 shows a reconunended\\n\\n3.5.3 Dynamic-SealConfiguration\\n\\n,.\\n\\n7\\\"he d.l'namic-seal co/…"
+      },
+      {
+        "id": "call_f6HlknI6SPcUpxmoBgjB0p04",
+        "args": {
+          "query": "\"archived NIOSH table\" hydrogen chloride 8-hour 4-hour barriers \"barrier\" \"NIOSH\" archived table hydrogen chloride 8-hour 4-hour group barriers",
+          "session_id": "a58acaa6-fb11-40c5-b1d4-87e415233ad0"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_f6HlknI6SPcUpxmoBgjB0p04",
+        "content_preview": "{\"results\": [{\"content\": \"![U.S. flag](/themes/contrib/ddp_dol_theme/build/img/us_flag_small.png)\\n\\nAn official website of the United States government.\\n\\nHere’s how you know\\n\\n![Dot gov](/themes/contrib/ddp_dol_theme/build/img/icon-dot-gov.svg)\\n\\n**The .gov means it’s official.**\\n  \\n Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.\\n\\n![Https](/themes/contrib/ddp_dol_theme/build/img/icon-https.svg)\\n\\n**The site is secure.**\\n  \\n The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.\\n\\n![United States Department of Labor](/themes/contrib/ddp_dol_theme/img/Agency_DOL_Logo_dark.svg)\\n\\n## [Occupational Safety and Health Administration](/ \\\"Occupational Safety and Health Administration\\\")\\n\\n### **HYDROGEN CHLORIDE†**\\n\\n|#### Chemical Identification\\n\\n\\n|  |\\n| **CAS #** | 7647-01-0 |\\n| **Formula** | HCl |\\n| **Synonyms** | anhydrous hydrogen chloride; aqueous hydrogen chloride; hydrochloric acid; muriatic acid |\\n\\n#### Chemical Identification\\n\\nHCl\\n\\nanhydrous hydrogen chloride; aqueous …"
+      },
+      {
+        "id": "call_LDLVG2O8JhegWA8fRJqYS4nF",
+        "args": {
+          "query": "NIOSH archived table barrier materials 8-hour 4-hour 'hydrogen chloride' 'barriers' '8 hour' '4 hour' 'chemical protective clothing' 'archived'",
+          "session_id": "a58acaa6-fb11-40c5-b1d4-87e415233ad0"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_LDLVG2O8JhegWA8fRJqYS4nF",
+        "content_preview": "{\"results\": [{\"content\": \"[Skip directly to site content](#content) [Skip directly to search](#headerSearch)\\n\\n[Español](/spanish/) |  [Other Languages](https://wwwn.cdc.gov/pubs/other-languages/)\\n\\n[The National Institute for Occupational Safety and Health (NIOSH)](/niosh/index.htm)\\n\\n# Recommendations for Chemical Protective Clothing: A Companion to the NIOSH Pocket Guide to Chemical Hazards\\n\\nRelated Pages\\n\\n### A-Z\\n\\n[A](#tabs-1-1)[B](#tabs-1-2)[C](#tabs-1-3)[D](#tabs-1-4)[E](#tabs-1-5)[F](#tabs-1-6)[G](#tabs-1-7)[H](#tabs-1-8)[I](#tabs-1-9)[K](#tabs-1-10)[L](#tabs-1-11)[M](#tabs-1-12)[N](#tabs-1-13)[O](#tabs-1-14)[P](#tabs-1-15)[Q](#tabs-1-16)[R](#tabs-1-17)[S](#tabs-1-18)[T](#tabs-1-19)[U](#tabs-1-20)[V](#tabs-1-21)[W](#tabs-1-22)[X](#tabs-1-23)[Y](#tabs-1-24)[Z](#tabs-1-25)\\n\\nTABLE A\\n\\n| Chemical | CAS No. | Recommendation for skin protection† | Recommended protective clothing barriers\\\\* |\\n| --- | --- | --- | --- |\\n| Acetaldehyde | 75-07-0 | Prevent skin contact | 8 hr: Butyl, Responder, Tychem 4 hr: Teflon, PE/EVAL |\\n| Acetic acid | 64-19-7 | Prevent skin contact | 8 hr: Butyl, Teflon, Viton, PE/EVAL, Responder, Tychem 4 hr: Neoprene, Barricade |\\n| Acetic anhyd…"
+      }
+    ],
+    "open_questions": [
+      "The specific barrier materials assigned to hydrogen chloride in the archived NCPC table's \"8 hr\" and \"4 hr\" columns are not present in the provided excerpts — what exact barrier materials (the exact 8-hour list and the exact 4-hour list) does the archived NIOSH table list for hydrogen chloride?",
+      "If available, provide the archived NCPC table row (or snapshot) or a document chunk_id that shows the hydrogen chloride entry with its explicit 8-hour and 4-hour barrier materials."
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "chembiz-chemical-engineering-eval",
+  "version": "0.1-draft",
+  "policy": "Development cases may guide system changes. Held-out cases must not be inspected, selectively retried, or used for prompt/retrieval tuning after the split is frozen.",
+  "development_ids": [
+    "CE-THERMO-001",
+    "CE-EQUIL-001",
+    "CE-HEAT-001",
+    "CE-FLOW-002",
+    "CE-SEP-001",
+    "CE-SAFETY-001"
+  ],
+  "held_out_ids": [
+    "CE-THERMO-002",
+    "CE-KINETICS-001",
+    "CE-FLOW-001",
+    "CE-WATER-001"
+  ]
+}

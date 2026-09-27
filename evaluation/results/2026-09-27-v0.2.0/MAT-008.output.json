@@ -1,0 +1,92 @@
+{
+  "output_id": "a862c70a-efb2-4f64-a21a-787f759bdf60",
+  "session_id": "be624d03-178a-440e-9b2c-e887035098c1",
+  "run_id": "55ff60f5-175e-4b78-bcf3-5524e593842b",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "NASA SP-8119 warns that some metals/materials are brittle at cryogenic temperature and thus are unsuitable for use where cryogenic low-temperature ductility is required.",
+      "NASA SP-8119 warns that materials with widely different coefficients of thermal expansion have resulted in large bolting problems, improper clearances or fits, and related issues; it recommends using materials with similar coefficients of expansion or designing for the thermal movement to minimize these problems."
+    ],
+    "query": "What two temperature-related material-selection concerns does NASA SP-8119 identify for cryogenic disconnects?",
+    "answer": "Evidence-grounded answer:\n\n- NASA SP-8119 warns that some metals/materials are brittle at cryogenic temperature and thus are unsuitable for use where cryogenic low-temperature ductility is required. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 warns that materials with widely different coefficients of thermal expansion have resulted in large bolting problems, improper clearances or fits, and related issues; it recommends using materials with similar coefficients of expansion or designing for the thermal movement to minimize these problems. [nasa-sp-8119.pdf, pp. 85-88, chunk 91eb9fc5]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "NASA SP-8119 warns that some metals/materials are brittle at cryogenic temperature and thus are unsuitable for use where cryogenic low-temperature ductility is required."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "91eb9fc5"
+        ],
+        "statement": "NASA SP-8119 warns that materials with widely different coefficients of thermal expansion have resulted in large bolting problems, improper clearances or fits, and related issues; it recommends using materials with similar coefficients of expansion or designing for the thermal movement to minimize these problems."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          130,
+          131,
+          132
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "68fbe1ed"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          85,
+          88
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "91eb9fc5"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_ltcKEmFawseWVplkSg9dE6e9",
+        "args": {
+          "query": "NASA SP-8119 cryogenic disconnects material selection temperature concerns 'SP-8119' 'cryogenic disconnect' 'material' 'temperature'",
+          "session_id": "be624d03-178a-440e-9b2c-e887035098c1"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_ltcKEmFawseWVplkSg9dE6e9",
+        "content_preview": "[{\"chunk_id\": \"234da293\", \"text\": \"spillage,\\n\\nleakge,\\n\\npossible\\n\\ningestion\\n\\nof\\n\\nseparation\\n\\nthrees, and pressure drop. The factors that\\n\\nand the configuration\\n\\ndetails of valve seats, poppet\\n\\nguides,\\n\\nand are treated in detail\\n\\nExcept requirements may mechanically exposure and does not produce and resultant pressure\\n\\nlbr those applications\\n\\nthat considered low pressure and at ambient\\n\\nrequire the valve to be pressure operated,\\n\\nthe operating the valves are and held open during the opening force is applied axially at a low travel rate loads on the poppet guide: a low cracking transverse and the valves are not\\n\\ni:\\n\\nbe\\n\\nto be relatively mild. For\\n\\nexample,\\n\\nat to flow and high pressure:\\n\\nopened\\n\\ntemperature\\n\\n\\\"\\n\\nsignificant low seat unit\\n\\nload is not\\n\\na requirement:\\n\\nI!\\n\\nI\\n\\nI\\n\\n[page 22]\\n\\n00000001-TSB09\\n\\n/ ,,2\\n\\n:\\n\\nsubjected to rapid closing by sudden flow reversals while in tile open position. Disconnect to valve design: applications, however, do impose severe conditions\\n\\nin two areas with respect\\n\\n:\\n\\n(I) Widely\\n\\nvarying Pressure-operated chatter.\\n\\nIlowrates may valves\\n\\nbe are exposed\\n\\napplied\\n\\nlbr\\n\\nl…"
+      },
+      {
+        "id": "call_gmLwbLkcOty2BuZHzIj0syPK",
+        "args": {
+          "query": "\"coefficient of thermal expansion\" \"cryogenic\" \"SP-8119\"",
+          "session_id": "be624d03-178a-440e-9b2c-e887035098c1"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_gmLwbLkcOty2BuZHzIj0syPK",
+        "content_preview": "[{\"chunk_id\": \"68fbe1ed\", \"text\": \";\\n\\nor a control\\n\\nspecification should be utilized to control\\n\\nthe product.\\n\\nt;\\n\\n-,_i\\n\\n3.5.4.6 CONTAMINATION\\n\\n__\\\" :\\n\\nThe seal shall be capable oJ'performing in the operating JluM attd shaft not generate SVslem.\\n\\nsatisfactorily with spec(fied cootamination\\n\\ncontamination\\n\\ndetrimental\\n\\nto the\\n\\no,\\n\\n_\\\"\\n\\nTo absorb contamination,\\n\\nuse a soft seal material with contact bearing area for the seal as\\n\\n=i!, _: _:\\n\\nlarge exceptionally filtration.\\n\\nas possible. Use the maximum possible\\n\\nFor dirty fluids, use an auxiliary seal for protection of the primary seal. or specify\\n\\nhardness\\n\\non the\\n\\nsliding element.\\n\\n3.6 GENERAL CONSIDERATIONS FOR DESIGN\\n\\n.\\n\\n:\\n\\n3.6.1 MaterialSelection\\n\\n.,',.\\n\\n3.6.1.1 METALS\\n\\n:,\\n\\n:\\n\\n12n\\n\\ni\\n\\n'\\n\\nt\\n\\n4\\n\\n[page 131]\\n\\n'\\n\\n3.6.1.1.1 Compatibility\\n\\nThe tttelal alh_.rstt,s'('ditt the .Ws/emshull he compatihh' with the system fhtM aud re,_islatll !o all altlicll_al(,d forms o.f corrosiou.\\n\\nThe materials:\\n\\nfollowing material-compatibility\\n\\nconsiderations\\n\\nshould\\n\\nbe\\n\\nevaluated\\n\\nin selecting\\n\\nChemical\\n\\nreaction reaction, or impact\\n\\nbetween materials i…"
+      }
+    ],
+    "open_questions": []
+  }
+}

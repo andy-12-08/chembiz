@@ -1,0 +1,107 @@
+{
+  "dataset": "chembiz-chemical-engineering-eval",
+  "version": "0.1-draft",
+  "key_status": "outline only; exact source passages and expert review pending",
+  "items": [
+    {
+      "question_id": "CE-THERMO-001",
+      "required_evidence": [
+        "Classify each system by mass, heat, and work crossing its boundary.",
+        "Relate an open control volume to practical equipment with flowing streams.",
+        "Retain the source's boundary and sign-convention context."
+      ],
+      "locator": "DOE-THERMO-V1, PDF pages 79-85 (printed HT-01 pages 53-59), especially control-volume discussion on PDF pages 80-85",
+      "must_not_claim": ["Every process unit is necessarily steady state or adiabatic."]
+    },
+    {
+      "question_id": "CE-THERMO-002",
+      "required_evidence": [
+        "Identify internal or enthalpy, kinetic, potential, heat, work, and flow contributions applicable to the stated balance.",
+        "Distinguish steady state from assumptions that make individual terms negligible.",
+        "Preserve units, reference state, boundary, and sign convention."
+      ],
+      "locator": "DOE-THERMO-V1, PDF pages 79-94 (printed HT-01 pages 53-68); energy forms on PDF page 85 and worked balances on pages 86-93",
+      "must_not_claim": ["Kinetic and potential energy are always negligible."]
+    },
+    {
+      "question_id": "CE-EQUIL-001",
+      "required_evidence": [
+        "State that an equilibrium system responds in a direction that minimizes an applied stress.",
+        "Keep concentration, pressure, and temperature effects conditional on the reaction and system.",
+        "Explicitly distinguish equilibrium position from reaction kinetics."
+      ],
+      "locator": "DOE-CHEM-V1, PDF page 58 (printed CH-01 page 36); NIST-KINETICS welcome snapshot, rate-record fields 1-7",
+      "must_not_claim": ["A thermodynamically favored shift proves the reaction will be fast."]
+    },
+    {
+      "question_id": "CE-KINETICS-001",
+      "required_evidence": [
+        "Retain rate parameters and the stated mathematical rate form.",
+        "Retain temperature range, pressure range, bulk gas, data type, uncertainty, and experimental method when available.",
+        "Treat validity outside reported conditions as unresolved rather than silently extrapolating."
+      ],
+      "locator": "NIST-KINETICS welcome snapshot, numbered description of rate-record fields 1-7",
+      "must_not_claim": ["One database rate expression is universally valid at all temperatures and pressures."]
+    },
+    {
+      "question_id": "CE-HEAT-001",
+      "required_evidence": [
+        "Differentiate molecular conduction, bulk-fluid convection, and electromagnetic radiation.",
+        "Retain the applicable temperature difference, geometry, area, material or film property, and boundary-condition dependence.",
+        "State that mode equations and coefficients do not alone complete exchanger or equipment design."
+      ],
+      "locator": "DOE-HEAT-V2, PDF pages 24-28 (printed HT-02 pages 2-6) and radiant-transfer discussion on PDF page 48",
+      "must_not_claim": ["Only one heat-transfer mode can occur in a real process unit."]
+    },
+    {
+      "question_id": "CE-FLOW-001",
+      "required_evidence": [
+        "Describe laminar and turbulent flow behavior using the source terminology.",
+        "Explain Reynolds number as a dimensionless classification criterion based on inertial and viscous effects.",
+        "Retain geometry and transition-region limitations."
+      ],
+      "locator": "DOE-FLOW-V3, PDF pages 39-42 (printed HT-03 pages 17-20); Reynolds definition and ranges on PDF pages 41-42",
+      "must_not_claim": ["One exact Reynolds-number cutoff applies to every geometry and disturbance level."]
+    },
+    {
+      "question_id": "CE-FLOW-002",
+      "required_evidence": [
+        "Identify pipe length, diameter, roughness or friction factor, velocity or flow, fluid properties, and fittings or local losses as applicable.",
+        "Separate distributed friction loss from local component loss.",
+        "Require numeric inputs, units, and a stated correlation or model for a final calculation."
+      ],
+      "locator": "DOE-FLOW-V3, PDF pages 53-58 (printed HT-03 pages 31-36); Darcy equation and minor-loss summary",
+      "must_not_claim": ["A qualitative factor list is a calculated pressure drop."]
+    },
+    {
+      "question_id": "CE-SEP-001",
+      "required_evidence": [
+        "Relate membrane or barrier permeability and pressure driving force to process gas transport.",
+        "Describe separation performance using the source's stated factor or stage context.",
+        "Retain equipment construction, operating-condition, and model limitations."
+      ],
+      "locator": "DOE-CHEM-V1 Appendix A, PDF pages 83-91 (printed pages A-5 through A-13), including design versus actual permeability",
+      "must_not_claim": ["A qualitative permeability statement is sufficient to design an industrial separation cascade."]
+    },
+    {
+      "question_id": "CE-WATER-001",
+      "required_evidence": [
+        "Describe exchange of dissolved ions with functional sites on a resin.",
+        "Describe exhaustion and regeneration without inventing reagent conditions.",
+        "Retain feed composition, capacity, selectivity, competing ions, pretreatment, and waste-handling limitations when supported."
+      ],
+      "locator": "DOE-CHEM-V2, PDF pages 63-70 (printed CH-04 pages 7-14) and malfunction/temperature limitations on PDF pages 78-83",
+      "must_not_claim": ["Ion exchange removes every contaminant from every water stream."]
+    },
+    {
+      "question_id": "CE-SAFETY-001",
+      "required_evidence": [
+        "Retain chemical identity, concentration, physical state, exposure route, incompatibilities, conditions, and source-stated controls or warnings.",
+        "Separate source-grounded screening information from task-specific risk assessment and procedure development.",
+        "State missing facility, quantity, equipment, ventilation, and regulatory context as evidence gaps."
+      ],
+      "locator": "DOE-CHEM-V2, PDF page 96, General Safety Precautions; source states precautions are not all-inclusive and requires chemical-specific MSDS consultation",
+      "must_not_claim": ["A general handbook paragraph is a complete task-specific operating procedure."]
+    }
+  ]
+}

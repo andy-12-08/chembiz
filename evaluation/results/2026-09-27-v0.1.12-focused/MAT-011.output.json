@@ -1,0 +1,69 @@
+{
+  "output_id": "dd0b325a-7278-4e81-a040-9a921e59a609",
+  "session_id": "4f7fc50e-c9d9-419b-aa63-6550a77eebba",
+  "run_id": "8f7e5f2e-41ee-4ee3-a47c-fcc046b6651c",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "The archived NIOSH table entry for hydrogen peroxide (solution 30%–70%) recommends preventing skin contact.",
+      "For hydrogen peroxide (solution 30%–70%) the NIOSH archived table lists the 8-hour barrier group as: Butyl; Natural; Nitrile; PE; Viton; CPF3; Responder; Tychem.",
+      "For hydrogen peroxide (solution 30%–70%) the NIOSH archived table lists the 4-hour barrier group as: PVC; PE/EVAL."
+    ],
+    "query": "For hydrogen peroxide solution from 30 to 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
+    "answer": "Evidence-grounded answer:\n\n- The archived NIOSH table entry for hydrogen peroxide (solution 30%–70%) recommends preventing skin contact. [niosh-cpc-az.html, chunk 2323dcf8]\n- For hydrogen peroxide (solution 30%–70%) the NIOSH archived table lists the 8-hour barrier group as: Butyl; Natural; Nitrile; PE; Viton; CPF3; Responder; Tychem. [niosh-cpc-az.html, chunk 2323dcf8]\n- For hydrogen peroxide (solution 30%–70%) the NIOSH archived table lists the 4-hour barrier group as: PVC; PE/EVAL. [niosh-cpc-az.html, chunk 2323dcf8]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2323dcf8"
+        ],
+        "statement": "The archived NIOSH table entry for hydrogen peroxide (solution 30%–70%) recommends preventing skin contact."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2323dcf8"
+        ],
+        "statement": "For hydrogen peroxide (solution 30%–70%) the NIOSH archived table lists the 8-hour barrier group as: Butyl; Natural; Nitrile; PE; Viton; CPF3; Responder; Tychem."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2323dcf8"
+        ],
+        "statement": "For hydrogen peroxide (solution 30%–70%) the NIOSH archived table lists the 4-hour barrier group as: PVC; PE/EVAL."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-az.html",
+        "source": "niosh-cpc-az.html",
+        "file_id": "bbd329c5-8b3e-4291-a1f4-2d4671beeb4a",
+        "chunk_id": "2323dcf8"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_pzHadKRfGo5rTtB5uvnow6Oo",
+        "args": {
+          "query": "NIOSH archived table hydrogen peroxide solution 30 to 70 percent barrier 8-hour 4-hour group archived NIOSH table barriers 8-hour 4-hour \"hydrogen peroxide\" 30-70% \"barrier\" \"8-hour\" \"4-hour\"",
+          "session_id": "4f7fc50e-c9d9-419b-aa63-6550a77eebba"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_pzHadKRfGo5rTtB5uvnow6Oo",
+        "content_preview": "[{\"chunk_id\": \"2323dcf8\", \"text\": \"the manufacturer for recommendations Hexachlorobutadiene 87-68-3 Prevent skin contact 8 hr: Responder, Tychem Hexachlorocyclopentadiene 77-47-4 Prevent skin contact 8 hr: Butyl, Nitrile, PVA, Viton, Responder Hexachloroethane 67-72-1 Prevent skin contact Contact the manufacturer for recommendations Hexachloronaphthalene 1335-87-1 Prevent skin contact Contact the manufacturer for recommendations 1-Hexadecanethiol 2917-26-2 Prevent skin contact Contact the manufacturer for recommendations Hexafluoroacetone 684-16-2 Prevent skin contact/ Frostbite Contact the manufacturer for recommendations Hexamethylene diisocyanate 822-06-0 Prevent skin contact 8 hr: Saranex, Barricade, Responder Hexamethyl phosphoramide 680-31-9 Prevent skin contact Contact the manufacturer for recommendations n-Hexane 110-54-3 Prevent skin contact 8 hr: Nitrile, PVA, Teflon, Viton, PE/EVAL, CPF3, Responder, Trellchem, Tychem 4 hr: Barricade Hexane isomers (excluding n-Hexane) Prevent skin contact Contact the manufacturer for recommendations n-Hexanethiol 111-31-9 Prevent skin contact Contact the manufacturer for recommendations 2-Hexanone 591-78-6 Prevent skin contact Contact th…"
+      }
+    ],
+    "open_questions": []
+  }
+}

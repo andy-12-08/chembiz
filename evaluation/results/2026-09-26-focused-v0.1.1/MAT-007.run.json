@@ -1,0 +1,8 @@
+{
+  "run_id": "6b3ee7cb-b87b-4c95-a6fa-a5ccc3e64110",
+  "session_id": "16060209-84bb-4efe-9743-5bb9f7697f0c",
+  "status": "succeeded",
+  "query_snapshot": "Which alloy and heat-treatment conditions does NASA SP-8119 identify as susceptible to stress corrosion in its material-compatibility discussion?",
+  "final_answer": "Evidence-grounded answer:\n\n- NASA SP-8119’s material-compatibility discussion explicitly names aluminum alloy 2024‑T3 as susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- In the same scanned passage SP-8119 prints a sequence of heat‑treatment/temper designations (verbatim from the scan): \"-T4, -T351 ;PH 15-7Mo RH950, TH !050; AM350 SCT850: AM 355 SCT850\" and contains additional OCR‑garbled temper strings adjacent to the line that names 2024‑T3. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]",
+  "error_message": null
+}

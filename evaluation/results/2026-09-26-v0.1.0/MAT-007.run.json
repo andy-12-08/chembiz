@@ -1,0 +1,8 @@
+{
+  "run_id": "e70165c7-a78a-4be4-ab40-a33d0a225796",
+  "session_id": "231f557e-6369-404b-802c-6dae905a1009",
+  "status": "succeeded",
+  "query_snapshot": "Which alloy and heat-treatment conditions does NASA SP-8119 identify as susceptible to stress corrosion in its material-compatibility discussion?",
+  "final_answer": "Evidence-grounded answer:\n\n- NASA SP-8119 identifies aluminum alloy 2024 in the T3 temper (2024‑T3) as susceptible to stress‑corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 identifies precipitation‑hardening stainless steel 17‑7PH in the annealed condition as susceptible to stress‑corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 identifies precipitation‑hardening stainless steel 17‑4PH in H‑tempers (example given as H900 and other H tempers) as susceptible to stress‑corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]",
+  "error_message": null
+}

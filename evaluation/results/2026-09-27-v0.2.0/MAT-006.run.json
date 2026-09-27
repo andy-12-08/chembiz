@@ -1,0 +1,8 @@
+{
+  "run_id": "df7424ca-8bc5-4c74-b509-7eed0c7c0b65",
+  "session_id": "62c0ee54-3ff5-4a31-82df-cd3ca7fcf5e1",
+  "status": "succeeded",
+  "query_snapshot": "What does NASA SP-8119 recommend consulting when selecting dissimilar metals for parts that touch, and what risk is this intended to address?",
+  "final_answer": "Evidence-grounded answer:\n\n- NASA SP-8119 recommends consulting the electrochemical series for metals when selecting dissimilar metals that will touch. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- The recommendation to consult the electrochemical series is intended to address electrochemical (galvanic) corrosion between contacting parts. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]",
+  "error_message": null
+}

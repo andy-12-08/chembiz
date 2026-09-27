@@ -1,0 +1,116 @@
+{
+  "output_id": "fb5e2bc7-307a-47f8-bf56-9c8a3702fcfe",
+  "session_id": "abb42aac-c86c-489a-a398-56af0034abfc",
+  "run_id": "052e4cfb-c5d2-43f3-be6f-2423e61706f4",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "For hydrogen peroxide (solution 30%–70%), the archived NIOSH A–Z table lists the following barriers in its >8 hours (8-hour) group: Butyl rubber, Natural rubber, Nitrile rubber, PE, Viton, CPF3, Responder, Tychem.",
+      "For hydrogen peroxide (solution 30%–70%), the archived NIOSH A–Z table lists the following barriers in its >4 hours (4-hour) group: PVC, PE/EVAL (i.e., at least 4 but less than 8 hours resistance).",
+      "NIOSH’s table defines the barrier categories such that \">8 hours\" indicates resistance to chemical breakthrough during an 8-hour test (permeation did not exceed 1.0 µg/cm2/min during the 8-hour test) and \"4 hr\" indicates at least 4 but less than 8 hours of resistance."
+    ],
+    "query": "For hydrogen peroxide solution from 30 to 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
+    "answer": "Evidence-grounded answer:\n\n- For hydrogen peroxide (solution 30%–70%), the archived NIOSH A–Z table lists the following barriers in its >8 hours (8-hour) group: Butyl rubber, Natural rubber, Nitrile rubber, PE, Viton, CPF3, Responder, Tychem. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- For hydrogen peroxide (solution 30%–70%), the archived NIOSH A–Z table lists the following barriers in its >4 hours (4-hour) group: PVC, PE/EVAL (i.e., at least 4 but less than 8 hours resistance). [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- NIOSH’s table defines the barrier categories such that \">8 hours\" indicates resistance to chemical breakthrough during an 8-hour test (permeation did not exceed 1.0 µg/cm2/min during the 8-hour test) and \"4 hr\" indicates at least 4 but less than 8 hours of resistance. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]",
+    "claims": [
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "For hydrogen peroxide (solution 30%–70%), the archived NIOSH A–Z table lists the following barriers in its >8 hours (8-hour) group: Butyl rubber, Natural rubber, Nitrile rubber, PE, Viton, CPF3, Responder, Tychem."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "For hydrogen peroxide (solution 30%–70%), the archived NIOSH A–Z table lists the following barriers in its >4 hours (4-hour) group: PVC, PE/EVAL (i.e., at least 4 but less than 8 hours resistance)."
+      },
+      {
+        "urls": [
+          "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html"
+        ],
+        "chunk_ids": [],
+        "statement": "NIOSH’s table defines the barrier categories such that \">8 hours\" indicates resistance to chemical breakthrough during an 8-hour test (permeation did not exceed 1.0 µg/cm2/min during the 8-hour test) and \"4 hr\" indicates at least 4 but less than 8 hours of resistance."
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html",
+        "type": "web",
+        "pages": [],
+        "title": "NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC",
+        "source": "",
+        "file_id": "",
+        "chunk_id": ""
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_W2HxW7rmljEmKTEtGZ0385vV",
+        "args": {
+          "query": "archived NIOSH table hydrogen peroxide solution 30-70% barriers 8-hour 4-hour \"barriers\" \"NIOSH\" \"archived\"",
+          "session_id": "abb42aac-c86c-489a-a398-56af0034abfc"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_W2HxW7rmljEmKTEtGZ0385vV",
+        "content_preview": "[{\"chunk_id\": \"4bd5208c\", \"text\": \", including nicket [513],\\n\\nTable 5. Etching reagents for nickel and its alloys [513, 608]\\n\\nReagent\\n\\nComposition 1\\n\\nRemarks\\n\\nFlat solution___\\n\\n/HNO3_50 ml (Glacial acetic acid___50 ml\\n\\nMake up fresh daily. Etch by 5 to 20 sec immersion at room temperature. Forniekel, monel, and nickei- copper alloys. For alloys with less than 25% Ni, dilute with acetone.\\n\\nElectrolytic-contrast___\\n\\n(HNO3_10 ml •{Glacial acetic acid_5 ml )H20_85 ml\\n\\n20 to 60 see at 1.5 v. For grain size, grain contrast\\n\\netching.\\n\\nElectrol ytic-sulfuric___\\n\\n/H2SO4_5 ml \\\\h2o_95 ml\\n\\njs to 15 sec at 3 to 4.5 v. For nickel and Inconel.\\n\\nAqua regia_____\\n\\n(HNO3_5 ml {HC1_ 25 ml ffi20_30 ml\\n\\nEtch by immersion, 30 sec to 2 min. For Inconel.\\n\\nN itric-hvdrofluoric_\\n\\n/HNO3_ 20 ml (HF (48%)_15 drops\\n\\nJ Immerse warm specimen for 15 to 45 see. For Inconel.\\n\\nNitric acid___\\n\\nJHNO3_30 ml IH2O__ 70 ml\\n\\nJlmmersion macro-etch. For nickel silver.\\n\\nPotassium cyanide___\\n\\nKCN__5 g H2O_95 ml H2O2_Few drops\\n\\nImmersion etch. For low-zinc nickel silver.\\n\\nAmmonium hydroxide-hydrogen peroxide_\\n\\n/NH4OH_85 ml IH2O2_15 ml\\n\\n[immersion etch. For high-zinc nicke…"
+      },
+      {
+        "id": "call_9h54CiTtxjjpNyNF2hs00JG6",
+        "args": {
+          "query": "archived NIOSH table barriers 8-hour 4-hour hydrogen peroxide 30-70% barrier materials 8 hr 4 hr NIOSH archived table 'hydrogen peroxide 30% 70% barriers'",
+          "session_id": "abb42aac-c86c-489a-a398-56af0034abfc"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_9h54CiTtxjjpNyNF2hs00JG6",
+        "content_preview": "{\"results\": [{\"content\": \"Right to Know Hazardous Substance Fact Sheet Common Name: HYDROGEN PEROXIDE Synonyms: Hydrogen Dioxide Chemical Name: Hydrogen Peroxide Date: February 2008 Revision: May 2016 CAS Number: 7722-84-1 RTK Substance Number: 1015 DOT Number: UN 2015 Description and Use Hydrogen Peroxide is a colorless, odorless liquid. Because pure Hydrogen Peroxide is unstable and an explosion risk, it is usually in a water solution. It is a common oxidizing and bleaching agent and is used in deodorants, water and sewage treatment, and rocket fuels, as a disinfectant, and in making other chemicals. Reasons for Citation  Hydrogen Peroxide is on the Right to Know Hazardous Substance List because it is cited by OSHA, ACGIH, DOT, NIOSH, DEP, IARC, NFPA and EPA.  This chemical is on the Special Health Hazard Substance List. SEE GLOSSARY ON PAGE 5. FIRST AID Eye Contact  Immediately flush with large amounts of water for at least 30 minutes, lifting upper and lower lids. Remove contact lenses, if worn, while flushing. Seek medical attention immediately. Skin Contact  Quickly remove contaminated clothing. Immediately wash contaminated skin with large amounts of water. Seek medical …"
+      },
+      {
+        "id": "call_4AsPyHyruersZbACFXYe7P78",
+        "args": {
+          "query": "NIOSH table barriers 8-hour 4-hour 'hydrogen peroxide' 'barriers' '8 hour' '4 hour' 'NIOSH' 'archived table' 'protective clothing' 'chemical resistance'",
+          "session_id": "abb42aac-c86c-489a-a398-56af0034abfc"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_4AsPyHyruersZbACFXYe7P78",
+        "content_preview": "{\"results\": [{\"content\": \"[Skip directly to site content](#content) [Skip directly to search](#headerSearch)\\n\\n[Español](/spanish/) |  [Other Languages](https://wwwn.cdc.gov/pubs/other-languages/)\\n\\n[The National Institute for Occupational Safety and Health (NIOSH)](/niosh/)\\n\\n# Hazard Communication for Disinfectants Used Against Viruses\\n\\nHealth Hazards and Protective Measures\\n\\n[Print](#print)\\n\\nRelated Pages\\n\\nOn This Page\\n\\n* [Considerations regarding the use of disinfectants](#anchor_1592574554029)\\n* [Health hazards and protective measures for chemicals used as disinfectants](#anchor_1592574529965)\\n* [Additional Resources](#anchor_1592574062869)\\n\\n### Overview\\n\\nThis information is intended to be used by employers and workers who use cleaning products and disinfectants, specifically those identified as effective against viruses, including [avian (bird) flu](https://www.epa.gov/pesticide-registration/list-m-registered-antimicrobial-products-label-claims-avian-influenza), [Ebola](https://www.epa.gov/pesticide-registration/list-l-epas-registered-antimicrobial-products-meet-cdc-criteria-use-against), and [SARS-CoV-2](https://www.epa.gov/pesticide-registration/list-n-di…"
+      },
+      {
+        "id": "call_773N63qn3umqodZDC1ow2L3X",
+        "args": {
+          "query": "site:archive.cdc.gov \"Hydrogen peroxide\" \">8 hours\" barriers \"NIOSH\"",
+          "session_id": "abb42aac-c86c-489a-a398-56af0034abfc"
+        },
+        "kind": "call",
+        "name": "web_search_temporal_tool"
+      },
+      {
+        "kind": "result",
+        "name": "web_search_temporal_tool",
+        "tool_call_id": "call_773N63qn3umqodZDC1ow2L3X",
+        "content_preview": "{\"results\": [{\"content\": \"[Skip directly to site content](#content) [Skip directly to search](#headerSearch)\\n\\n[Español](/spanish/) |  [Other Languages](https://wwwn.cdc.gov/pubs/other-languages/)\\n\\n[The National Institute for Occupational Safety and Health (NIOSH)](/niosh/)\\n\\n# Hazard Communication for Disinfectants Used Against Viruses\\n\\nHealth Hazards and Protective Measures\\n\\n[Print](#print)\\n\\nRelated Pages\\n\\nOn This Page\\n\\n* [Considerations regarding the use of disinfectants](#anchor_1592574554029)\\n* [Health hazards and protective measures for chemicals used as disinfectants](#anchor_1592574529965)\\n* [Additional Resources](#anchor_1592574062869)\\n\\n### Overview\\n\\nThis information is intended to be used by employers and workers who use cleaning products and disinfectants, specifically those identified as effective against viruses, including [avian (bird) flu](https://www.epa.gov/pesticide-registration/list-m-registered-antimicrobial-products-label-claims-avian-influenza), [Ebola](https://www.epa.gov/pesticide-registration/list-l-epas-registered-antimicrobial-products-meet-cdc-criteria-use-against), and [SARS-CoV-2](https://www.epa.gov/pesticide-registration/list-n-di…"
+      }
+    ],
+    "open_questions": [
+      "The archived NIOSH table entry does not provide (or the evidence inventory does not include) the specific test temperature(s), barrier material thicknesses, or other test-condition details used to derive the listed >8-hour and >4-hour ratings."
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "output_id": "7ffc20f7-44b8-4d46-b83e-694ecb0b9d96",
+  "session_id": "f22b2886-6285-4f59-8e3d-1839d1551b3d",
+  "run_id": "36d07f59-a27d-434c-8eb3-66c289826b91",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "NASA SP-8119 discusses contamination as a material-compatibility consideration for seals/materials contacting system fluids.",
+      "NASA SP-8119 discusses lubrication as a material-compatibility or functional consideration for components contacting fluids.",
+      "NASA SP-8119 identifies thermal expansion and the need to use materials with similar coefficients of expansion (to avoid bolting/clearance problems) as a selection consideration.",
+      "NASA SP-8119 includes a material/fluids identification table that lists many specific fluids and propellants (e.g., hydrazine, hydrogen peroxide, JP-4) relevant to material-selection decisions.",
+      "NASA SP-8119 uses the designation 'CRES' (corrosion-resistant steel) in its material-identification entries, indicating corrosion-related material considerations.",
+      "NASA SP-8119 notes that some fluids are 'not compatible' with certain materials, indicating the document addresses general fluid-material compatibility issues."
+    ],
+    "query": "Which categories of material-compatibility considerations does NASA SP-8119 say should be evaluated when selecting metal alloys for contact with a system fluid?",
+    "answer": "Evidence-grounded answer:\n\n- NASA SP-8119 discusses contamination as a material-compatibility consideration for seals/materials contacting system fluids. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 discusses lubrication as a material-compatibility or functional consideration for components contacting fluids. [nasa-sp-8119.pdf, pp. 85-88, chunk 91eb9fc5]\n- NASA SP-8119 identifies thermal expansion and the need to use materials with similar coefficients of expansion (to avoid bolting/clearance problems) as a selection consideration. [nasa-sp-8119.pdf, pp. 85-88, chunk 91eb9fc5]\n- NASA SP-8119 includes a material/fluids identification table that lists many specific fluids and propellants (e.g., hydrazine, hydrogen peroxide, JP-4) relevant to material-selection decisions. [nasa-sp-8119.pdf, pp. 144-145, chunk fe7cd63c]\n- NASA SP-8119 uses the designation 'CRES' (corrosion-resistant steel) in its material-identification entries, indicating corrosion-related material considerations. [nasa-sp-8119.pdf, pp. 144-145, chunk fe7cd63c]\n- NASA SP-8119 notes that some fluids are 'not compatible' with certain materials, indicating the document addresses general fluid-material compatibility issues. [nasa-sp-8119.pdf, pp. 55-58, chunk 6b3b19e0]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "68fbe1ed"
+        ],
+        "statement": "NASA SP-8119 discusses contamination as a material-compatibility consideration for seals/materials contacting system fluids."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "91eb9fc5"
+        ],
+        "statement": "NASA SP-8119 discusses lubrication as a material-compatibility or functional consideration for components contacting fluids."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "91eb9fc5"
+        ],
+        "statement": "NASA SP-8119 identifies thermal expansion and the need to use materials with similar coefficients of expansion (to avoid bolting/clearance problems) as a selection consideration."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "fe7cd63c"
+        ],
+        "statement": "NASA SP-8119 includes a material/fluids identification table that lists many specific fluids and propellants (e.g., hydrazine, hydrogen peroxide, JP-4) relevant to material-selection decisions."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "fe7cd63c"
+        ],
+        "statement": "NASA SP-8119 uses the designation 'CRES' (corrosion-resistant steel) in its material-identification entries, indicating corrosion-related material considerations."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "6b3b19e0"
+        ],
+        "statement": "NASA SP-8119 notes that some fluids are 'not compatible' with certain materials, indicating the document addresses general fluid-material compatibility issues."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          130,
+          131,
+          132
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "68fbe1ed"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          85,
+          88
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "91eb9fc5"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          144,
+          145
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "fe7cd63c"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          55,
+          58
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "93f0692d-0368-4136-99b2-d58e8d0b2d28",
+        "chunk_id": "6b3b19e0"
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_AXhKRXgCyFzrZ1itnKdJvFqd",
+        "args": {
+          "query": "NASA SP-8119 categories material-compatibility considerations selecting metal alloys contact with system fluid",
+          "session_id": "f22b2886-6285-4f59-8e3d-1839d1551b3d"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_AXhKRXgCyFzrZ1itnKdJvFqd",
+        "content_preview": "[{\"chunk_id\": \"bda650fc\", \"text\": \"astomers\\n\\nfor the F-IA Fuel System. MPRg-176A-59,\\n\\n71S. Cierniak, R. E.: Interim Report on the Development of Hybrid Tellon Coatings t'or Naflex Seals.\\n\\nMPR 7-177-1(,4, Rockeldyne Div., North Am. Aviation,\\n\\nInc., unpublished,\\n\\nJuly 19, 1968.\\n\\n\\\"_\\\"\\n\\nTt). Anon.; \\\"l'eilon Fluorocalbon Resins- Mechanical Design Data. E. !. du Pont de Nemours, date).\\n\\n80. Tobolsky.\\n\\nEisenberg, A.: Maximum Relaxation Polytetrafluoroethylene. ONR Rep. RLT-36, Frick Lab.. Princeton Univ., Sept. 5. 1961.\\n\\nA. V.:\\n\\nKatz,\\n\\nD.\\\"\\n\\nand\\n\\nTimes\\n\\nin\\n\\n81.\\n\\ntO…"
+      },
+      {
+        "id": "call_7UmHt2BCS4jBObdpCnf60dBI",
+        "args": {
+          "query": "\"material-compatibility considerations\" \"SP-8119\" \"selecting metal alloys\"",
+          "session_id": "f22b2886-6285-4f59-8e3d-1839d1551b3d"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_7UmHt2BCS4jBObdpCnf60dBI",
+        "content_preview": "[{\"chunk_id\": \"68fbe1ed\", \"text\": \";\\n\\nor a control\\n\\nspecification should be utilized to control\\n\\nthe product.\\n\\nt;\\n\\n-,_i\\n\\n3.5.4.6 CONTAMINATION\\n\\n__\\\" :\\n\\nThe seal shall be capable oJ'performing in the operating JluM attd shaft not generate SVslem.\\n\\nsatisfactorily with spec(fied cootamination\\n\\ncontamination\\n\\ndetrimental\\n\\nto the\\n\\no,\\n\\n_\\\"\\n\\nTo absorb contamination,\\n\\nuse a soft seal material with contact bearing area for the seal as\\n\\n=i!, _: _:\\n\\nlarge exceptionally filtration.\\n\\nas possible. Use the maximum possible\\n\\nFor dirty fluids, use an auxiliary seal for p…"
+      }
+    ],
+    "open_questions": [
+      "The run's quoted summary referenced NASA SP-8119 section 3.6.1.1.1 (p.131) and specific categories (chemical reaction with fluid, propellant decomposition, corrosion). No chunk for page 131 or section 3.6.1.1.1 is present in the provided evidence inventory; does SP-8119 explicitly list those exact categories in sec. 3.6.1.1.1 (p.131)? (missing chunk_id for that page/section)",
+      "Is there a direct, extractable passage in SP-8119 that explicitly enumerates the compatibility categories 'chemical reaction between material and system fluid', 'propellant decomposition', and 'corrosion' that can be cited by chunk_id? (no supporting chunk in inventory)"
+    ]
+  }
+}
