@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "chembiz"
-version = "0.1.0"
+version = "0.1.1"
 description = "An evidence-grounded AI tool for accelerating chemical and materials research"
 readme = "README.md"
 license = "Apache-2.0"

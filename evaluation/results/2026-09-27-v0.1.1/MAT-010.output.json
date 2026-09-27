@@ -1,0 +1,69 @@
+{
+  "output_id": "c3af9b99-7854-483e-ba8a-c6b4be316557",
+  "session_id": "e9d0124b-f986-4b4b-8ea9-020b45ccf54a",
+  "run_id": "3711aa1e-35a1-4b30-ae06-7829f797880b",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "The NIOSH archived table entry for potassium hydroxide (CAS 1310-58-3) specifies the recommendation applies to solution <70% only (Prevent skin contact).",
+      "For potassium hydroxide (solution <70%), the table places these barriers in the 8-hour group: Butyl, Natural, Nitrile, PVC, Viton.",
+      "For potassium hydroxide (solution <70%), the table places these barriers in the 4-hour group: Teflon, PE/EVAL."
+    ],
+    "query": "For potassium hydroxide solution below 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
+    "answer": "Evidence-grounded answer:\n\n- The NIOSH archived table entry for potassium hydroxide (CAS 1310-58-3) specifies the recommendation applies to solution <70% only (Prevent skin contact). [niosh-cpc-az.html, chunk 8549bea6]\n- For potassium hydroxide (solution <70%), the table places these barriers in the 8-hour group: Butyl, Natural, Nitrile, PVC, Viton. [niosh-cpc-az.html, chunk 8549bea6]\n- For potassium hydroxide (solution <70%), the table places these barriers in the 4-hour group: Teflon, PE/EVAL. [niosh-cpc-az.html, chunk 8549bea6]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "8549bea6"
+        ],
+        "statement": "The NIOSH archived table entry for potassium hydroxide (CAS 1310-58-3) specifies the recommendation applies to solution <70% only (Prevent skin contact)."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "8549bea6"
+        ],
+        "statement": "For potassium hydroxide (solution <70%), the table places these barriers in the 8-hour group: Butyl, Natural, Nitrile, PVC, Viton."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "8549bea6"
+        ],
+        "statement": "For potassium hydroxide (solution <70%), the table places these barriers in the 4-hour group: Teflon, PE/EVAL."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-az.html",
+        "source": "niosh-cpc-az.html",
+        "file_id": "66d75abe-397b-46a9-ac7e-6113379b3794",
+        "chunk_id": "8549bea6"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_f1lsmfkuwUTtbI5uKsoNUfOZ",
+        "args": {
+          "query": "archived NIOSH table potassium hydroxide solution below 70 percent 8-hour 4-hour barriers table archived NIOSH 'potassium hydroxide' 'barrier' '8-hour' '4-hour' 'archived'",
+          "session_id": "e9d0124b-f986-4b4b-8ea9-020b45ccf54a"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_f1lsmfkuwUTtbI5uKsoNUfOZ",
+        "content_preview": "[{\"chunk_id\": \"ef6a4400\", \"text\": \") N.R. Determine based on working conditions Rotenone 83-79-4 Prevent skin contact Contact the manufacturer for recommendations Rouge 1309-37-1 N.R. Determine based on working conditions\\n\\nRecommendations for skin protection †\\n\\nPrevent skin contact…. Wear appropriate personal protective clothing to prevent skin contact. Suggested barriers for use should be confirmed with the vendor and for additional information and use limitations. Frostbite……………….. Wear appropriate personal protective clothing to prevent the skin from becoming frozen from contact with the evaporating liquid or from contact with vessels containing the liquid. N.R……………………… No specific recommendation can be made. Actual working conditions will determine the need and type of personal protective equipment.\\n\\n†Bold type indicates a change from or an addition to what is published in the NIOSH Pocket Guide to Chemical Hazards, June 1997 Edition. Recommended protective clothing barriers *\\n\\nButyl = Butyl Rubber (Gloves, Suits, Boots) Natural = Natural Rubber (Gloves) Neoprene = Neoprene Rubber (Gloves, Suits, Boots) Nitrile = Nitrile Rubber (Gloves, Suits, Boots) PE = Polyethylene (…"
+      }
+    ],
+    "open_questions": []
+  }
+}

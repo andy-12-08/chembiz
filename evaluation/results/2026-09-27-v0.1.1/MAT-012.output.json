@@ -1,0 +1,94 @@
+{
+  "output_id": "c04a90f3-bc7a-4f79-a772-b837a263dd59",
+  "session_id": "2b420edb-b503-4cad-93b8-1afc165cb72e",
+  "run_id": "3b7ad9c2-ec47-4918-87fe-47fac2e87416",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "Hydrogen chloride — 8 hr group: Butyl; Teflon; Saranex; Barricade; Responder; Trellchem; Tychem.",
+      "Hydrogen chloride — 4 hr group: Neoprene; PVC.",
+      "The entry includes the hazard language: \"Prevent skin contact (solution)/ Frostbite.\"",
+      "The entry includes the consequence statement: \"Prevent possible skin freezing from direct liquid contact.\"",
+      "Definition of the time-group labels as used in the table: \"8 hr = More than 8 hours of resistance to breakthrough >0.1 micron g/cm2/min; 4 hr = At least 4 but less than 8 hours of resistance to breakthrough >0.1 micron g/cm2/min.\""
+    ],
+    "query": "For hydrogen chloride, which barriers does the archived NIOSH table place in its 8-hour and 4-hour groups, and what additional hazard language appears in the entry?",
+    "answer": "Evidence-grounded answer:\n\n- Hydrogen chloride — 8 hr group: Butyl; Teflon; Saranex; Barricade; Responder; Trellchem; Tychem. [niosh-cpc-az.html, chunk a8d0a0e8]\n- Hydrogen chloride — 4 hr group: Neoprene; PVC. [niosh-cpc-az.html, chunk a8d0a0e8]\n- The entry includes the hazard language: \"Prevent skin contact (solution)/ Frostbite.\" [niosh-cpc-az.html, chunk a8d0a0e8]\n- The entry includes the consequence statement: \"Prevent possible skin freezing from direct liquid contact.\" [niosh-cpc-az.html, chunk a8d0a0e8]\n- Definition of the time-group labels as used in the table: \"8 hr = More than 8 hours of resistance to breakthrough >0.1 micron g/cm2/min; 4 hr = At least 4 but less than 8 hours of resistance to breakthrough >0.1 micron g/cm2/min.\" [niosh-cpc-az.html, chunk 2b0b0a94]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "a8d0a0e8"
+        ],
+        "statement": "Hydrogen chloride — 8 hr group: Butyl; Teflon; Saranex; Barricade; Responder; Trellchem; Tychem."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "a8d0a0e8"
+        ],
+        "statement": "Hydrogen chloride — 4 hr group: Neoprene; PVC."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "a8d0a0e8"
+        ],
+        "statement": "The entry includes the hazard language: \"Prevent skin contact (solution)/ Frostbite.\""
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "a8d0a0e8"
+        ],
+        "statement": "The entry includes the consequence statement: \"Prevent possible skin freezing from direct liquid contact.\""
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "2b0b0a94"
+        ],
+        "statement": "Definition of the time-group labels as used in the table: \"8 hr = More than 8 hours of resistance to breakthrough >0.1 micron g/cm2/min; 4 hr = At least 4 but less than 8 hours of resistance to breakthrough >0.1 micron g/cm2/min.\""
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-az.html",
+        "source": "niosh-cpc-az.html",
+        "file_id": "66d75abe-397b-46a9-ac7e-6113379b3794",
+        "chunk_id": "a8d0a0e8"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-az.html",
+        "source": "niosh-cpc-az.html",
+        "file_id": "66d75abe-397b-46a9-ac7e-6113379b3794",
+        "chunk_id": "2b0b0a94"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_B8OtYMq4vmDhienP516G3wvt",
+        "args": {
+          "query": "archived NIOSH table hydrogen chloride 8-hour 4-hour groups barriers 'Hydrogen chloride' archived NIOSH Pocket Guide table 8-hour 4-hour 'barriers' 'archived'",
+          "session_id": "2b420edb-b503-4cad-93b8-1afc165cb72e"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_B8OtYMq4vmDhienP516G3wvt",
+        "content_preview": "[{\"chunk_id\": \"8ecc061c\", \"text\": \"(Gloves) PVC = Polyvinyl Chloride (Gloves, Suits, Boots) Teflon = Teflon™ (Gloves, Suits, Boots) Viton = Viton™ (Gloves, Suits) Saranex = Saranex™ coated suits PE/EVAL = 4H™ and Silver Shield™ brand gloves Barricade = Barricade™ coated suits CPF3 = CPF3™ suits Responder = Responder™ suits Trellchem = Trellchem HPS™ suits Tychem = Tychem 10000™ suits\\n\\n8 hr = More than 8 hours of resistance to breakthrough >0.1\\n\\nmicron\\n\\ng/cm 2/min. 4 hr = At least 4 but less than 8 hours of resistance to breakthrough >0.1\\n\\nmicron\\n\\ng/cm 2/min.\\n\\nNeoprene is a tradename and Teflon, Barricade and Tychem 10000 are trademarks of the DuPont Company. Viton is a registered trademark of DuPont Dow Elastomers. Saranex is a tradename of the Dow Chemical Company. 4H is a trademark of the Safety 4 Company. Silver Shield is a trademark of the Siebe North Company. CPF3 and Responder are trademarks of the Kappler Company. Trellchem HPS is a trademark of the Trelleborg Company. Recommendations are NOT valid for very thin Natural Rubber, Neoprene, Nitrile, and PVC gloves (0.3 mm or less).\\n\\nTABLE I\\n\\nChemical CAS No. Recommendation for skin protection † Recommended prote…"
+      }
+    ],
+    "open_questions": []
+  }
+}

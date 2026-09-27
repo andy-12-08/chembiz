@@ -1,0 +1,91 @@
+{
+  "output_id": "263155eb-34f0-4ea0-aa23-36a01e5f7015",
+  "session_id": "8ff12363-ffbe-4c15-a4b9-69b6ab4d23d8",
+  "run_id": "33e9471d-e72e-4fc1-9706-16a538a8c64c",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "Materials used for cryogenic disconnect seals (for example, Teflon/plastic spring-loaded seals) can become very brittle at low/cryogenic temperatures and can fracture, producing seal failure or reliability problems.",
+      "Widely different coefficients of thermal expansion lead to differential thermal contraction at cryogenic temperatures, causing large bolting problems, improper clearances or fits, loss of preload/alignment, and related seal/mating or hardware-interference issues."
+    ],
+    "query": "What two temperature-related material-selection concerns does NASA SP-8119 identify for cryogenic disconnects?",
+    "answer": "Evidence-grounded answer:\n\n- Materials used for cryogenic disconnect seals (for example, Teflon/plastic spring-loaded seals) can become very brittle at low/cryogenic temperatures and can fracture, producing seal failure or reliability problems. [nasa-sp-8119.pdf, pp. 65-66, chunk dd4b813f; nasa-sp-8119.pdf, pp. 130-132, chunk 5dac91e2]\n- Widely different coefficients of thermal expansion lead to differential thermal contraction at cryogenic temperatures, causing large bolting problems, improper clearances or fits, loss of preload/alignment, and related seal/mating or hardware-interference issues. [nasa-sp-8119.pdf, pp. 85-88, chunk e689d758; nasa-sp-8119.pdf, pp. 130-132, chunk 5dac91e2]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "dd4b813f",
+          "5dac91e2"
+        ],
+        "statement": "Materials used for cryogenic disconnect seals (for example, Teflon/plastic spring-loaded seals) can become very brittle at low/cryogenic temperatures and can fracture, producing seal failure or reliability problems."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "e689d758",
+          "5dac91e2"
+        ],
+        "statement": "Widely different coefficients of thermal expansion lead to differential thermal contraction at cryogenic temperatures, causing large bolting problems, improper clearances or fits, loss of preload/alignment, and related seal/mating or hardware-interference issues."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          65,
+          66
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "3c23f2fc-f0e1-41d1-a85a-e14bdba1fadb",
+        "chunk_id": "dd4b813f"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          130,
+          131,
+          132
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "3c23f2fc-f0e1-41d1-a85a-e14bdba1fadb",
+        "chunk_id": "5dac91e2"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          85,
+          88
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "3c23f2fc-f0e1-41d1-a85a-e14bdba1fadb",
+        "chunk_id": "e689d758"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_fDb8QAxYGVVRq5Jfvc0FM0zs",
+        "args": {
+          "query": "NASA SP-8119 cryogenic disconnects material selection temperature concerns 'SP-8119' 'cryogenic disconnect' temperature material selection concerns",
+          "session_id": "8ff12363-ffbe-4c15-a4b9-69b6ab4d23d8"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_fDb8QAxYGVVRq5Jfvc0FM0zs",
+        "content_preview": "[{\"chunk_id\": \"3857f027\", \"text\": \"spillage,\\n\\nleakge,\\n\\npossible\\n\\ningestion\\n\\nof\\n\\nseparation\\n\\nthrees, and pressure drop. The factors that\\n\\nand the configuration\\n\\ndetails of valve seats, poppet\\n\\nguides,\\n\\nand are treated in detail\\n\\nExcept requirements may mechanically exposure and does not produce and resultant pressure\\n\\nlbr those applications\\n\\nthat considered low pressure and at ambient\\n\\nrequire the valve to be pressure operated,\\n\\nthe operating the valves are and held open during the opening force is applied axially at a low travel rate loads on the poppet guide: a low cracking transverse and the valves are not\\n\\ni:\\n\\nbe\\n\\nto be relatively mild. For\\n\\nexample,\\n\\nat to flow and high pressure:\\n\\nopened\\n\\ntemperature\\n\\n\\\"\\n\\nsignificant low seat unit\\n\\nload is not\\n\\na requirement:\\n\\nI!\\n\\nI\\n\\nI\\n\\n[page 22]\\n\\n00000001-TSB09\\n\\n/ ,,2\\n\\n:\\n\\nsubjected to rapid closing by sudden flow reversals while in tile open position. Disconnect to valve design: applications, however, do impose severe conditions\\n\\nin two areas with respect\\n\\n:\\n\\n(I) Widely\\n\\nvarying Pressure-operated chatter.\\n\\nIlowrates may valves\\n\\nbe are exposed\\n\\napplied\\n\\nlbr\\n\\nl…"
+      }
+    ],
+    "open_questions": []
+  }
+}

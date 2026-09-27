@@ -1,0 +1,130 @@
+{
+  "output_id": "135bfa5b-5528-4c68-a3b4-dbcc9af30ced",
+  "session_id": "ff098d1e-33eb-476d-ada8-c8892a84c61f",
+  "run_id": "b7c26633-c10d-46d0-88a3-abdf33fc5941",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "The archived NIOSH table lists for acetone (CAS 67-64-1) an 8-hour rating for: Butyl; PE/EVAL; Barricade; CPF3; Responder; Trellchem; Tychem.",
+      "In the table, '8 hr' is defined as more than 8 hours of resistance to breakthrough >0.1 micron g/cm2/min.",
+      "The Recommendations for Chemical Protective Clothing database is a contractor's product and its recommendations do not necessarily reflect NIOSH policy.",
+      "Suggested barrier materials should be confirmed with the vendor and selected only after performing an appropriate hazard assessment; CPC should be considered a last line of defense and not a substitute for engineering and administrative controls.",
+      "Laboratory permeation/testing data have limitations (e.g., ASTM F739 limits, vapor-pressure and solubility constraints, inter-laboratory and manufacturing variability) and therefore lab results may not predict actual workplace CPC performance; the database should be used only as a starting point.",
+      "Recommendations are NOT valid for very thin Natural Rubber, Neoprene, Nitrile, and PVC gloves (0.3 mm or less)."
+    ],
+    "query": "Which protective-clothing barrier materials does the archived NIOSH table list as providing an 8-hour rating for acetone, and what caveat should accompany use of that list?",
+    "answer": "Evidence-grounded answer:\n\n- The archived NIOSH table lists for acetone (CAS 67-64-1) an 8-hour rating for: Butyl; PE/EVAL; Barricade; CPF3; Responder; Trellchem; Tychem. [niosh-cpc-az.html, chunk ef808349]\n- In the table, '8 hr' is defined as more than 8 hours of resistance to breakthrough >0.1 micron g/cm2/min. [niosh-cpc-az.html, chunk 3a07e5fc]\n- The Recommendations for Chemical Protective Clothing database is a contractor's product and its recommendations do not necessarily reflect NIOSH policy. [niosh-cpc-disclaimer.html, chunk a5293752]\n- Suggested barrier materials should be confirmed with the vendor and selected only after performing an appropriate hazard assessment; CPC should be considered a last line of defense and not a substitute for engineering and administrative controls. [niosh-cpc-disclaimer.html, chunk a5293752; niosh-cpc-disclaimer.html, chunk 30102b2f]\n- Laboratory permeation/testing data have limitations (e.g., ASTM F739 limits, vapor-pressure and solubility constraints, inter-laboratory and manufacturing variability) and therefore lab results may not predict actual workplace CPC performance; the database should be used only as a starting point. [niosh-cpc-disclaimer.html, chunk 30102b2f]\n- Recommendations are NOT valid for very thin Natural Rubber, Neoprene, Nitrile, and PVC gloves (0.3 mm or less). [niosh-cpc-az.html, chunk db5c449a]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "ef808349"
+        ],
+        "statement": "The archived NIOSH table lists for acetone (CAS 67-64-1) an 8-hour rating for: Butyl; PE/EVAL; Barricade; CPF3; Responder; Trellchem; Tychem."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "3a07e5fc"
+        ],
+        "statement": "In the table, '8 hr' is defined as more than 8 hours of resistance to breakthrough >0.1 micron g/cm2/min."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "a5293752"
+        ],
+        "statement": "The Recommendations for Chemical Protective Clothing database is a contractor's product and its recommendations do not necessarily reflect NIOSH policy."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "a5293752",
+          "30102b2f"
+        ],
+        "statement": "Suggested barrier materials should be confirmed with the vendor and selected only after performing an appropriate hazard assessment; CPC should be considered a last line of defense and not a substitute for engineering and administrative controls."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "30102b2f"
+        ],
+        "statement": "Laboratory permeation/testing data have limitations (e.g., ASTM F739 limits, vapor-pressure and solubility constraints, inter-laboratory and manufacturing variability) and therefore lab results may not predict actual workplace CPC performance; the database should be used only as a starting point."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "db5c449a"
+        ],
+        "statement": "Recommendations are NOT valid for very thin Natural Rubber, Neoprene, Nitrile, and PVC gloves (0.3 mm or less)."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-az.html",
+        "source": "niosh-cpc-az.html",
+        "file_id": "66d75abe-397b-46a9-ac7e-6113379b3794",
+        "chunk_id": "ef808349"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-az.html",
+        "source": "niosh-cpc-az.html",
+        "file_id": "66d75abe-397b-46a9-ac7e-6113379b3794",
+        "chunk_id": "3a07e5fc"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-disclaimer.html",
+        "source": "niosh-cpc-disclaimer.html",
+        "file_id": "55b5264a-7248-43fc-a0b5-b3613357c4e8",
+        "chunk_id": "a5293752"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-disclaimer.html",
+        "source": "niosh-cpc-disclaimer.html",
+        "file_id": "55b5264a-7248-43fc-a0b5-b3613357c4e8",
+        "chunk_id": "30102b2f"
+      },
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-az.html",
+        "source": "niosh-cpc-az.html",
+        "file_id": "66d75abe-397b-46a9-ac7e-6113379b3794",
+        "chunk_id": "db5c449a"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_enClO4urPvZ38EL2R5zO9sCN",
+        "args": {
+          "query": "archived NIOSH table protective clothing barrier materials 8-hour acetone '8-hour' acetone NIOSH archived table protective clothing materials list acetone 'NIOSH archived' 'protective clothing' table acetone 8-hour rating",
+          "session_id": "ff098d1e-33eb-476d-ada8-c8892a84c61f"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_enClO4urPvZ38EL2R5zO9sCN",
+        "content_preview": "[{\"chunk_id\": \"ef808349\", \"text\": \"Recommendations for Chemical Protective Clothing: A Companion to the NIOSH Pocket Guide to Chemical Hazards\\n\\nPrint\\n\\nRelated Pages\\n\\nA-Z\\n\\nABCDEFGHIKLMNOPQRSTUVWXYZ\\n\\nTABLE A\\n\\nChemical CAS No. Recommendation for skin protection † Recommended protective clothing barriers * Acetaldehyde 75-07-0 Prevent skin contact 8 hr: Butyl, Responder, Tychem 4 hr: Teflon, PE/EVAL Acetic acid 64-19-7 Prevent skin contact 8 hr: Butyl, Teflon, Viton, PE/EVAL, Responder, Tychem 4 hr: Neoprene, Barricade Acetic anhydride 108-24-7 Prevent skin contact 8 hr: Butyl, PE/EVAL, Barricade, Trellchem, Tychem 4 hr: Teflon Acetone 67-64-1 Prevent skin contact 8 hr: Butyl, PE/EVAL, Barricade, CPF3, Responder, Trellchem, Tychem Acetone cyanohydrin 75-86-5 Prevent skin contact Contact the manufacturer for recommendations Acetonitrile 75-05-8 Prevent skin contact 8 hr: Butyl, Teflon, PE/EVAL, Barricade, Responder, Trellchem, Tychem 2-Acetylaminofluorene 53-96-3 Prevent skin contact Contact the manufacturer for recommendations Acetylene 74-86-2 Frostbite Prevent possible skin freezing from direct liquid contact Acetylene tetrabromide 79-27-6 Prevent skin contact Contact the…"
+      }
+    ],
+    "open_questions": []
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "output_id": "cac883d7-2bb8-480a-89b3-efd5a4f9da93",
+  "session_id": "34e615c4-2b42-4fbb-9df7-f032595f0b01",
+  "run_id": "c51db616-13d9-41aa-b121-d4e553bcc250",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "In 2 N mixed acids (ranging from 2 N HNO3 to 2 N H2SO4), the behavior of Type 304 reflects its immunity to nitric acid and susceptibility to sulfuric acid.",
+      "NBS Circular 592 reports that stainless steels were resistant to fuming nitric acid, but that this resistance decreased with increasing temperature up to 160°F; the rate of erosive-corrosive attack in fuming nitric acid decreased with increased rate of flow.",
+      "In sulfuric acid, Kiefer and Renshaw reported that molybdenum-bearing types 316 and 317 were the most resistant at low temperatures, but that at about 150°F all of the stainless steels corrode in practically all concentrations of sulfuric acid (up to 95 percent).",
+      "Roach and Hall reported that molybdenum-bearing stainless steels were useful at room temperature in sulfuric acid concentrations below 15 percent and above 85 percent."
+    ],
+    "query": "How does NBS Circular 592 contrast Type 304 stainless steel's behavior in nitric acid with its behavior in sulfuric acid when discussing 2 N mixed acids?",
+    "answer": "Evidence-grounded answer:\n\n- In 2 N mixed acids (ranging from 2 N HNO3 to 2 N H2SO4), the behavior of Type 304 reflects its immunity to nitric acid and susceptibility to sulfuric acid. [nbscircular592.pdf, p. 60, chunk 99a7f44d]\n- NBS Circular 592 reports that stainless steels were resistant to fuming nitric acid, but that this resistance decreased with increasing temperature up to 160°F; the rate of erosive-corrosive attack in fuming nitric acid decreased with increased rate of flow. [nbscircular592.pdf, p. 60, chunk 99a7f44d]\n- In sulfuric acid, Kiefer and Renshaw reported that molybdenum-bearing types 316 and 317 were the most resistant at low temperatures, but that at about 150°F all of the stainless steels corrode in practically all concentrations of sulfuric acid (up to 95 percent). [nbscircular592.pdf, p. 60, chunk 99a7f44d]\n- Roach and Hall reported that molybdenum-bearing stainless steels were useful at room temperature in sulfuric acid concentrations below 15 percent and above 85 percent. [nbscircular592.pdf, p. 60, chunk 99a7f44d]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "99a7f44d"
+        ],
+        "statement": "In 2 N mixed acids (ranging from 2 N HNO3 to 2 N H2SO4), the behavior of Type 304 reflects its immunity to nitric acid and susceptibility to sulfuric acid."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "99a7f44d"
+        ],
+        "statement": "NBS Circular 592 reports that stainless steels were resistant to fuming nitric acid, but that this resistance decreased with increasing temperature up to 160°F; the rate of erosive-corrosive attack in fuming nitric acid decreased with increased rate of flow."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "99a7f44d"
+        ],
+        "statement": "In sulfuric acid, Kiefer and Renshaw reported that molybdenum-bearing types 316 and 317 were the most resistant at low temperatures, but that at about 150°F all of the stainless steels corrode in practically all concentrations of sulfuric acid (up to 95 percent)."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "99a7f44d"
+        ],
+        "statement": "Roach and Hall reported that molybdenum-bearing stainless steels were useful at room temperature in sulfuric acid concentrations below 15 percent and above 85 percent."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          60
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "db6647a9-1874-48fa-8b07-d37ab83007a5",
+        "chunk_id": "99a7f44d"
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_ed62uu2MMWPA6ONzwhguWYZK",
+        "args": {
+          "query": "NBS Circular 592 Type 304 stainless steel nitric acid sulfuric acid 2 N mixed acids circular 592 2 N mixed acids 304 behavior",
+          "session_id": "34e615c4-2b42-4fbb-9df7-f032595f0b01"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_ed62uu2MMWPA6ONzwhguWYZK",
+        "content_preview": "[{\"chunk_id\": \"99a7f44d\", \"text\": \"30 f by nitric acid as a function of temperature [335].\\n\\n53\\n\\n[page 60]\\n\\nand coworkers [621] reported that stainless steels were resistant to fuming nitric acid, that the resistance decreased with increasing temperature up to 160° F, and the rate of erosive-corrosive attack decreased with increased rate of flow, as shown in table 29, probably because of removal of decomposition products from the metal surface. In sulfuric acid, Kiefer and Renshaw [231] reported that molybdenum-bearing types 316 and 317 were the most resistant at low temperatures, but at about 150° F all of the stainless steels corrode in practically all concentrations of acid from ){ to 95 percent. However, Roach and Hall [726] reported that molybdenum-bearing stainless steels were useful, at room temperature, in concentra¬ tions of sulfuric acid below 15 percent and above 85 percent. The resistance to sulfuric acid is improved in some cases by additions of copper or cerium [231, 629], In 2 N mixed acids, ranging from 2 N HN03 to 2 N H2SO4, the behavior of type 304 reflects its immunity to nitric acid and susceptibility to sulfuric acid [692], Hydro¬ chloric acid and some sol…"
+      }
+    ],
+    "open_questions": [
+      "The excerpt contains a garbled concentration range: the phrase appears as \"from ){ to 95 percent\" (page 60). The lower bound of that sulfuric-acid concentration range is unreadable in the provided evidence (chunk 99a7f44d).",
+      "The provided evidence gives qualitative statements about Type 304's immunity/susceptibility in 2 N mixed acids but does not provide quantitative corrosion rates for Type 304 specifically in 2 N HNO3, 2 N H2SO4, or the 2 N mixed acids (no numeric corrosion-rate values for Type 304 in those 2 N conditions are present in the supplied chunk)."
+    ]
+  }
+}

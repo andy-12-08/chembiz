@@ -1,0 +1,71 @@
+{
+  "output_id": "cc55b379-0f98-4b28-a741-812c6364c8af",
+  "session_id": "448c40dc-d77a-4cc7-99c6-e5a509ee93bb",
+  "run_id": "59b9ed19-7a87-4f0a-b322-6455de3010db",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "Hydrochloric acid and some solutions containing halide ions attack the passive film on stainless steel.",
+      "This attack produces corrosion of the pitting type on stainless steel.",
+      "Additions of molybdenum reduce the susceptibility of stainless steel to pitting corrosion."
+    ],
+    "query": "What corrosion mechanism does NBS Circular 592 associate with hydrochloric acid and other halide-containing solutions attacking stainless steel?",
+    "answer": "Evidence-grounded answer:\n\n- Hydrochloric acid and some solutions containing halide ions attack the passive film on stainless steel. [nbscircular592.pdf, p. 60, chunk 99a7f44d]\n- This attack produces corrosion of the pitting type on stainless steel. [nbscircular592.pdf, p. 60, chunk 99a7f44d]\n- Additions of molybdenum reduce the susceptibility of stainless steel to pitting corrosion. [nbscircular592.pdf, p. 60, chunk 99a7f44d]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "99a7f44d"
+        ],
+        "statement": "Hydrochloric acid and some solutions containing halide ions attack the passive film on stainless steel."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "99a7f44d"
+        ],
+        "statement": "This attack produces corrosion of the pitting type on stainless steel."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "99a7f44d"
+        ],
+        "statement": "Additions of molybdenum reduce the susceptibility of stainless steel to pitting corrosion."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          60
+        ],
+        "title": "nbscircular592.pdf",
+        "source": "nbscircular592.pdf",
+        "file_id": "db6647a9-1874-48fa-8b07-d37ab83007a5",
+        "chunk_id": "99a7f44d"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_AKOLjknQpaIW3eCNw1AZwDFp",
+        "args": {
+          "query": "NBS Circular 592 stainless steel hydrochloric acid halide-containing solutions corrosion mechanism 'Circular 592' 'NBS' 'stainless' 'hydrochloric' 'halide'",
+          "session_id": "448c40dc-d77a-4cc7-99c6-e5a509ee93bb"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_AKOLjknQpaIW3eCNw1AZwDFp",
+        "content_preview": "[{\"chunk_id\": \"cc86c165\", \"text\": \"-20 Cr-12 Co-6 W alloy was pro¬\\n\\nposed for cast valve-seat inserts [717],\\n\\nNickel-chromium-iron alloys will withstand short exposures up to 3,500° F when they are coated with a flame-sprayed mixture of nickel oxide and magnesium oxide [486].\\n\\n4.5. Hastelloy Alloys\\n\\nThe first of the high-nickel corrosion-resistant alloys known as Hastelloys were nickel-molyb¬ denum-iron alloys, but in subsequent alloys the composition was considerably changed. This dis¬ cussion will be confined to the corrosion-resistant alloys A, B, C, D, and F. Hastelloy R and Hastelloy X were designed for high-temperature mechanical properties, i. e., for super alloy service. Hastelloy A contains 56 Ni-22 Mo-22 Fe. It is usefully resistant to all concentrations of hydro¬ chloric acid at room temperature and to unaerated solutions at temperatures below about 160° F. It is usefully resistant to sulfuric acid of all concen¬ trations at temperatures up to about 160° F, and up to the boiling point for concentrations below 50 percent. It is resistant to acid chlorides, acid phosphates, organic acids and compounds, to at¬ mospheric oxidation, and to oxidizing and reducing flue …"
+      }
+    ],
+    "open_questions": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "dataset_version": "0.1.0",
+  "run_date": "2026-09-27",
+  "benchmark_source_commit": "dcc704d5c5dfd8fa479c069bb25a5d425c7dacfc",
+  "benchmark_source_tree_clean_at_start": true,
+  "git_branch_at_start": "main",
+  "evaluation_user_id": "chembiz-eval-v0.1.1-clean-dcc704d",
+  "ingestion_session_id": "ce6ef40a-e0f3-4508-9d5e-c20d0f07c5e2",
+  "execution_method": "Automated local-API runner against Docker Compose services",
+  "runner_command": "python evaluation/run_evaluation.py --user-id chembiz-eval-v0.1.1-clean-dcc704d --output-dir evaluation/results/2026-09-27-v0.1.1-clean --poll-seconds 3 --timeout-seconds 900",
+  "preserved_artifact_directory": "evaluation/results/2026-09-27-v0.1.1",
+  "client_observed_batch_duration_seconds": 514.1,
+  "per_question_timeout_seconds": 900,
+  "poll_interval_seconds": 3,
+  "selective_retries": 0,
+  "chat_model": "gpt-5-mini",
+  "chat_reasoning_effort": "medium",
+  "embedding_model": "text-embedding-3-large",
+  "retrieval_top_k": 20,
+  "retrieval_score_threshold": null,
+  "web_search_max_results": 5,
+  "web_search_depth": "basic",
+  "parser": "unstructured",
+  "ingested_chunk_counts": {
+    "nbscircular592.pdf": 133,
+    "nasa-sp-8119.pdf": 129,
+    "niosh-cpc-az.html": 32,
+    "niosh-cpc-disclaimer.html": 2
+  },
+  "source_sha256": {
+    "nbscircular592.pdf": "4a5100b1b43aa11b68236e57a6d3a934a523a8d96abe8e68474f0b8eb085006c",
+    "nasa-sp-8119.pdf": "803e9fe0fec114ca9c4f54bbe1fd48b360fd872ab3ad3bedec044760b8a6f70f",
+    "niosh-cpc-az.html": "7025bf10e506274be513413da7480a7f1d51e8086874dab6d10a5bfa4b64fdab",
+    "niosh-cpc-disclaimer.html": "1f2f8f2306ea58fddc44523328a79d95f2c1f7f80606f63e49da6e69f26532d3"
+  },
+  "runtime": {
+    "python": "3.11.16",
+    "fastapi": "0.141.1",
+    "langgraph": "1.2.12",
+    "langchain-openai": "1.6.6",
+    "openai": "3.19.2",
+    "qdrant-client": "1.19.1",
+    "temporalio": "1.33.0",
+    "unstructured": "0.27.9",
+    "pymupdf": "1.28.2",
+    "pydantic": "2.13.5",
+    "docker_desktop": "4.92.0",
+    "docker_engine": "29.8.0",
+    "qdrant_server": "1.12.5"
+  },
+  "runtime_source_hash_verification": {
+    "api_and_worker_match_clean_commit_files": true,
+    "backend/agents/deepsearch/run_deepsearch_agent.py": "1cf7401d1fd128109c254bd33ab1e8c4de4491f772c876862199e63aa16145ed",
+    "backend/agents/deepsearch/handoff_payload.py": "9b9fce2059e1b1f6a701bc75deadcbb87cd83ae9433f4b76742a48b01ea0b2d4",
+    "backend/prompts/deepsearch_agent_prompt.py": "c03eff27788b02c45e18f528aaf638738687610d3db77759ba6fd8a18e8c4bcf"
+  },
+  "evaluator": "Repository owner with Codex-assisted manual scoring",
+  "key_status": "curated draft; independent domain-expert review pending",
+  "notes": [
+    "All 12 questions ran once in frozen file order; no selective retry was performed.",
+    "All saved run query snapshots exactly matched questions.json.",
+    "The runner writes run_started_from_client_at into batch-manifest.json after completing the loop; treat that field as artifact-generation time, not batch start time.",
+    "Runtime dependencies were recorded from the running container and differ from the local virtual environment; the container values above describe the evaluated runtime.",
+    "The Qdrant client emitted a compatibility warning because client 1.19.1 connected to server 1.12.5; all ingestion and query operations completed successfully."
+  ]
+}

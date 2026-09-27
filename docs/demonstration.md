@@ -1,4 +1,4 @@
-# ChemBiz v0.1.0 demonstration record
+# ChemBiz v0.1.1 demonstration record
 
 This document is a reproducible, text-based demonstration record. It links to preserved machine-readable evidence instead of presenting a staged interface screenshot.
 
@@ -14,12 +14,11 @@ Exact commands and API paths are documented in [the evaluation guide](../evaluat
 
 ## Preserved examples
 
-- [MAT-001 structured baseline output](../evaluation/results/2026-09-26-v0.1.0/MAT-001.output.json): condition-bounded stainless-steel evidence with citations.
-- [MAT-007 structured baseline output](../evaluation/results/2026-09-26-v0.1.0/MAT-007.output.json): an OCR-heavy failure case retained rather than removed.
-- [Baseline per-question report](../evaluation/results/2026-09-26-v0.1.0/evaluation-report.md): all 12 questions, aggregate metrics, and failure analysis.
-- [Generalized-agent regression](../evaluation/results/2026-09-27-v0.2.0/evaluation-report.md): configuration regression and operational failures.
-- [Focused runtime regression](../evaluation/results/2026-09-27-v0.2.1-runtime-focused/evaluation-report.md): recovery behavior for the two operational failures.
+- [MAT-001 structured output](../evaluation/results/2026-09-27-v0.1.1/MAT-001.output.json): a strict-pass example with condition-bounded stainless-steel evidence.
+- [MAT-007 structured output](../evaluation/results/2026-09-27-v0.1.1/MAT-007.output.json): an OCR-heavy partial result retained rather than hidden.
+- [Per-question evaluation report](../evaluation/results/2026-09-27-v0.1.1/evaluation-report.md): metrics, findings, reproducibility details, and limitations for all 12 questions.
+- [Machine-readable scores](../evaluation/results/2026-09-27-v0.1.1/scores.json) and [run metadata](../evaluation/results/2026-09-27-v0.1.1/run-metadata.json): scoring and exact execution record.
 
 ## Interpretation
 
-The preserved artifacts demonstrate an implemented end-to-end workflow and make both successful and failed cases inspectable. They do not demonstrate independent scientific validation, production reliability, or suitability for safety-critical decisions.
+The preserved artifacts demonstrate an implemented end-to-end workflow from a clean, identified commit and make complete and partial answers inspectable. They do not demonstrate independent scientific validation, production reliability, or suitability for safety-critical decisions.

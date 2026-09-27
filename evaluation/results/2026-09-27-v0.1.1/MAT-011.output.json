@@ -1,0 +1,69 @@
+{
+  "output_id": "81e7d8dd-0813-4c80-b56a-3efd1a830e63",
+  "session_id": "60100757-b260-4f45-9267-66bfdb85f1fe",
+  "run_id": "bf663058-129b-4d6c-8aa4-4f7f24857b17",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "The archived NIOSH table entry applies to hydrogen peroxide (CAS 7722-84-1) solution 30%-70%.",
+      "For hydrogen peroxide (solution 30%-70%) the table lists these 8-hour group barriers: Butyl; Natural; Nitrile; PE; Viton; CPF3; Responder; Tychem.",
+      "For hydrogen peroxide (solution 30%-70%) the table lists these 4-hour group barriers: PVC; PE/EVAL."
+    ],
+    "query": "For hydrogen peroxide solution from 30 to 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
+    "answer": "Evidence-grounded answer:\n\n- The archived NIOSH table entry applies to hydrogen peroxide (CAS 7722-84-1) solution 30%-70%. [niosh-cpc-az.html, chunk a8d0a0e8]\n- For hydrogen peroxide (solution 30%-70%) the table lists these 8-hour group barriers: Butyl; Natural; Nitrile; PE; Viton; CPF3; Responder; Tychem. [niosh-cpc-az.html, chunk a8d0a0e8]\n- For hydrogen peroxide (solution 30%-70%) the table lists these 4-hour group barriers: PVC; PE/EVAL. [niosh-cpc-az.html, chunk a8d0a0e8]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "a8d0a0e8"
+        ],
+        "statement": "The archived NIOSH table entry applies to hydrogen peroxide (CAS 7722-84-1) solution 30%-70%."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "a8d0a0e8"
+        ],
+        "statement": "For hydrogen peroxide (solution 30%-70%) the table lists these 8-hour group barriers: Butyl; Natural; Nitrile; PE; Viton; CPF3; Responder; Tychem."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "a8d0a0e8"
+        ],
+        "statement": "For hydrogen peroxide (solution 30%-70%) the table lists these 4-hour group barriers: PVC; PE/EVAL."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [],
+        "title": "niosh-cpc-az.html",
+        "source": "niosh-cpc-az.html",
+        "file_id": "66d75abe-397b-46a9-ac7e-6113379b3794",
+        "chunk_id": "a8d0a0e8"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_MzfTe8sPGZc18YTffbLOfOl4",
+        "args": {
+          "query": "NIOSH table archived hydrogen peroxide 30 70 percent 8-hour 4-hour barriers 'barrier' '8-hour' '4-hour' archived table NIOSH barriers hydrogen peroxide 30% 70%",
+          "session_id": "60100757-b260-4f45-9267-66bfdb85f1fe"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_MzfTe8sPGZc18YTffbLOfOl4",
+        "content_preview": "[{\"chunk_id\": \"cfff5438\", \"text\": \"skin contact Contact the manufacturer for recommendations p-Anisidine 104-94-9 Prevent skin contact Contact the manufacturer for recommendations Antimony 7440-36-0 Prevent skin contact Any barrier that will prevent contamination from the dry chemical ANTU 86-88-4 Prevent skin contact Contact the manufacturer for recommendations Arsenic (inorganic compounds, as As) 7440-38-2 (metal) Prevent skin contact Contact the manufacturer for recommendations Arsenic, organic compounds (as As) Recommendations regarding personal protective clothing vary depending upon the specific compound Contact the manufacturer for recommendations Arsine 7784-42-1 Prevent skin contact/ Frostbite Contact the manufacturer for recommendations Prevent possible skin freezing from direct liquid contact Asbestos 1332-21-4 Prevent skin contact Any barrier that will prevent contamination from the fiber Asphalt fumes 8052-42-4 Prevent skin contact Contact the manufacturer for recommendations Atrazine 1912-24-9 Prevent skin contact Contact the manufacturer for recommendations Azinphos-methyl 86-50-0 Prevent skin contact 8 hr: Neoprene, Nitrile\\n\\nRecommendations for skin protection †\\n…"
+      }
+    ],
+    "open_questions": []
+  }
+}

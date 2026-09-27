@@ -72,7 +72,7 @@ User question and documents
 
 ## Project status
 
-ChemBiz is an active research prototype, not a validated production or regulatory system. Its core ingestion, retrieval, orchestration, persistence, and API components are implemented. A draft public materials-research benchmark, an automated local-API runner, and preserved scored iterations are included; independent domain review remains planned work.
+ChemBiz is an active research prototype, not a validated production or regulatory system. Its core ingestion, retrieval, orchestration, persistence, and API components are implemented. A draft public materials-research benchmark, an automated local-API runner, and a clean, commit-linked result set are included; independent domain review remains planned work.
 
 ## Run with Docker
 
@@ -118,11 +118,9 @@ The [`evaluation`](evaluation/) package defines the first reproducible materials
 
 The evaluation can currently be run through the Docker-hosted API or Swagger UI. Use a dedicated evaluation `user_id`, upload the frozen document corpus once, and then create a separate session and run for each frozen question. This keeps the query snapshot for every result immutable while allowing ChemBiz's intentional same-user, cross-session retrieval to reuse the uploaded corpus. Preserve both `/runs/{run_id}` and `/runs/{run_id}/output` responses. See [`evaluation/README.md`](evaluation/README.md#running-version-010-today) for the exact procedure and scoring requirements.
 
-The first preserved baseline is [`evaluation/results/2026-09-26-v0.1.0/evaluation-report.md`](evaluation/results/2026-09-26-v0.1.0/evaluation-report.md). It reports 12/12 successful runs, 93.2% weighted evidence coverage, 62.8% weighted answer completeness, 97.9% citation correctness, and a 2.1% unsupported-claim rate. These are manually reviewed prototype results against a curated draft key, not independently validated performance claims.
+The clean release benchmark is preserved in [`evaluation/results/2026-09-27-v0.1.1/evaluation-report.md`](evaluation/results/2026-09-27-v0.1.1/evaluation-report.md). It ran all 12 frozen questions once against clean source commit `dcc704d5c5dfd8fa479c069bb25a5d425c7dacfc`, with no selective retries. It reports 12/12 operational success, 79.7% weighted answer completeness, 5/12 strict question passes, 52/52 claims with citations, and no unsupported claims identified in internal manual review. These are owner-prepared, Codex-assisted prototype results against a curated draft key—not independent domain-expert validation.
 
-The generalized-agent regression is preserved in [`evaluation/results/2026-09-27-v0.2.0/evaluation-report.md`](evaluation/results/2026-09-27-v0.2.0/evaluation-report.md). It reports 10/12 operational success, 64.9% end-to-end completeness, 80.0% completeness among successful runs, and 30/30 tool-backed claims judged supported in manual review. Its two operational failures led to hard status-deadline and recoverable OCR-error changes that require a subsequent regression. This benchmark remains weighted toward materials compatibility; broader chemical-engineering evaluation is planned.
-
-See the [`v0.1.0` technical report](docs/technical-report-v0.1.0.md) and [text-based demonstration record](docs/demonstration.md) for a release-level summary and direct links to preserved success and failure artifacts.
+See the [`v0.1.1` technical report](docs/technical-report-v0.1.1.md) and [text-based demonstration record](docs/demonstration.md) for the release-level summary and direct evidence links. Historical development runs remain available from the immutable [`v0.1.0` release](https://github.com/andy-12-08/chembiz/releases/tag/v0.1.0).
 
 ## Confidentiality and provenance
 
@@ -132,7 +130,7 @@ Contributors are responsible for confirming that they have the right to disclose
 
 ## Roadmap
 
-- Independently reproduce the public materials-compatibility and selection demonstration from a clean, locked release configuration
+- Obtain independent domain-expert review of the public materials-compatibility demonstration and scoring key
 - Add a held-out benchmark spanning thermodynamics, kinetics, reactor engineering, separations, transport, process design, materials, and safety
 - Independently review the versioned evaluation dataset and scoring key
 - Measure retrieval relevance, citation correctness, answer completeness, and failure cases

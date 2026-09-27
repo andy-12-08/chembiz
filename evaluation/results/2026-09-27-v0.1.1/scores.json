@@ -1,0 +1,30 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "dataset_version": "0.1.0",
+  "system_iteration": "v0.1.1-clean-release-candidate",
+  "benchmark_source_commit": "dcc704d5c5dfd8fa479c069bb25a5d425c7dacfc",
+  "questions": [
+    {"question_id": "MAT-001", "status": "succeeded", "required_points": 3, "answer_score": 3.0, "strict_pass": true, "finding": "Correct alloy ranking, temperature/environment qualification, and condition-dependent limitation."},
+    {"question_id": "MAT-002", "status": "succeeded", "required_points": 2, "answer_score": 1.5, "strict_pass": false, "finding": "Correct screening conclusion; the scan's one-half-percent lower bound remained unreadable and was disclosed rather than guessed."},
+    {"question_id": "MAT-003", "status": "succeeded", "required_points": 2, "answer_score": 2.0, "strict_pass": true, "finding": "Correct passive-film attack and pitting mechanism."},
+    {"question_id": "MAT-004", "status": "succeeded", "required_points": 2, "answer_score": 2.0, "strict_pass": true, "finding": "Correct source-bounded nitric/sulfuric comparison."},
+    {"question_id": "MAT-005", "status": "succeeded", "required_points": 3, "answer_score": 3.0, "strict_pass": true, "finding": "All requested compatibility categories recovered."},
+    {"question_id": "MAT-006", "status": "succeeded", "required_points": 3, "answer_score": 2.0, "strict_pass": false, "finding": "Correct electrochemical-series recommendation and galvanic rationale; acceptable platings and finishes omitted."},
+    {"question_id": "MAT-007", "status": "succeeded", "required_points": 4, "answer_score": 2.5, "strict_pass": false, "finding": "Recovered most alloy families but omitted 2014-T6, did not resolve 17-4PH conditions, and omitted AM350 SCT850."},
+    {"question_id": "MAT-008", "status": "succeeded", "required_points": 3, "answer_score": 1.5, "strict_pass": false, "finding": "Recovered brittleness and general differential-contraction risk; omitted the exact sealing/latching/releasing formulation and reduced plastic-seal loading consequence."},
+    {"question_id": "MAT-009", "status": "succeeded", "required_points": 3, "answer_score": 3.0, "strict_pass": true, "finding": "Exact list plus vendor confirmation, hazard assessment, and screening limitations."},
+    {"question_id": "MAT-010", "status": "succeeded", "required_points": 4, "answer_score": 3.0, "strict_pass": false, "finding": "Exact condition and barrier groups; table-wide vendor/use limitation omitted."},
+    {"question_id": "MAT-011", "status": "succeeded", "required_points": 4, "answer_score": 3.0, "strict_pass": false, "finding": "Exact condition and barrier groups; table-wide vendor/use limitation omitted."},
+    {"question_id": "MAT-012", "status": "succeeded", "required_points": 4, "answer_score": 3.0, "strict_pass": false, "finding": "Exact barrier groups and hazard language; table-wide vendor/use limitation omitted."}
+  ],
+  "aggregate": {
+    "operational_success": {"numerator": 12, "denominator": 12, "percent": 100.0},
+    "answer_completeness": {"earned": 29.5, "possible": 37, "percent": 79.7},
+    "strict_question_passes": {"numerator": 5, "denominator": 12, "percent": 41.7},
+    "citation_completeness": {"supported_claims": 52, "total_claims": 52, "percent": 100.0},
+    "manual_citation_correctness": {"correct": 52, "total_claims": 52, "percent": 100.0},
+    "manual_unsupported_claim_rate": {"unsupported": 0, "total_claims": 52, "percent": 0.0},
+    "allowed_source_compliance": {"allowed_citation_records": 23, "total_citation_records": 23, "percent": 100.0}
+  },
+  "scoring_note": "Required-point completeness, citation correctness, and unsupported-claim judgments were manually assessed by the repository owner with Codex assistance against the curated draft key and persisted evidence. They are not independent domain-expert validation."
+}

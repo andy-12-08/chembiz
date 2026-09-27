@@ -1,0 +1,81 @@
+{
+  "dataset": "chembiz-materials-eval",
+  "dataset_version": "0.1.0",
+  "run_started_from_client_at": "2026-09-27T16:26:47.919955+00:00",
+  "base_url": "http://localhost:8000",
+  "user_id": "chembiz-eval-v0.1.1-clean-dcc704d",
+  "results": [
+    {
+      "question_id": "MAT-001",
+      "session_id": "d57177c1-1226-4f8d-b070-d0e9b7066c07",
+      "run_id": "fcf49fec-2dee-483e-ab0b-0c42771519e2",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-002",
+      "session_id": "ba355635-5680-40ab-a406-8fe90a2e314c",
+      "run_id": "13910505-d81b-4dc8-9d18-a52bfb77a10a",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-003",
+      "session_id": "448c40dc-d77a-4cc7-99c6-e5a509ee93bb",
+      "run_id": "59b9ed19-7a87-4f0a-b322-6455de3010db",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-004",
+      "session_id": "34e615c4-2b42-4fbb-9df7-f032595f0b01",
+      "run_id": "c51db616-13d9-41aa-b121-d4e553bcc250",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-005",
+      "session_id": "914a8c32-2cf5-4305-8943-cbd56d6f19f4",
+      "run_id": "e448e069-3189-4708-be42-717a0a00de6c",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-006",
+      "session_id": "0e7983b5-d09f-4456-9a41-e1c7a57b6cee",
+      "run_id": "3d54ad12-27fb-422d-adc8-a9282015f975",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-007",
+      "session_id": "26127085-b48d-4f56-a8ce-393b53290547",
+      "run_id": "e669a46f-147c-4e41-aa5f-630e68e82d05",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-008",
+      "session_id": "8ff12363-ffbe-4c15-a4b9-69b6ab4d23d8",
+      "run_id": "33e9471d-e72e-4fc1-9706-16a538a8c64c",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-009",
+      "session_id": "ff098d1e-33eb-476d-ada8-c8892a84c61f",
+      "run_id": "b7c26633-c10d-46d0-88a3-abdf33fc5941",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-010",
+      "session_id": "e9d0124b-f986-4b4b-8ea9-020b45ccf54a",
+      "run_id": "3711aa1e-35a1-4b30-ae06-7829f797880b",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-011",
+      "session_id": "60100757-b260-4f45-9267-66bfdb85f1fe",
+      "run_id": "bf663058-129b-4d6c-8aa4-4f7f24857b17",
+      "status": "succeeded"
+    },
+    {
+      "question_id": "MAT-012",
+      "session_id": "2b420edb-b503-4cad-93b8-1afc165cb72e",
+      "run_id": "3b7ad9c2-ec47-4918-87fe-47fac2e87416",
+      "status": "succeeded"
+    }
+  ]
+}

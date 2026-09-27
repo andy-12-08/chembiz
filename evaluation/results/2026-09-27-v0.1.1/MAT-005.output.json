@@ -1,0 +1,106 @@
+{
+  "output_id": "ef22a990-8a3e-4ba0-be6b-ed04fd23c5c6",
+  "session_id": "914a8c32-2cf5-4305-8943-cbd56d6f19f4",
+  "run_id": "e448e069-3189-4708-be42-717a0a00de6c",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "Evaluate chemical reaction between the material and the system fluid (including no reaction, slow reaction, or ignition on impact).",
+      "Evaluate propellant decomposition or ignition potential caused by the material (materials that cause propellant decomposition or ignition).",
+      "Evaluate corrosion modes, specifically atmospheric corrosion, galvanic corrosion, and stress‑corrosion, when selecting metals for contact with the system fluid.",
+      "Consult electrochemical (dissimilar‑metal/galvanic) series and consider electrochemical effects, platings, and finishes when selecting materials for fluid contact.",
+      "Example warning in SP‑8119: do not use materials such as titanium or organic lubricants in liquid‑oxygen systems because they can ignite on impact or cause propellant to ignite when subjected to rubbing."
+    ],
+    "query": "Which categories of material-compatibility considerations does NASA SP-8119 say should be evaluated when selecting metal alloys for contact with a system fluid?",
+    "answer": "Evidence-grounded answer:\n\n- Evaluate chemical reaction between the material and the system fluid (including no reaction, slow reaction, or ignition on impact). [nasa-sp-8119.pdf, pp. 130-132, chunk 5dac91e2]\n- Evaluate propellant decomposition or ignition potential caused by the material (materials that cause propellant decomposition or ignition). [nasa-sp-8119.pdf, pp. 130-132, chunk 5dac91e2]\n- Evaluate corrosion modes, specifically atmospheric corrosion, galvanic corrosion, and stress‑corrosion, when selecting metals for contact with the system fluid. [nasa-sp-8119.pdf, pp. 130-132, chunk 5dac91e2]\n- Consult electrochemical (dissimilar‑metal/galvanic) series and consider electrochemical effects, platings, and finishes when selecting materials for fluid contact. [nasa-sp-8119.pdf, pp. 130-132, chunk 5dac91e2]\n- Example warning in SP‑8119: do not use materials such as titanium or organic lubricants in liquid‑oxygen systems because they can ignite on impact or cause propellant to ignite when subjected to rubbing. [nasa-sp-8119.pdf, pp. 130-132, chunk 5dac91e2]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "5dac91e2"
+        ],
+        "statement": "Evaluate chemical reaction between the material and the system fluid (including no reaction, slow reaction, or ignition on impact)."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "5dac91e2"
+        ],
+        "statement": "Evaluate propellant decomposition or ignition potential caused by the material (materials that cause propellant decomposition or ignition)."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "5dac91e2"
+        ],
+        "statement": "Evaluate corrosion modes, specifically atmospheric corrosion, galvanic corrosion, and stress‑corrosion, when selecting metals for contact with the system fluid."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "5dac91e2"
+        ],
+        "statement": "Consult electrochemical (dissimilar‑metal/galvanic) series and consider electrochemical effects, platings, and finishes when selecting materials for fluid contact."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "5dac91e2"
+        ],
+        "statement": "Example warning in SP‑8119: do not use materials such as titanium or organic lubricants in liquid‑oxygen systems because they can ignite on impact or cause propellant to ignite when subjected to rubbing."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          130,
+          131,
+          132
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "3c23f2fc-f0e1-41d1-a85a-e14bdba1fadb",
+        "chunk_id": "5dac91e2"
+      }
+    ],
+    "confidence": "medium",
+    "tool_trace": [
+      {
+        "id": "call_1VNr0leSdNM3B0lBi2bc7ULO",
+        "args": {
+          "query": "NASA SP-8119 material compatibility selecting metal alloys contact with system fluid categories of material-compatibility considerations",
+          "session_id": "914a8c32-2cf5-4305-8943-cbd56d6f19f4"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_1VNr0leSdNM3B0lBi2bc7ULO",
+        "content_preview": "[{\"chunk_id\": \"5dac91e2\", \"text\": \";\\n\\nor a control\\n\\nspecification should be utilized to control\\n\\nthe product.\\n\\nt;\\n\\n-,_i\\n\\n3.5.4.6 CONTAMINATION\\n\\n__\\\" :\\n\\nThe seal shall be capable oJ'performing in the operating JluM attd shaft not generate SVslem.\\n\\nsatisfactorily with spec(fied cootamination\\n\\ncontamination\\n\\ndetrimental\\n\\nto the\\n\\no,\\n\\n_\\\"\\n\\nTo absorb contamination,\\n\\nuse a soft seal material with contact bearing area for the seal as\\n\\n=i!, _: _:\\n\\nlarge exceptionally filtration.\\n\\nas possible. Use the maximum possible\\n\\nFor dirty fluids, use an auxiliary seal for protection of the primary seal. or specify\\n\\nhardness\\n\\non the\\n\\nsliding element.\\n\\n3.6 GENERAL CONSIDERATIONS FOR DESIGN\\n\\n.\\n\\n:\\n\\n3.6.1 MaterialSelection\\n\\n.,',.\\n\\n3.6.1.1 METALS\\n\\n:,\\n\\n:\\n\\n12n\\n\\ni\\n\\n'\\n\\nt\\n\\n4\\n\\n[page 131]\\n\\n'\\n\\n3.6.1.1.1 Compatibility\\n\\nThe tttelal alh_.rstt,s'('ditt the .Ws/emshull he compatihh' with the system fhtM aud re,_islatll !o all altlicll_al(,d forms o.f corrosiou.\\n\\nThe materials:\\n\\nfollowing material-compatibility\\n\\nconsiderations\\n\\nshould\\n\\nbe\\n\\nevaluated\\n\\nin selecting\\n\\nChemical\\n\\nreaction reaction, or impact\\n\\nbetween materials i…"
+      },
+      {
+        "id": "call_yyZ3uuZmLXhcEMXCtoZuwqaz",
+        "args": {
+          "query": "\"3.6.1.1.1 Compatibility\" \"material-compatibility considerations\" \"system fluid\" \"SP-8119\"",
+          "session_id": "914a8c32-2cf5-4305-8943-cbd56d6f19f4"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_yyZ3uuZmLXhcEMXCtoZuwqaz",
+        "content_preview": "[{\"chunk_id\": \"159ecc1b\", \"text\": \"by high seal-llange loading. Solutions\\n\\nand 2.5.2.1.\\n\\n!\\n\\n2.5.2.3 ENVIRONMENT\\n\\nTwo environmental conditions, temperature and the .mture of special considerations -423°F to +!450°F, propellants, checkout.\\n\\nthe lluid medium, impose on static seals. Static seals in rocket engines are required to seal from storable and engine\\n\\ni': \\\"_:':\\n\\nand\\n\\nthe products,\\n\\nfluids\\n\\nsealed\\n\\ninclude cryogenic used during manufacturing\\n\\npropellants,\\n\\ncombustion\\n\\nand solvents\\n\\n_.\\n\\nthe operation of ,,,eais by causing changes to the physical properties and plastics are affected by both high and low temperatures and hardness. The change in elastomer losing its ability to seal effectively arc used:\\n\\n!:i '_, o'_ i\\\" _,_ \\\" i:' i_ rT,.\\n\\nTemperatttre of seal materials. Eiastomers with respect hardness when pressure is applied. For high temperatures, the metal used as interlace material and the metal seal adequately\\n\\ninlluences\\n\\nin strength, results\\n\\nto changes at low temperatures\\n\\nflexibility, in the elastomer\\n\\nnletal seals with soft\\n\\ninterfaces\\n\\nis selected for its resilience at operating\\n\\ntemperature.\\n\\nfor the base material…"
+      }
+    ],
+    "open_questions": [
+      "The inventory excerpt contains recommended alloys and reference identifiers immediately following the compatibility list but some of those alloy identifiers and reference citations in the excerpt are OCR‑garbled and could not be unambiguously transcribed from the provided inventory (uncertainty in exact alloy names/reference numbers in the same vicinity of chunk_id 5dac91e2)."
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "output_id": "c99a9b7e-52d2-4c0e-81cf-6b1435db4142",
+  "session_id": "0e7983b5-d09f-4456-9a41-e1c7a57b6cee",
+  "run_id": "3d54ad12-27fb-422d-adc8-a9282015f975",
+  "agent_name": "deepsearch",
+  "output_type": "handoff",
+  "payload": {
+    "facts": [
+      "NASA SP-8119 (section 3.6.1.1.1) recommends consulting the electrochemical series for metals when selecting dissimilar metals that will touch or be in contact.",
+      "The purpose of consulting the electrochemical series is to address electrochemical (galvanic) corrosion that can occur when dissimilar metals touch."
+    ],
+    "query": "What does NASA SP-8119 recommend consulting when selecting dissimilar metals for parts that touch, and what risk is this intended to address?",
+    "answer": "Evidence-grounded answer:\n\n- NASA SP-8119 (section 3.6.1.1.1) recommends consulting the electrochemical series for metals when selecting dissimilar metals that will touch or be in contact. [nasa-sp-8119.pdf, pp. 130-132, chunk 5dac91e2]\n- The purpose of consulting the electrochemical series is to address electrochemical (galvanic) corrosion that can occur when dissimilar metals touch. [nasa-sp-8119.pdf, pp. 130-132, chunk 5dac91e2]",
+    "claims": [
+      {
+        "urls": [],
+        "chunk_ids": [
+          "5dac91e2"
+        ],
+        "statement": "NASA SP-8119 (section 3.6.1.1.1) recommends consulting the electrochemical series for metals when selecting dissimilar metals that will touch or be in contact."
+      },
+      {
+        "urls": [],
+        "chunk_ids": [
+          "5dac91e2"
+        ],
+        "statement": "The purpose of consulting the electrochemical series is to address electrochemical (galvanic) corrosion that can occur when dissimilar metals touch."
+      }
+    ],
+    "citations": [
+      {
+        "url": "",
+        "type": "document",
+        "pages": [
+          130,
+          131,
+          132
+        ],
+        "title": "nasa-sp-8119.pdf",
+        "source": "nasa-sp-8119.pdf",
+        "file_id": "3c23f2fc-f0e1-41d1-a85a-e14bdba1fadb",
+        "chunk_id": "5dac91e2"
+      }
+    ],
+    "confidence": "high",
+    "tool_trace": [
+      {
+        "id": "call_72GgjWBHqqVGuLC7oekw4aBX",
+        "args": {
+          "query": "NASA SP-8119 dissimilar metals selecting parts that touch recommend consulting when selecting dissimilar metals parts that touch risk intended to address SP-8119",
+          "session_id": "0e7983b5-d09f-4456-9a41-e1c7a57b6cee"
+        },
+        "kind": "call",
+        "name": "document_search_tool"
+      },
+      {
+        "kind": "result",
+        "name": "document_search_tool",
+        "tool_call_id": "call_72GgjWBHqqVGuLC7oekw4aBX",
+        "content_preview": "[{\"chunk_id\": \"5dac91e2\", \"text\": \";\\n\\nor a control\\n\\nspecification should be utilized to control\\n\\nthe product.\\n\\nt;\\n\\n-,_i\\n\\n3.5.4.6 CONTAMINATION\\n\\n__\\\" :\\n\\nThe seal shall be capable oJ'performing in the operating JluM attd shaft not generate SVslem.\\n\\nsatisfactorily with spec(fied cootamination\\n\\ncontamination\\n\\ndetrimental\\n\\nto the\\n\\no,\\n\\n_\\\"\\n\\nTo absorb contamination,\\n\\nuse a soft seal material with contact bearing area for the seal as\\n\\n=i!, _: _:\\n\\nlarge exceptionally filtration.\\n\\nas possible. Use the maximum possible\\n\\nFor dirty fluids, use an auxiliary seal for protection of the primary seal. or specify\\n\\nhardness\\n\\non the\\n\\nsliding element.\\n\\n3.6 GENERAL CONSIDERATIONS FOR DESIGN\\n\\n.\\n\\n:\\n\\n3.6.1 MaterialSelection\\n\\n.,',.\\n\\n3.6.1.1 METALS\\n\\n:,\\n\\n:\\n\\n12n\\n\\ni\\n\\n'\\n\\nt\\n\\n4\\n\\n[page 131]\\n\\n'\\n\\n3.6.1.1.1 Compatibility\\n\\nThe tttelal alh_.rstt,s'('ditt the .Ws/emshull he compatihh' with the system fhtM aud re,_islatll !o all altlicll_al(,d forms o.f corrosiou.\\n\\nThe materials:\\n\\nfollowing material-compatibility\\n\\nconsiderations\\n\\nshould\\n\\nbe\\n\\nevaluated\\n\\nin selecting\\n\\nChemical\\n\\nreaction reaction, or impact\\n\\nbetween materials i…"
+      }
+    ],
+    "open_questions": []
+  }
+}
