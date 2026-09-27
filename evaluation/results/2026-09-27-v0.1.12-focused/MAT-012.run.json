@@ -1,8 +1,0 @@
-{
-  "run_id": "033797c5-a43c-4907-88fe-d34a1e9af189",
-  "session_id": "292b5126-9802-496b-ab8a-d4a53f755328",
-  "status": "succeeded",
-  "query_snapshot": "For hydrogen chloride, which barriers does the archived NIOSH table place in its 8-hour and 4-hour groups, and what additional hazard language appears in the entry?",
-  "final_answer": "Evidence-grounded answer:\n\n- For hydrogen chloride the NIOSH archived table lists these 8-hour recommended protective clothing barriers: Butyl, Teflon, Saranex, Barricade, Responder, Trellchem, Tychem. [niosh-cpc-az.html, chunk 2323dcf8]\n- For hydrogen chloride the NIOSH archived table lists these 4-hour recommended protective clothing barriers: Neoprene, PVC. [niosh-cpc-az.html, chunk 2323dcf8]\n- The hydrogen chloride entry includes the hazard language: \"Prevent skin contact (solution)/Frostbite.\" [niosh-cpc-az.html, chunk 2323dcf8]\n- The hydrogen chloride entry includes the note: \"Prevent possible skin freezing from direct liquid contact.\" [niosh-cpc-az.html, chunk 2323dcf8]",
-  "error_message": null
-}

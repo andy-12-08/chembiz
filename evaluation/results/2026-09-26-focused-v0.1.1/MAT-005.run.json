@@ -1,8 +1,0 @@
-{
-  "run_id": "2cef1e90-5ed6-416e-a38f-ed03d6641358",
-  "session_id": "b51fd338-f8d0-4ce5-8cf1-0a0913738c63",
-  "status": "succeeded",
-  "query_snapshot": "Which categories of material-compatibility considerations does NASA SP-8119 say should be evaluated when selecting metal alloys for contact with a system fluid?",
-  "final_answer": "Evidence-grounded answer:\n\n- Evaluate chemical reaction between the metal material and the system fluid, including the potential for ignition on impact. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- Evaluate whether the material can cause propellant decomposition (materials that cause propellant to decompose or ignite should be avoided). [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- Evaluate corrosion susceptibility, including atmospheric corrosion, galvanic corrosion, and stress-corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- Evaluate electrochemical (dissimilar-metal) compatibility; consult the electrochemical series and consider platings and finishes. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed; nasa-sp-8119.pdf, pp. 132-133, chunk fb39e662]\n- Do not use materials such as titanium or organic lubricants where they can cause liquid-oxygen ignition on impact or otherwise induce propellant decomposition. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]",
-  "error_message": null
-}

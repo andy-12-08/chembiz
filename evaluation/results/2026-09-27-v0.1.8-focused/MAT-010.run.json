@@ -1,8 +1,0 @@
-{
-  "run_id": "7b44886b-f54f-499f-95e5-0220ba45c9f4",
-  "session_id": "2d9ec7e4-e715-4e27-990a-312aed25ffe2",
-  "status": "succeeded",
-  "query_snapshot": "For potassium hydroxide solution below 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
-  "final_answer": "Evidence-grounded answer:\n\n- Butyl, Nitrile, Neoprene, Polyvinyl Chloride (PVC), Viton, and Barrier® are cited as having greater-than-8-hour breakthrough for potassium hydroxide in solution (i.e., placed in an >8-hour/8-hour group). [Potassium Hydroxide Solution: https://www.ercoworldwide.com/wp-content/uploads/2022/04/SAFETY-DATA-SHEET-US-Potassium-Hydroxide-Solution-rev-6.pdf; Potassium Hydroxide: https://nj.gov/health/eoh/rtkweb/documents/fs/1571.pdf]\n- Tychem® BR, Responder®, and TK are cited as examples of garments/suits with >8-hour breakthrough for potassium hydroxide in solution. [Potassium Hydroxide Solution: https://www.ercoworldwide.com/wp-content/uploads/2022/04/SAFETY-DATA-SHEET-US-Potassium-Hydroxide-Solution-rev-6.pdf; Potassium Hydroxide: https://nj.gov/health/eoh/rtkweb/documents/fs/1571.pdf]",
-  "error_message": null
-}

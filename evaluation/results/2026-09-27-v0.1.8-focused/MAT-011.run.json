@@ -1,8 +1,0 @@
-{
-  "run_id": "052e4cfb-c5d2-43f3-be6f-2423e61706f4",
-  "session_id": "abb42aac-c86c-489a-a398-56af0034abfc",
-  "status": "succeeded",
-  "query_snapshot": "For hydrogen peroxide solution from 30 to 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
-  "final_answer": "Evidence-grounded answer:\n\n- For hydrogen peroxide (solution 30%–70%), the archived NIOSH A–Z table lists the following barriers in its >8 hours (8-hour) group: Butyl rubber, Natural rubber, Nitrile rubber, PE, Viton, CPF3, Responder, Tychem. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- For hydrogen peroxide (solution 30%–70%), the archived NIOSH A–Z table lists the following barriers in its >4 hours (4-hour) group: PVC, PE/EVAL (i.e., at least 4 but less than 8 hours resistance). [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- NIOSH’s table defines the barrier categories such that \">8 hours\" indicates resistance to chemical breakthrough during an 8-hour test (permeation did not exceed 1.0 µg/cm2/min during the 8-hour test) and \"4 hr\" indicates at least 4 but less than 8 hours of resistance. [NIOSH Recommendations for Chemical Protective Clothing A-Z | NIOSH | CDC: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]",
-  "error_message": null
-}

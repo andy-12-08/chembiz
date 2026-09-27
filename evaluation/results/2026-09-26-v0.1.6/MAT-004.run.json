@@ -1,8 +1,0 @@
-{
-  "run_id": "c959636a-eceb-4ece-9369-51fcbe3ab538",
-  "session_id": "0f950f54-bbea-451f-a56b-c05b1b184c97",
-  "status": "succeeded",
-  "query_snapshot": "How does NBS Circular 592 contrast Type 304 stainless steel's behavior in nitric acid with its behavior in sulfuric acid when discussing 2 N mixed acids?",
-  "final_answer": "Evidence-grounded answer:\n\n- In 2 N mixed acids, ranging from 2 N HN03 to 2 N H2SO4, the behavior of type 304 reflects its immunity to nitric acid and susceptibility to sulfuric acid. [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- Stainless steels were reported resistant to fuming nitric acid, but that resistance decreased with increasing temperature up to 160°F; the rate of erosive-corrosive attack decreased with increased rate of flow, probably because of removal of decomposition products from the metal surface. [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- For sulfuric acid, Kiefer and Renshaw reported that molybdenum-bearing types 316 and 317 were the most resistant at low temperatures, but at about 150°F all of the stainless steels corrode in practically all concentrations of acid up to 95 percent. [nbscircular592.pdf, p. 60, chunk 2b809bc1]\n- Roach and Hall reported that molybdenum-bearing stainless steels were useful, at room temperature, in concentrations of sulfuric acid below 15 percent and above 85 percent. [nbscircular592.pdf, p. 60, chunk 2b809bc1]",
-  "error_message": null
-}

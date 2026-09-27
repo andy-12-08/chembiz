@@ -89,14 +89,14 @@ After the evaluation corpus has been ingested for `chembiz-eval-v0.1.0`, run all
 
 ```powershell
 python evaluation/run_evaluation.py `
-  --output-dir evaluation/results/2026-09-26-v0.1.1
+  --output-dir evaluation/results/YYYY-MM-DD-full-vNEXT
 ```
 
 For a focused regression run, repeat `--question-id` for the cases to test:
 
 ```powershell
 python evaluation/run_evaluation.py `
-  --output-dir evaluation/results/2026-09-26-focused-v0.1.1 `
+  --output-dir evaluation/results/YYYY-MM-DD-focused-vNEXT `
   --question-id MAT-005 `
   --question-id MAT-007 `
   --question-id MAT-008

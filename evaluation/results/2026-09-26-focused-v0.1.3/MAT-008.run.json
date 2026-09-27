@@ -1,8 +1,0 @@
-{
-  "run_id": "860918bd-5976-4d72-b581-b646bf101a8a",
-  "session_id": "95acd1a5-57c0-4311-bda6-06a9b1f437f7",
-  "status": "succeeded",
-  "query_snapshot": "What two temperature-related material-selection concerns does NASA SP-8119 identify for cryogenic disconnects?",
-  "final_answer": "Evidence-grounded answer:\n\n- Some seal materials used in disconnects (for example, Teflon and certain plastics) become very brittle at cryogenic temperatures and can fracture or otherwise fail (fracture before obtaining adequate support; cold flow and installation/handling problems are noted), so their use in cryogenic disconnect seals is limited or must be treated cautiously. [nasa-sp-8119.pdf, pp. 65-66, chunk af0b8a8f; nasa-sp-8119.pdf, pp. 69-70, chunk 214c6dfc]\n- Widely different coefficients of thermal expansion/contraction among materials can cause large bolting problems, improper clearances or fits, loss of preload, flange deflection/warpage, and seal leakage in disconnects; SP-8119 therefore recommends using materials with similar coefficients of expansion or accounting for thermal contraction in design. [nasa-sp-8119.pdf, pp. 85-88, chunk 91eb9fc5; nasa-sp-8119.pdf, pp. 12-13, chunk 1bd93be2]",
-  "error_message": null
-}

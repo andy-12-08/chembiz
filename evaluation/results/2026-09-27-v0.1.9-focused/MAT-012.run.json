@@ -1,8 +1,0 @@
-{
-  "run_id": "4926bfb5-03db-4ca9-a625-16bf17be8a10",
-  "session_id": "19227bb4-8cd2-417d-aff2-4456166961f7",
-  "status": "succeeded",
-  "query_snapshot": "For hydrogen chloride, which barriers does the archived NIOSH table place in its 8-hour and 4-hour groups, and what additional hazard language appears in the entry?",
-  "final_answer": "Evidence-grounded answer:\n\n- The archived NIOSH protective-clothing table places hydrogen chloride in the 8-hour barrier group: Butyl, Responder, and Tychem. [NIOSH/Chemical Protective Clothing Page/INDEX A: https://www.newenv.com/NIOSH/RCPC.htm]\n- The archived NIOSH protective-clothing table places hydrogen chloride in the 4-hour barrier group: Teflon and PE/EVAL. [NIOSH/Chemical Protective Clothing Page/INDEX A: https://www.newenv.com/NIOSH/RCPC.htm]\n- The archived NIOSH table entry for hydrogen chloride includes the additional hazard language / recommendation: “Prevent skin contact.” [NIOSH/Chemical Protective Clothing Page/INDEX A: https://www.newenv.com/NIOSH/RCPC.htm]",
-  "error_message": null
-}

@@ -1,8 +1,0 @@
-{
-  "run_id": "a143f9ff-b186-49af-aca9-eac526694be1",
-  "session_id": "b1cbcd45-1dcd-41ee-95f5-ae3277a51e6f",
-  "status": "succeeded",
-  "query_snapshot": "What two temperature-related material-selection concerns does NASA SP-8119 identify for cryogenic disconnects?",
-  "final_answer": "Evidence-grounded answer:\n\n- NASA SP-8119 states that plastic pressure-assisted seals (e.g., Teflon-type seals) are very brittle at low/cryogenic temperatures, can fracture before obtaining adequate support, suffer contraction and jacket-flow problems, and therefore their use in cryogenic service has been limited to low-pressure or special applications and requires mitigations (adequate spring loading, split housings, protective designs). [nasa-sp-8119.pdf, pp. 65-66, chunk af0b8a8f; nasa-sp-8119.pdf, pp. 132-133, chunk fb39e662; nasa-sp-8119.pdf, pp. 14-15, chunk 7630d48f]\n- NASA SP-8119 warns that materials with widely different coefficients of thermal expansion can cause large bolting problems, improper clearances or fits, preload loss, misalignment, flange deflection, and leakage when subjected to thermal movement (e.g., cooling to cryogenic temperatures); it therefore recommends using materials with similar coefficients of expansion or designing to accommodate thermal movement. [nasa-sp-8119.pdf, pp. 85-88, chunk 91eb9fc5; nasa-sp-8119.pdf, pp. 69-70, chunk 214c6dfc]",
-  "error_message": null
-}

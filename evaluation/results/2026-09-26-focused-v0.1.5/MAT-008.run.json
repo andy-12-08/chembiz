@@ -1,8 +1,0 @@
-{
-  "run_id": "b002d539-e7cf-454f-b32d-255cf454f56d",
-  "session_id": "410ffafd-8c68-454f-b7da-fe9941ca2755",
-  "status": "succeeded",
-  "query_snapshot": "What two temperature-related material-selection concerns does NASA SP-8119 identify for cryogenic disconnects?",
-  "final_answer": "Evidence-grounded answer:\n\n- SP-8119 warns that some materials are brittle at cryogenic temperatures and can lose ductility (become brittle) when exposed to cryogenic temperatures. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed; nasa-sp-8119.pdf, pp. 85-88, chunk 91eb9fc5]\n- SP-8119 warns that differing coefficients of thermal expansion and differential thermal contraction (shrinkage) can result in large bolting problems, improper clearances or fits, and related alignment/seal problems when components contract at cryogenic temperatures; designers should use materials with similar coefficients of expansion and evaluate thermal movement. [nasa-sp-8119.pdf, pp. 85-88, chunk 91eb9fc5; nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]",
-  "error_message": null
-}

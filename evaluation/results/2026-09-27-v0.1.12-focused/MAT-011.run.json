@@ -1,8 +1,0 @@
-{
-  "run_id": "8f7e5f2e-41ee-4ee3-a47c-fcc046b6651c",
-  "session_id": "4f7fc50e-c9d9-419b-aa63-6550a77eebba",
-  "status": "succeeded",
-  "query_snapshot": "For hydrogen peroxide solution from 30 to 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
-  "final_answer": "Evidence-grounded answer:\n\n- The archived NIOSH table entry for hydrogen peroxide (solution 30%–70%) recommends preventing skin contact. [niosh-cpc-az.html, chunk 2323dcf8]\n- For hydrogen peroxide (solution 30%–70%) the NIOSH archived table lists the 8-hour barrier group as: Butyl; Natural; Nitrile; PE; Viton; CPF3; Responder; Tychem. [niosh-cpc-az.html, chunk 2323dcf8]\n- For hydrogen peroxide (solution 30%–70%) the NIOSH archived table lists the 4-hour barrier group as: PVC; PE/EVAL. [niosh-cpc-az.html, chunk 2323dcf8]",
-  "error_message": null
-}
