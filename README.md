@@ -43,6 +43,8 @@ A versioned evaluation package provides 12 questions, a government-source manife
 
 ## Architecture
 
+The detailed component diagram, trust boundaries, and runtime dependencies are documented in [`docs/architecture.md`](docs/architecture.md).
+
 ```text
 User question and documents
           |
@@ -82,7 +84,7 @@ ChemBiz is an active research prototype, not a validated production or regulator
 
 ### Configure the environment
 
-Create `docker/.env` with the connection settings and credentials required by the services in `docker/docker-compose.yaml`. The application requires configuration for PostgreSQL, Qdrant, Temporal, OpenAI, and Tavily. A secret-free environment template is planned. Do not commit API keys, passwords, or other credentials.
+Copy [`.env.example`](.env.example) to `docker/.env`, then replace the placeholder passwords and API keys. The application requires configuration for PostgreSQL, Qdrant, Temporal, OpenAI, and Tavily. Do not commit API keys, passwords, or other credentials.
 
 ### Start ChemBiz
 
@@ -120,6 +122,8 @@ The first preserved baseline is [`evaluation/results/2026-09-26-v0.1.0/evaluatio
 
 The generalized-agent regression is preserved in [`evaluation/results/2026-09-27-v0.2.0/evaluation-report.md`](evaluation/results/2026-09-27-v0.2.0/evaluation-report.md). It reports 10/12 operational success, 64.9% end-to-end completeness, 80.0% completeness among successful runs, and 30/30 tool-backed claims judged supported in manual review. Its two operational failures led to hard status-deadline and recoverable OCR-error changes that require a subsequent regression. This benchmark remains weighted toward materials compatibility; broader chemical-engineering evaluation is planned.
 
+See the [`v0.1.0` technical report](docs/technical-report-v0.1.0.md) and [text-based demonstration record](docs/demonstration.md) for a release-level summary and direct links to preserved success and failure artifacts.
+
 ## Confidentiality and provenance
 
 ChemBiz is an independent personal project. This repository does not contain Deloitte or client confidential information, client data, proprietary client materials, or client code. No employer or client confidential material should be submitted to, tested with, or committed to this repository.
@@ -128,13 +132,12 @@ Contributors are responsible for confirming that they have the right to disclose
 
 ## Roadmap
 
-- Publish a reproducible public materials-compatibility and selection demonstration
+- Independently reproduce the public materials-compatibility and selection demonstration from a clean, locked release configuration
 - Add a held-out benchmark spanning thermodynamics, kinetics, reactor engineering, separations, transport, process design, materials, and safety
 - Independently review the versioned evaluation dataset and scoring key
 - Measure retrieval relevance, citation correctness, answer completeness, and failure cases
-- Add automated unit and integration tests
-- Publish an architecture decision record and technical evaluation report
-- Create a versioned release after provenance and licensing review
+- Expand automated integration coverage for the external service stack
+- Record a short interface demonstration after the release configuration is running
 
 ## License
 
