@@ -138,4 +138,6 @@ Contributors are responsible for confirming that they have the right to disclose
 
 ## License
 
-No open-source license has been selected yet. Until an appropriate license is added, the repository remains subject to default copyright protections.
+ChemBiz source code and original project documentation are licensed under the [Apache License 2.0](LICENSE).
+
+Third-party publications, quoted passages, search-result content, source documents, and other externally authored material referenced or preserved in evaluation artifacts remain subject to their respective owners' rights and terms. Their inclusion for citation, traceability, or evaluation does not relicense them under Apache 2.0. Review the source manifest and the original source terms before redistributing such material.

@@ -7,6 +7,7 @@ name = "chembiz"
 version = "0.1.0"
 description = "An evidence-grounded AI tool for accelerating chemical and materials research"
 readme = "README.md"
+license = "Apache-2.0"
 requires-python = ">=3.11"
 dependencies = [
     "accelerate>=1.13.0",
