@@ -124,18 +124,9 @@ See the [`v0.1.1` technical report](docs/technical-report-v0.1.1.md) and [text-b
 
 ## Confidentiality and provenance
 
-ChemBiz is an independent personal project. This repository does not contain Deloitte or client confidential information, client data, proprietary client materials, or client code. No employer or client confidential material should be submitted to, tested with, or committed to this repository.
+ChemBiz is an independent personal project. This repository does not contain employer or client confidential information, client data, proprietary client materials, or client code. No employer or client confidential material should be submitted to, tested with, or committed to this repository.
 
 Contributors are responsible for confirming that they have the right to disclose and use every document, dataset, and code contribution. Public demonstrations should use public-domain, openly licensed, or otherwise legally shareable sources.
-
-## Roadmap
-
-- Obtain independent domain-expert review of the public materials-compatibility demonstration and scoring key
-- Add a held-out benchmark spanning thermodynamics, kinetics, reactor engineering, separations, transport, process design, materials, and safety
-- Independently review the versioned evaluation dataset and scoring key
-- Measure retrieval relevance, citation correctness, answer completeness, and failure cases
-- Expand automated integration coverage for the external service stack
-- Record a short interface demonstration after the release configuration is running
 
 ## License
 
