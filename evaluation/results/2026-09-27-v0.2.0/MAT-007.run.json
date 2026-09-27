@@ -1,8 +1,0 @@
-{
-  "run_id": "969fac31-aec8-41d6-999d-079ed119b9b1",
-  "session_id": "bfbe4c61-814f-4257-b69e-bfbcde71799b",
-  "status": "failed",
-  "query_snapshot": "Which alloy and heat-treatment conditions does NASA SP-8119 identify as susceptible to stress corrosion in its material-compatibility discussion?",
-  "final_answer": null,
-  "error_message": "page_number 2 is not represented by chunk 68fbe1ed; allowed pages: [130, 131, 132]"
-}

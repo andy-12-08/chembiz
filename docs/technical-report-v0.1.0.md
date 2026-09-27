@@ -16,9 +16,7 @@ ChemBiz combines page-aware document ingestion, hybrid retrieval, bounded web re
 
 ## Demonstration and data
 
-The included materials benchmark contains 12 frozen questions, a source manifest, a curated expected-evidence key, per-run JSON, scores, and failure reports. Local source documents are intentionally excluded; the manifest records URLs, retrieval dates, rights notes, and checksums. The benchmark uses public technical sources but item-specific redistribution rights must still be checked.
-
-The broader chemical-engineering dataset under `evaluation/chemical_engineering_v0.1` is a draft and is not reported as validated evidence.
+The included materials benchmark contains 12 frozen questions, a source manifest, a curated expected-evidence key, structured per-question output JSON, scores, and failure reports. Local source documents are intentionally excluded; the manifest records URLs, retrieval dates, rights notes, and checksums. The benchmark uses public technical sources but item-specific redistribution rights must still be checked.
 
 ## Quantitative results
 

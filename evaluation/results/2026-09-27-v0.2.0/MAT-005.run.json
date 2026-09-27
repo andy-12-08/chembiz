@@ -1,8 +1,0 @@
-{
-  "run_id": "20ce5c62-91b6-4982-876c-62ce97cc933d",
-  "session_id": "3a9694bd-9d1d-46e9-b665-9c89ec16a50c",
-  "status": "succeeded",
-  "query_snapshot": "Which categories of material-compatibility considerations does NASA SP-8119 say should be evaluated when selecting metal alloys for contact with a system fluid?",
-  "final_answer": "Evidence-grounded answer:\n\n- Evaluate chemical reaction between the material and the system fluid, including ignition or impact concerns. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- Evaluate propellant decomposition effects when selecting materials for contact with the system fluid. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- Evaluate corrosion, including atmospheric, galvanic, and stress corrosion, as a material-compatibility consideration. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]",
-  "error_message": null
-}

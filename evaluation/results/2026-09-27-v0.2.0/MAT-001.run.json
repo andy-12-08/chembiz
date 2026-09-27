@@ -1,9 +1,0 @@
-{
-  "run_id": "95c59bcd-214e-4162-978e-16186a04f99c",
-  "session_id": "2e54f9df-e6a1-4d83-a35f-11b0f38e279c",
-  "status": "running",
-  "query_snapshot": "According to NBS Circular 592, which molybdenum-bearing stainless-steel types were reported as most resistant to sulfuric acid at low temperatures, and what limitations prevent treating that statement as a universal material recommendation?",
-  "final_answer": null,
-  "error_message": null,
-  "client_timeout": "Run 95c59bcd-214e-4162-978e-16186a04f99c did not finish within 420 seconds"
-}

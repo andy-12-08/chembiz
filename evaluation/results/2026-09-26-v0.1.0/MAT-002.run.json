@@ -1,8 +1,0 @@
-{
-  "run_id": "91db85f5-bdd6-4686-b3c5-aee29eec2589",
-  "session_id": "a4dfe45c-f116-40b2-8161-218c2f27c7de",
-  "status": "succeeded",
-  "query_snapshot": "What does NBS Circular 592 report about the corrosion behavior of stainless steels in sulfuric acid at approximately 150 degrees Fahrenheit across acid concentrations, and how should that affect a screening conclusion?",
-  "final_answer": "Evidence-grounded answer:\n\n- NBS Circular 592 reports that molybdenum-bearing stainless steels (types 316 and 317) were the most resistant at low temperatures. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]\n- NBS Circular 592 reports that at about 150°F all of the stainless steels corrode in practically all concentrations of acid up to 95%. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]\n- NBS Circular 592 reports Roach and Hall stated that molybdenum-bearing stainless steels (316/317) were useful, at room temperature, in sulfuric acid concentrations below about 15% and above about 85%. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]\n- Therefore, stainless steels should not be treated generically as acceptable for sulfuric acid service at ≈150°F; screening should mark stainless steels as potentially unsuitable and require alloy-specific compatibility data or corrosion testing before approval. [nbscircular592.pdf, pp. 59-60, chunk b0a15485]",
-  "error_message": null
-}

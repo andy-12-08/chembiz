@@ -1,8 +1,0 @@
-{
-  "run_id": "6817c831-d851-4eff-b352-7c4fac5a96ee",
-  "session_id": "31721e30-792a-484e-af00-cad395f7199f",
-  "status": "succeeded",
-  "query_snapshot": "For hydrogen peroxide solution from 30 to 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
-  "final_answer": "Evidence-grounded answer:\n\n- For hydrogen peroxide (solution 30%–70%), the NIOSH CPC table lists these barriers in the 8‑hour group: Butyl; Natural; Nitrile; PE; Viton; CPF3; Responder; Tychem. [niosh-cpc-az.html, chunk 2323dcf8]\n- For hydrogen peroxide (solution 30%–70%), the NIOSH CPC table lists these barriers in the 4‑hour group: PVC; PE/EVAL. [niosh-cpc-az.html, chunk 2323dcf8]",
-  "error_message": null
-}

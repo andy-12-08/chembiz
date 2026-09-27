@@ -1,8 +1,0 @@
-{
-  "run_id": "f43f2e86-14fc-4609-90eb-45df43fdf25a",
-  "session_id": "c44f6eb2-4cc9-4b56-a28d-717bbc598e96",
-  "status": "succeeded",
-  "query_snapshot": "For hydrogen peroxide solution from 30 to 70 percent, which barriers does the archived NIOSH table place in its 8-hour group and which in its 4-hour group?",
-  "final_answer": "Evidence-grounded answer:\n\n- The archived NIOSH NCPC table lists the following recommended protective clothing barriers in the 8-hour group for hydrogen peroxide (solution 30%–70%): Butyl; Natural; Nitrile; PE; Viton; CPF3; Responder; Tychem. [NIOSH Recommendations for Chemical Protective ...: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]\n- The archived NIOSH NCPC table lists the following recommended protective clothing barriers in the 4-hour group for hydrogen peroxide (solution 30%–70%): PVC; PE/EVAL. [NIOSH Recommendations for Chemical Protective ...: https://archive.cdc.gov/www_cdc_gov/niosh/ncpc/azncpc.html]",
-  "error_message": null
-}

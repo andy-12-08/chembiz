@@ -30,8 +30,6 @@ The initial sources are U.S. government publications or government-hosted resour
 
 The evidence key is a draft prepared from the cited government sources. It must be reviewed by a qualified materials or chemical-domain reviewer before results are described as expert-validated ground truth. Until then, report it as a curated reference key.
 
-The separate [`chemical_engineering_v0.1`](chemical_engineering_v0.1/) directory contains an unscored draft for a broader successor benchmark spanning thermodynamics, equilibrium, kinetics, heat transfer, fluid flow, separations, water treatment, and safety. It must not be reported as a validated or completed evaluation until its exact source locators, scoring key, and held-out review procedure are finalized.
-
 Do not modify the questions or reference key after inspecting a model's answers for a scored run. If corrections are necessary, increment the dataset version and document the change.
 
 ## Reproducible workflow
@@ -42,7 +40,7 @@ Do not modify the questions or reference key after inspecting a model's answers 
 4. Create an ingestion session for that user and upload the frozen document source set once. Wait for document ingestion to finish before starting scored runs. ChemBiz intentionally permits retrieval from documents in the same user's other sessions.
 5. For each entry in `questions.json`, create a new session with the same evaluation user id and the exact frozen question text. A separate session is required because the session query becomes the immutable run query snapshot.
 6. Start one run for each question and poll it until its status is `succeeded` or `failed`.
-7. Fetch both `/runs/{run_id}` and `/runs/{run_id}/output` for each completed run.
+7. Fetch both `/runs/{run_id}` and `/runs/{run_id}/output` for each completed run. The runner uses the status response to build the batch manifest; retain the structured output as the per-question evidence artifact.
 8. Save the raw API response and structured output for every question under a timestamped directory in `results/`.
 9. Score each response against `expected_evidence.json`.
 10. Preserve software commit, model name, retrieval configuration, source checksums, run date, and evaluator identity with the results.

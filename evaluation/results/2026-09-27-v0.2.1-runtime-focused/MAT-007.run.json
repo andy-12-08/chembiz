@@ -1,8 +1,0 @@
-{
-  "run_id": "6f195181-31b4-4073-9d17-ef3bf6b42184",
-  "session_id": "cfbf8eeb-b041-4416-8b4a-a09ac5c98ef6",
-  "status": "succeeded",
-  "query_snapshot": "Which alloy and heat-treatment conditions does NASA SP-8119 identify as susceptible to stress corrosion in its material-compatibility discussion?",
-  "final_answer": "Evidence-grounded answer:\n\n- NASA SP-8119 states that materials susceptible to stress corrosion include 2024-T3. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]\n- NASA SP-8119 lists 17-7PH (annealed) among materials susceptible to stress corrosion. [nasa-sp-8119.pdf, pp. 130-132, chunk 68fbe1ed]",
-  "error_message": null
-}
