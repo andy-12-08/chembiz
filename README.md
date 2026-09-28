@@ -1,12 +1,30 @@
 # ChemBiz
 
-ChemBiz is an evidence-grounded AI tool for accelerating chemical and materials research. It retrieves, compares, and synthesizes information from scientific and technical documents while preserving links to the supporting evidence.
+<p align="center">
+  <img src="docs/assets/chembiz-hero.png" alt="ChemBiz connects scientific literature and evidence to agentic computing, physics-informed models, and discovery workflows for materials, energy, and chemicals." width="100%">
+</p>
+
+ChemBiz is an agentic scientific intelligence platform for accelerating research in materials, energy, and chemicals. Today, its deep-research agent retrieves, compares, and synthesizes scientific and technical information while preserving links to the supporting evidence. The longer-term vision extends that foundation into scientific computing and physics-informed AI/ML workflows that help researchers move from evidence to models, simulations, and testable candidates.
 
 ## Why ChemBiz
 
 Chemical researchers and technical teams often need to review large collections of literature, safety information, materials data, and other technical documents before they can answer a focused research question. This work is time-consuming, and a generated answer is useful only when its claims can be checked against reliable sources.
 
 ChemBiz is being developed to make that process faster and more traceable. The system combines document ingestion, semantic retrieval, web research, and an AI research agent to produce evidence-grounded answers with structured citations. It is intended to support researchers rather than replace scientific judgment.
+
+## From deep research to agentic scientific computing
+
+The deep-research agent is ChemBiz's first implemented agent: it gathers evidence, reconciles sources, exposes uncertainty, and produces traceable research outputs. This evidence layer is intended to become the starting point for a broader family of scientific agents that can coordinate specialized tools and models across a research workflow.
+
+Planned directions include:
+
+- Scientific-computing agents that can prepare, run, inspect, and compare reproducible calculations and simulations
+- Physics-informed AI/ML workflows that combine governing equations, physical constraints, experimental data, and learned models
+- Materials and molecular discovery workflows for screening candidates, predicting properties, and prioritizing experiments
+- Energy and chemical-process workflows spanning catalysts, batteries, separations, reaction systems, and process conditions
+- Closed-loop research workflows in which literature evidence, computation, model predictions, and experimental feedback inform the next step
+
+The goal is not an autonomous replacement for scientists. It is a traceable, human-guided system in which agents accelerate routine research work, scientific models remain grounded in domain constraints, and consequential outputs can be inspected and validated.
 
 ## Intended users
 
@@ -27,7 +45,7 @@ The first planned reproducible demonstration focuses on materials compatibility 
 
 A versioned evaluation package provides 12 questions, a government-source manifest, a curated expected-evidence key, preserved system outputs, and an initial quantitative baseline. Independent domain review remains planned work.
 
-## Current capabilities
+## Current capabilities: deep research
 
 - FastAPI endpoints for sessions, document uploads, research runs, and structured outputs
 - PDF and document processing with PyMuPDF, Docling, and Unstructured
